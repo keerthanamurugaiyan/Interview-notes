@@ -1,6 +1,6 @@
 1, **What are Attributes?**
     
-   **Ans=>** each element have attributes
+   **Ans:** each element have attributes
              changes element behaviours
              Attributes are types:
              Types:
