@@ -1,4 +1,4 @@
-1, **What are Attributes?**
+1. **What are Attributes?**
     
    **Ans:** each element have attributes
              changes element behaviours
