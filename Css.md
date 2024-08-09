@@ -9,7 +9,7 @@
 
 2. **Difference between display block element and display inline element**    
 
-**Ans**      Block Elements:
+**Ans:**      Block Elements:
             CSS Display Value: display: block;
             Characteristics:
             Takes up the full width available.
