@@ -135,14 +135,14 @@ It's essential to know debugging techniques as well as the more general ideas be
 
      **Ans**      In JavaScript, var, let, and const are used to declare variables, but they have key differences:
 
-    **I. Scope:**
+**I. Scope:**
 
-    **• var:**   Function-scoped: Variables declared with **var** are available throughout the function in which they are declared. If declared outside a function, they are globally scoped.
+   **• var:**   Function-scoped: Variables declared with **var** are available throughout the function in which they are declared. If declared outside a function, they are globally scoped.
 var does not respect block scope, meaning it's not confined within {} (e.g., in loops or conditionals).
 
-**• let:**  Block-scoped: Variables declared with **let** are confined to the block in which they are declared (i.e., inside {}).
+   **• let:**  Block-scoped: Variables declared with **let** are confined to the block in which they are declared (i.e., inside {}).
 
-**• const:**  Block-scoped: Similar to **let, const** is also block-scoped.
+   **• const:**  Block-scoped: Similar to **let, const** is also block-scoped.
 
 **II. Reassignment:**
 
