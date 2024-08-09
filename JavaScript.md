@@ -130,29 +130,30 @@ It's essential to know debugging techniques as well as the more general ideas be
 
 **Ans:**        In Javascript, hoisting is the default behavior of moving all the declaration at the top of the Scope before code execution.      
 
+
 9. **what is the difference beyween var, const, let**
 
-**Ans**      In JavaScript, var, let, and const are used to declare variables, but they have key differences:
+     **Ans**      In JavaScript, var, let, and const are used to declare variables, but they have key differences:
 
-1. **Scope:**
+    **I. Scope:**
 
-**• var:**   Function-scoped: Variables declared with **var** are available throughout the function in which they are declared. If declared outside a function, they are globally scoped.
+    **• var:**   Function-scoped: Variables declared with **var** are available throughout the function in which they are declared. If declared outside a function, they are globally scoped.
 var does not respect block scope, meaning it's not confined within {} (e.g., in loops or conditionals).
 
 **• let:**  Block-scoped: Variables declared with **let** are confined to the block in which they are declared (i.e., inside {}).
 
 **• const:**  Block-scoped: Similar to **let, const** is also block-scoped.
 
-**2.Reassignment:**
+**II. Reassignment:**
 
-   **•var:**  Can be reassigned and redeclared within its scope.
+   **• var:**  Can be reassigned and redeclared within its scope.
 
-   **•let:**  Can be reassigned but cannot be redeclared within the same scope.
+   **• let:**  Can be reassigned but cannot be redeclared within the same scope.
 
-   **•const:**  Cannot be reassigned or redeclared. However, for objects and arrays, their contents can be modified (but not the reference itself).
+   **• const:**  Cannot be reassigned or redeclared. However, for objects and arrays, their contents can be modified (but not the reference itself).
 
-**3.Hoisting:**
+**III. Hoisting:**
 
-   **•var:**  Variables declared with **var** are hoisted to the top of their scope and initialized as **undefined**.
+   **• var:**  Variables declared with **var** are hoisted to the top of their scope and initialized as **undefined**.
  
    **let** and **const:**  These are also hoisted but are not initialized. Accessing them before declaration will result in a **ReferenceError**.
