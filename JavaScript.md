@@ -157,3 +157,82 @@ var does not respect block scope, meaning it's not confined within {} (e.g., in 
    **• var:**  Variables declared with **var** are hoisted to the top of their scope and initialized as **undefined**.
  
    **let** and **const:**  These are also hoisted but are not initialized. Accessing them before declaration will result in a **ReferenceError**.
+
+
+10.   **Explain the differences between these methods.**
+
+**Ans:**
+
+**I. Find Method:**
+      Find method get the first element that satisfies a condition. If no element satisfies the condition, it returns undefined.
+
+**Example:**
+      const numbers = [1, 2, 3, 4, 5];
+      const found = numbers.find(num => num > 3);
+      console.log(found); // Output: 4
+
+**II. Filter Method:**
+      The filter method get an array of elements that satisfies a condition. If no elements satisfy the condition, it returns an empty array.
+
+**Example:**
+      const numbers = [1, 2, 3, 4, 5];
+      const filtered = numbers.filter(num => num > 3);
+      console.log(filtered); // Output: [4, 5]
+
+**III Slice Method:**
+      Slice method get a subset of the array from start index to end index(end index not included)
+
+**Example:**
+      const numbers = [1, 2, 3, 4, 5];
+      const sliced = numbers.slice(1, 4);
+      console.log(sliced); // Output: [2,3,4]
+
+
+11.  **Diffrence between Local Storage and Session Storage:**    
+
+**Ans:**
+
+      LocalStorage and SessionStorage are two types of web storage in your browser that help store data locally on your device. 
+
+**I.Local Storage:**
+
+      LocalStorage keeps data even after you close the browser, so it's useful for saving things like user preferences.
+
+**II.Session Storage:**
+
+      SessionStorage, on the other hand, only keeps data as long as the browser tab is open. Once you close the tab, the data is gone. Both are easy to use for storing small pieces of data like tokens or settings, but LocalStorage is more permanent, while SessionStorage is temporary.      
+
+
+12.  **Palindrome in JavaScript.**
+
+**Ans:**
+
+      A palindrome is a value that reads the same from backward or forward.
+      To perform this check we will use the following approaches:
+
+**Approach 1:**
+
+  Array  split(), reverse() and  join() methods.
+
+**Approach 2:**
+
+ **ApproachII: Using for loop**
+
+   - Initialize a variable and store the reverse of the value in it using for loop
+   - Compare the original value with the reversed value
+   - If both values are equal return true else return false
+
+**Approach III: Using for loop (efficient approach)**
+
+   - Iterate over the string from forward and backward direction
+   - Check if the character match
+   - Return false for the first character that does not match
+   - Return true if all the comparisons are performed and the characters match
+
+
+13.   **What are the ways of adding JavaScript code in an HTML file?**
+
+      There are primarily two ways of embedding JavaScript code:
+
+      - We can write JavaScript code within the script tag in the same HTML file; this is suitable when we need just a few lines of scripting within a web page.
+      - We can import a JavaScript source file into an HTML document; this adds all scripting capabilities to a web page without cluttering the code.
