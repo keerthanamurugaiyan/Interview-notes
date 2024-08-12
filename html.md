@@ -27,3 +27,16 @@
       Particularly for representing units and constants (e.g., m² for square meters).
 
    **Example:**    Superscript: **E = mc²**
+
+
+3.  **Whats is forms in HTML ?**
+
+         Forms are essential for collecting user information, conducting surveys, processing orders, and more. They are defined using the <form> element and typically include various input elements like text fields, checkboxes, radio buttons, and buttons.
+
+      **Input Elements:**  These are the fields where users can enter data. Common types include:
+
+      **Text Input (<input type="text">):**  For single-line text input.
+      **Password Input (<input type="password">):**  For password fields where input is obscured.
+      **Checkbox (<input type="checkbox">):**  For selecting one or more options.
+      **Radio Button (<input type="radio">):**  For selecting a single option from a group.
+      **Submit Button (<input type="submit">):**  For submitting the form data.   

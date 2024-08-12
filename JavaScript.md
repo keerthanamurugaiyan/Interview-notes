@@ -232,7 +232,111 @@ var does not respect block scope, meaning it's not confined within {} (e.g., in 
 
 13.   **What are the ways of adding JavaScript code in an HTML file?**
 
-      There are primarily two ways of embedding JavaScript code:
+      **There are primarily two ways of embedding JavaScript code:**
 
       - We can write JavaScript code within the script tag in the same HTML file; this is suitable when we need just a few lines of scripting within a web page.
       - We can import a JavaScript source file into an HTML document; this adds all scripting capabilities to a web page without cluttering the code.
+
+
+14.    **What is Destructuring?**
+
+      We may have an array or object that we are working with, but we only need some of the items contained in these.
+      Destructuring makes it easy to extract only what is needed.
+
+**I. Array Destructuring:**
+      const vehicles = ['mustang', 'f-150', 'expedition'];
+      const [car, truck, suv] = vehicles;
+
+**II. Object Destructuring:**
+
+           const vehicleOne = {
+           brand: 'Ford',
+           model: 'Mustang',
+           type: 'car',
+           year: 2021,
+           color: 'red',
+           registration: {
+           city: 'Houston',
+           state: 'Texas',
+           country: 'USA'
+   }
+   }
+      myVehicle(vehicleOne)
+      function myVehicle({ model, registration: { state } }) {
+      const message = 'My ' + model + ' is registered in ' + state + '.';
+      document.getElementById("demo").innerHTML = message;
+      }  
+
+
+15.  **Different types of error in javascript?**
+        
+        Eight type of error in javascript:
+
+ **i. Eval error:**
+      EvalError is one of the built-in error types in JavaScript,
+      along with other error types like SyntaxError, ReferenceError and etc.
+ 
+ **ii. Range Error:**
+      A RangeError in JavaScript occurs when a value is not within the set or
+      expected range of values. 
+     
+ **iii. Reference Error:**
+      A ReferenceError in JavaScript occurs when you try to access a variable 
+      or function that hasn't been declared or is out of scope
+     
+ **iv. syntax Error:**
+      A syntax error in JavaScript occurs when the code does not follow the rules 
+      or structure of the JavaScript language.
+     
+ **v. type Error:**
+      A TypeError in JavaScript is an error that occurs when an operation 
+      or function is performed on a value of an inappropriate type.
+     
+ **vi. URI error:**
+      In JavaScript, a URI (Uniform Resource Identifier) error typically occurs 
+      when there's a problem with encoding or decoding a URI component.
+ 
+**vii. Aggregate Error:**
+      In JavaScript, AggregateError is a special error object 
+      that represents multiple errors that occurred during the execution of a Promise-related operation,
+      such as Promise.all(), Promise.any(), or Promise.allSettled().It is used to 
+      encapsulate multiple error instances in a single error object, making it easier 
+      to handle multiple errors at once.
+ 
+**viii. Internal Error:**
+      In JavaScript, an "Internal Error" generally refers to a problem that occurs 
+      within the JavaScript engine or runtime environment, which isn't directly related
+      to your own code but rather to the environment executing your code. 
+      These errors are often less common and can be caused by a variety of factors
+
+
+**16.   unshift method:**
+      
+      prepend the value to the beggining if the array.
+
+**eg:** 
+      var a =[2,3,4]
+      a.unshift(1);
+      console.log(a);
+      
+**output:** [1,2,3,4]
+
+
+**17.  what are the ways to assign properties to an object in js:**
+
+  **standard way:**
+      var a ={};
+      a.firstName='john';
+      
+  **array syntax:**
+      a['lastname']='due';
+      console.log(a);
+      
+  **output:**
+      {firstName:'john',lastName:'due'}
+      
+      console.log(a);          
+
+
+
+
