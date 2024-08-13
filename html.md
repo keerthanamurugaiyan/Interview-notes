@@ -39,4 +39,21 @@
       **Password Input (<input type="password">):**  For password fields where input is obscured.
       **Checkbox (<input type="checkbox">):**  For selecting one or more options.
       **Radio Button (<input type="radio">):**  For selecting a single option from a group.
-      **Submit Button (<input type="submit">):**  For submitting the form data.   
+      **Submit Button (<input type="submit">):**  For submitting the form data.  
+
+
+**4.   Events in Html?**
+
+**Ans:**
+
+**(i) Animationstart:**
+   
+      The  event occurs when a CSS animation starts.
+
+**(ii) Animationiteration :**
+   
+      The animationiteration event occurs when a CSS animation is repeated.
+
+**(iii) Animationend:**
+   
+      The animationend event occurs when a CSS animation has completed.

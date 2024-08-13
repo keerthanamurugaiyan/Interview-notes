@@ -335,8 +335,42 @@ var does not respect block scope, meaning it's not confined within {} (e.g., in 
   **output:**
       {firstName:'john',lastName:'due'}
       
-      console.log(a);          
+      console.log(a); 
 
 
+**18.  What is the use of async and await in JavaScript?**
+
+**Ans:** 
+      
+Async and await are used to handle asynchronous operations more easily than Promise chaining.
+            
+   **•  async:** Declares an asynchronous function that returns a Promise.
+   **•  await:** Pauses the execution of the async function until the Promise is resolved or rejected.
+            
+   **Example:** 
+            
+            function simulatedAPI() {
+            return new Promise((resolve, reject) => {
+                  let random = Math.floor(Math.random() * (11 - 1) + 1);
+                  setTimeout(() => {
+                        if (random <= 5) {
+                        resolve("Operation success: " + random);
+                        } else {
+                        reject("Operation fails");
+                        }
+                  }, 1000);
+            });
+            }
+
+            async function simulateAPI() {
+            try {
+                  let result = await simulatedAPI();
+                  console.log("success:", result);
+            } catch (error) {
+                  console.error('failed:', error);
+            }
+            }
+
+            simulateAPI();
 
 
