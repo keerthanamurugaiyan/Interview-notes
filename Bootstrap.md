@@ -19,9 +19,14 @@
 
 3.    **Why do we need to use bootstrap?**
     
-    **a.**  it is a free and open source web designing frame work.
+     **a.**  it is a free and open source web designing frame work.
+     
      **b**  Bootstrap has the support of all the web browsers like internet explorer, google chrome, firefox, opera, safari etc...
+     
      **c**  it is a very powerful mobile first frontend frame work.
+     
      **d**  also it is very easy to start as one needs to have an idea of html and css only to work with it.
+     
      **e**  we can design a responsive website through it which adjust to desktop, table, and mobile.
+     
      **f**  it comprises functional buitt-in components which are easy to customize.      

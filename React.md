@@ -17,7 +17,7 @@
       To manage complex state like objects or arrays, you can use the state updater function to make immutable updates.
 
 
-2.   **What is the difference between framework and library?**
+**2.What is the difference between framework and library?**
 
        **(i)**  A library is a collection of pre-written code that developers can use to optimize tasks it provides specific functionalities that you can call when needed. In a library the developer is in control of the application flow. They choose when and where to call the library functions.. **Eg. React.**
       
@@ -25,19 +25,28 @@
        **•** In a framework, the framework itself is in control of the applications flow. It calls the developers code when necessary. This is often referred as "Inversion of control"**..Eg.Angular.**
 
 
-3.    **Differences between props and state?**             
+**3.Differences between props and state?**             
 
-      **• Props:** Used to pass data from parent to child components; they are immutable and read-only.
-      **• State:** Managed within the component; it is mutable and can be both read and modified.
+   **• Props:** Used to pass data from parent to child components; they are immutable and read-only.
+      
+   **• State:** Managed within the component; it is mutable and can be both read and modified.
 
-      **(i)  Props:**
-            **• Data Flow:**  Data is passed from a parent component to a child component.
-            **• Immutability:**  Props are immutable, meaning they cannot be modified by the child component.
-            **• Usage:**  Props can be used in both functional and class components.
-            **• Access:**  Props are read-only.
+**(i)  Props:**
+            
+   **• Data Flow:**  Data is passed from a parent component to a child component.
+    
+   **• Immutability:**  Props are immutable, meaning they cannot be modified by the child component.
+    
+   **• Usage:**  Props can be used in both functional and class components.
+    
+   **• Access:**  Props are read-only.
 
-      **(ii)  State:**
-            **• Data Flow:** State is managed within the component itself and is not passed to other components directly.
-            **• Mutability:** State is mutable, meaning it can be modified within the component.
-            **• Usage:** State can be used in class components or with the useState hook in functional components.
-            **• Access:** State is both readable and writable.         
+**(ii)  State:**
+            
+   **• Data Flow:** State is managed within the component itself and is not passed to other components directly.
+           
+   **• Mutability:** State is mutable, meaning it can be modified within the component.
+     
+   **• Usage:** State can be used in class components or with the useState hook in functional components.
+   
+   **• Access:** State is both readable and writable.         

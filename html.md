@@ -47,13 +47,10 @@
 **Ans:**
 
 **(i) Animationstart:**
-   
       The  event occurs when a CSS animation starts.
 
 **(ii) Animationiteration :**
-   
       The animationiteration event occurs when a CSS animation is repeated.
 
 **(iii) Animationend:**
-   
       The animationend event occurs when a CSS animation has completed.
