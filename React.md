@@ -19,10 +19,11 @@
 
 **2.What is the difference between framework and library?**
 
-       **(i)**  A library is a collection of pre-written code that developers can use to optimize tasks it provides specific functionalities that you can call when needed. In a library the developer is in control of the application flow. They choose when and where to call the library functions.. **Eg. React.**
+   **(i)**  A library is a collection of pre-written code that developers can use to optimize tasks it provides specific functionalities that you can call when needed. In a library the developer is in control of the application flow. They choose when and where to call the library functions.. **Eg. React.**
       
-       **(ii)** **•** A framewok is a comprehensive provides a foundation and structure for developing software applications. It dedicates a specify way of organizing and developing an application. 
-       **•** In a framework, the framework itself is in control of the applications flow. It calls the developers code when necessary. This is often referred as "Inversion of control"**..Eg.Angular.**
+   **(ii)** A framewok is a comprehensive provides a foundation and structure for developing software applications. It dedicates a specify way of organizing and developing an application. 
+       
+    In a framework, the framework itself is in control of the applications flow. It calls the developers code when necessary. This is often referred as "Inversion of control"**..Eg.Angular.**
 
 
 **3.Differences between props and state?**             
@@ -49,4 +50,64 @@
      
    **• Usage:** State can be used in class components or with the useState hook in functional components.
    
-   **• Access:** State is both readable and writable.         
+   **• Access:** State is both readable and writable.    
+
+
+**4. What is JSX?**
+
+      JSX stands for JavaScript XML. It allows us to write HTML inside JavaScript and place them in the DOM without using functions like appendChild( ) or createElement( ).
+
+
+  **Examples:**
+
+   **With JSX:**
+
+      import React from 'react';
+      import ReactDOM from 'react-dom/client';
+
+      const myElement = <h1>I Love JSX!</h1>;
+
+      const root = ReactDOM.createRoot(document.getElementById('root'));
+      root.render(myElement);
+
+   **Without JSX:**
+
+      import React from 'react';
+      import ReactDOM from 'react-dom/client';
+
+      const myElement = React.createElement('h1', {}, 'I do not use JSX!');
+
+      const root = ReactDOM.createRoot(document.getElementById('root'));
+      root.render(myElement);        
+
+
+**5.  What is the use of Redux in React?**
+
+      Redux helps manage the state of your entire React application in a centralized way. Instead of each component managing its own state, Redux allows you to keep the application’s state in one place (the store). This makes it easier to handle complex applications, share data between components, and maintain the state across different parts of your app.
+
+   
+**What is difference between ReactJS and Redux:**      
+
+   **ReactJS:**
+      
+      Use React state system for simple and local state that does not need to be shared with other components or persisted across sessions. For example, UI state such as form inputs, dropdown menus, modals, etc. 
+      
+   **Redux:**
+      
+      Use Redux for complex and global state that needs to be shared with other components or persisted across sessions.  For example, user authentication status or data fetched from an API that multiple components need to access.
+
+
+ 6.   **differentiate between state and Redux:**
+
+   **State:** 
+      
+      This is a way to keep track of data within a single React component. Each component can have its own state, and when the state changes, the component re-renders to reflect those changes. Think of it as a local storage for each component's data.
+
+   **Redux:** 
+      
+      This is a library used for managing state globally across your entire application. Instead of each component having its own state, Redux provides a centralized place (called a store) where all the application state is stored. This makes it easier to manage and share state across different components without prop drilling (passing data down through props).     
+
+   **In summary:**
+
+       **- State** is for local, component-specific data.
+       **- Redux** is for global, application-wide data.

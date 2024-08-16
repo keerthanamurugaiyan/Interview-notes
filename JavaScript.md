@@ -374,39 +374,39 @@ Async and await are used to handle asynchronous operations more easily than Prom
             simulateAPI();
 
 
-19.   **Array methods:**
+19.  **Array methods:**
 
   **(i) push() :**
      The **push()** method adds one or more elements to the end of an array and returns the new length of the array.
     
-  **eg:**
-      let fruits = ['apple', 'banana'];
-      fruits.push('orange');
-      console.log(fruits); // ['apple', 'banana', 'orange']
+      **eg:**
+            let fruits = ['apple', 'banana'];
+            fruits.push('orange');
+            console.log(fruits); // ['apple', 'banana', 'orange']
 
   **(ii) pop() :**
       The **pop()** method removes the last element from an array and returns that element.
 
-  **eg:** 
-      let fruits = ['apple', 'banana', 'orange'];
-      let lastFruit = fruits.pop();
-      console.log(lastFruit); // 'orange'
-      console.log(fruits);    // ['apple', 'banana']
+      **eg:** 
+            let fruits = ['apple', 'banana', 'orange'];
+            let lastFruit = fruits.pop();
+            console.log(lastFruit); // 'orange'
+            console.log(fruits);    // ['apple', 'banana']
 
   **(iii) shift() :**
      The **shift()** method removes the first element from an array and returns that element.
 
-  **eg:**
-      let fruits = ['apple', 'banana', 'orange'];
-      let firstFruit = fruits.shift();
-      console.log(firstFruit); // 'apple'
-      console.log(fruits);     // ['banana', 'orange']
+      **eg:**
+            let fruits = ['apple', 'banana', 'orange'];
+            let firstFruit = fruits.shift();
+            console.log(firstFruit); // 'apple'
+            console.log(fruits);     // ['banana', 'orange']
 
 
   **(iv) unshift() :**
       The **unshift()** method adds one or more elements to the beginning of an array and returns the new length of the array.
    
-   **eg:**   
-      let fruits = ['banana', 'orange'];
-      fruits.unshift('apple');
-      console.log(fruits); // ['apple', 'banana', 'orange']
+      **eg:**   
+            let fruits = ['banana', 'orange'];
+            fruits.unshift('apple');
+            console.log(fruits); // ['apple', 'banana', 'orange']
