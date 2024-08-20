@@ -111,3 +111,16 @@
 
        **- State** is for local, component-specific data.
        **- Redux** is for global, application-wide data.
+
+
+**7. What is React Router?**
+ 
+      React Router is a libreary that enables navigation among views 
+      in a React application , allowing for the development of single-page applications
+ 
+ **Eg:**  Flipkart 
+          Amazon
+          Facebook
+
+
+         

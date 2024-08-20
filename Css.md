@@ -63,6 +63,17 @@
    **In short:**
          
    **px** = fixed size.
-   **em** = flexible size, based on the parent element's font size.                                
+   **em** = flexible size, based on the parent element's font size.   
+
+
+**5. How can do create a responsive design using css?**
+ 
+   To create a responsive design using CSS, follow these steps:
+
+   **i.** Use relative units: Instead of pixels, use relative units like percentages (%), ems (em), or rems (rem) for measurements.
+
+   **ii.** Define breakpoints: Identify common screen sizes (e.g., mobile, tablet, desktop) and define media queries for each.
+
+   **iii.** Media queries: Use @media queries to apply styles based on screen sizes, orientations(portrait or landscape), or resolutions.                                
            
        
