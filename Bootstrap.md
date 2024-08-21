@@ -30,3 +30,10 @@
      **e**  we can design a responsive website through it which adjust to desktop, table, and mobile.
      
      **f**  it comprises functional buitt-in components which are easy to customize.      
+
+
+**4. What are the key components of Bootstrap?**
+
+        Key components include the Grid System, Typography, Forms, Buttons, Navigation Bars, Modals, Alerts, and more.
+
+     

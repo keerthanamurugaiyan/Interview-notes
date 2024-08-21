@@ -30,4 +30,18 @@
 
 **4. What is Api?**
     
-   An API **(Application Programming Interface)** is a set of rules that allows different software applications to communicate with each other, enabling them to request and exchange data. It's like a bridge that connects different systems, allowing them to work together.   
+   An API **(Application Programming Interface)** is a set of rules that allows different software applications to communicate with each other, enabling them to request and exchange data. It's like a bridge that connects different systems, allowing them to work together.
+
+
+**5. What is Toasts ?**
+
+Key Characteristics of Toasts:
+
+Non-intrusive:Toasts do not block the user interface and automatically disappear after a short time.
+
+Customizable :You can style and position toasts as needed, including adding headers,body content, and different visual styles.
+
+Auto-dismissal: They can be set to disappear automatically after a set time or can be dismissed by the user.
+
+ Example: success and error.      
+

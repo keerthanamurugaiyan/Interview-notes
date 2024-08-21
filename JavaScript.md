@@ -414,4 +414,45 @@ Async and await are used to handle asynchronous operations more easily than Prom
 
 **21. What is delete in javascript?**
 
-      The delete operator removes a property from an object. If the property's value is an object and there are no more references to the object, the object held by that property is eventually released automatically    
+      The delete operator removes a property from an object. If the property's value is an object and there are no more references to the object, the object held by that property is eventually released automatically
+
+
+**22. 1. What are arrow functions?**
+      
+   An arrow function is a shorthand way to write functions in JavaScript. It uses the **` =>`** syntax and has a more concise form than regular functions. Arrow functions are also unique because they do not bind their own **`this`** context; instead, they inherit **`this`** from their surrounding scope.
+
+   **eg:**
+      
+   **// Regular function**
+      function add(a, b) {
+      return a + b;
+      }
+
+  **// Arrow function**
+      const add = (a, b) => a + b;
+
+
+
+**23. 1.what is the use of constructor function in javascript?**
+      
+      contructor function is used to create a objects in javascript.
+
+**when we use this function?**
+
+      if we want to create multiple objects having similer properties and methods
+      thatb time it was used.
+
+   **eg:**
+      functionPerson(name,gender){
+      this.name = name;
+      this.age = age;
+      this.gender = gender;
+      }
+      var person1 = new person("vivek",76,"male");
+      console.log(person1);
+
+      var person2 = new person("john",34,"femake");
+      console.log(person2);
+
+
+      example is common for both qn          

@@ -38,3 +38,20 @@ for (let [coin, count] of Object.entries(combination)) {
     console.log(`${count} - ${coin}`);
 }
 
+
+**3. Program to find longest word in a given sentence ?**
+
+        function findLongestWord(sentence) {
+            const words = sentence.split(' ');
+            let longestWord = '';
+            for (let word of words) {
+                if (word.length > longestWord.length) {
+                    longestWord = word;
+                }
+            }
+            return longestWord;
+        }
+        const sentence = "I Want to goooooooooo ghghghgffsdsdf";
+        const longestWord = findLongestWord(sentence);
+        console.log( longestWord);
+
