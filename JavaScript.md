@@ -455,4 +455,48 @@ Async and await are used to handle asynchronous operations more easily than Prom
       console.log(person2);
 
 
-      example is common for both qn          
+      example is common for both qn  
+
+
+**24. What are the types of errors in javascript?**
+
+      There are two types of errors in javascript.
+
+   **Syntax error :**    Syntax errors are mistakes or spelling problems in the code that cause the program to not execute at all or to stop running halfway through. Error messages are usually supplied as well.
+
+   **Logical error :**    Reasoning mistakes occur when the syntax is proper but the logic or program is incorrect. The application executes without problems in this case. However, the output findings are inaccurate. These are sometimes more difficult to correct than syntax issues since these applications do not display error signals for logic faults.  
+
+
+**24. 2. Difference between “ == “ and “ === “ operators.**
+
+   Both are comparison operators. The difference between both the operators is that **“==”** is used to compare values whereas, **“ === “** is used to compare both values and types.
+
+
+**25. what are the types of event handler click function in javascript?**
+
+   **1, onclick:** Triggered when an element is clicked.
+   **2, ondblclick:** Triggered when an element is double-clicked.
+   **3, onmouseover:** Triggered when the mouse pointer moves over an element.
+   **4, onmouseout:** Triggered when the mouse pointer moves out of an element.
+   **5, onmousemove:** Triggered when the mouse pointer moves within an element.
+   **6, onmousedown:** Triggered when the mouse button is pressed down.
+   **7, onmouseup:** Triggered when the mouse button is released.
+   **8, onkeydown:** Triggered when a key is pressed down.
+   **9, onkeyup:** Triggered when a key is released.
+   **10, onkeypress:** Triggered when a key is pressed down and held.
+   **11, onsubmit:** Triggered when a form is submitted.
+   **12, onreset:** Triggered when a form is reset.
+   **13, onfocus:** Triggered when an element gains focus.
+   **14, onblur:** Triggered when an element loses focus.
+   **15, onchange:** Triggered when the value of an input element changes.
+   **16, oninput:** Triggered when the user inputs data in an input field.
+   **17, onload:** Triggered when the document or an image has finished loading.
+   **18, onerror:** Triggered when an error occurs during loading.
+
+**most using to :**
+      
+   **•**onclick
+   **•**onchange
+   **•**onsubmit
+   **•**onblur      
+

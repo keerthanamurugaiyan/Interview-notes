@@ -43,5 +43,22 @@ Customizable :You can style and position toasts as needed, including adding head
 
 Auto-dismissal: They can be set to disappear automatically after a set time or can be dismissed by the user.
 
- Example: success and error.      
+ **Example:** success and error. 
+
+
+**6. Explain the difference between React and Angular?**
+ 
+   **React.js:-**
+      **•**	React.js is a JavaScript library. As it indicates react js updates only the virtual DOM is present and the data flow is always in a single direction.
+      **•**	React.js is more simplified as it follows MVC ie., Model View Control.
+      **•**	It is highly scalable.
+      **•**	It supports Uni-directional data binding which is one-way data binding.
+      **•**	It has a virtual DOM.     
+
+   **Angular:-**   
+      **•**	Angular is a framework. Angular updates the Real DOM and the data flow is ensured in the architecture in both directions.
+      **•**	The architecture is complex as it follows MVVM models ie., Model View-ViewModel. 
+      **•**	It is less scalable than React JS.
+      **•**	It supports Bi-directional data binding which is two way data binding.
+      **•**	It has regular DOM.      
 
