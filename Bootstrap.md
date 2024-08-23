@@ -37,3 +37,25 @@
         Key components include the Grid System, Typography, Forms, Buttons, Navigation Bars, Modals, Alerts, and more.
 
      
+**5. What is Bootstrap utilities?**
+
+    Bootstrap utilities are pre-defined classes that allow you to apply common CSS styles quickly and easily. They cover various properties like:
+
+   **1.** Spacing (margin, padding): .m-, .mx-, .my-, .p-, .px-, .py-
+   **2.** Sizing: .w-, .h-
+   **3.** Text: .text-, .font-,
+   **4.** Color: .bg-, .text-
+   **5.** Borders: .border-, .rounded-
+   **6.** Display: .d-, .flex-, .inline-
+   **7.** Position: .position-, .fixed-, .absolute-
+   **8.** Visibility: .visible-, .invisible-
+
+  **Examples:**
+
+    - .m-3 (margin: 3 units)
+    - .p-2 (padding: 2 units)
+    - .text-center (text-align: center)
+    - .bg-primary (background-color: primary)
+    - .d-none (display: none)
+
+Utilities simplify CSS coding, making development faster and more efficient.     

@@ -500,3 +500,52 @@ Async and await are used to handle asynchronous operations more easily than Prom
    **•**onsubmit
    **•**onblur      
 
+
+**26.what is higher-order function.**
+   
+   **a,**   Takes one or more functions as arguments: This means you can pass a function to another function as an input.
+   **b,**   Returns a function as its result: The function can generate and return another function.
+
+
+**26. What is NaN property in JavaScript?**
+
+      NaN property represents the “Not-a-Number” value. It indicates a value that is not a legal number.
+
+      typeof of NaN will return a Number.
+
+      To check if a value is NaN, we use the isNaN() function,
+
+      Note- isNaN() function converts the given value to a Number type, and then equates to NaN.
+      isNaN("Hello")  // Returns true
+      isNaN(345)   // Returns false
+      isNaN('1')  // Returns false, since '1' is converted to Number type which results in 0 ( a number) 
+      isNaN(true) // Returns false, since true converted to Number type results in 1 ( a number)
+      isNaN(false) // Returns false
+      isNaN(undefined) // Returns true   
+
+
+**27. What is the setTimeout and setInterval?**
+      
+      setTimeout executes a function after a specified time delay. setInterval repeatedly executes a function at regular intervals.
+
+   **setTimeout:-**
+      
+      setTimeout oru function a oru specific time delay apram execute pannum. Example, neenga setTimeout la 2000 milliseconds (2 seconds) time set pannina, adhaanaal 2 seconds kkeppuram oru function run aagum.
+
+      setTimeout(function() {
+      console.log('This message appears after 2 seconds');
+      }, 2000);  // 2000 milliseconds = 2 seconds
+
+   **setInterval:**
+
+      setInterval oru function-a regular intervals la execute pannum. Example, neenga setInterval la 1000 milliseconds (1 second) time set pannina, adhu oru function a every 1 second ku continuous a execute pannum. Ithu stop panna clearInterval use pannalam.
+
+      let intervalId = setInterval(function() {
+      console.log('This message appears every 1 second');
+      }, 1000);  // 1000 milliseconds = 1 second
+
+      // To stop the interval after 5 seconds
+      setTimeout(function() {
+      clearInterval(intervalId);
+      console.log('Interval stopped');
+      }, 5000);  // 5000 milliseconds = 5 seconds
