@@ -54,5 +54,17 @@ for (let [coin, count] of Object.entries(combination)) {
         const sentence = "I Want to goooooooooo ghghghgffsdsdf";
         const longestWord = findLongestWord(sentence);
         console.log( longestWord);
+
+
+**4. How to check whether a string is palindrome or not ?**
+
+        function isPalindrome(str) {
+        const normalizedStr = str.toUpperCase();
+        const reversedStr = normalizedStr.split('').reverse().join('');
+        return normalizedStr === reversedStr;
+        }
+        const inputString = "WoW";
+        const result = isPalindrome(inputString);
+        console.log(`${result ? "yes" : "no"}`);
         
 

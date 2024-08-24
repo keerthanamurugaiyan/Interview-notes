@@ -507,7 +507,7 @@ Async and await are used to handle asynchronous operations more easily than Prom
    **b,**   Returns a function as its result: The function can generate and return another function.
 
 
-**26. What is NaN property in JavaScript?**
+**27. What is NaN property in JavaScript?**
 
       NaN property represents the “Not-a-Number” value. It indicates a value that is not a legal number.
 
@@ -524,7 +524,7 @@ Async and await are used to handle asynchronous operations more easily than Prom
       isNaN(undefined) // Returns true   
 
 
-**27. What is the setTimeout and setInterval?**
+**28. What is the setTimeout and setInterval?**
       
       setTimeout executes a function after a specified time delay. setInterval repeatedly executes a function at regular intervals.
 
@@ -549,3 +549,13 @@ Async and await are used to handle asynchronous operations more easily than Prom
       clearInterval(intervalId);
       console.log('Interval stopped');
       }, 5000);  // 5000 milliseconds = 5 seconds
+
+
+**29. what is Optional Chaining?**
+      
+      Optional chaining is a feature in JavaScript that allows you to safely access deeply nested properties of an object without having to manually check each level for null or undefined. It uses the ?. operator and helps prevent runtime errors that would occur if you tried to access a property of an undefined or null object."
+
+
+**30. what is  nullish coalescing operator?**
+
+      The nullish coalescing operator (??) in JavaScript is used to provide a default value when the left-hand side of the operation is null or undefined. It allows for more precise control than the logical OR (||) operator, which returns the right-hand side if the left-hand side is any 'falsy' value (like 0, '', false, etc.)."      
