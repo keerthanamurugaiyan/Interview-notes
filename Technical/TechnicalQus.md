@@ -66,5 +66,13 @@ for (let [coin, count] of Object.entries(combination)) {
         const inputString = "WoW";
         const result = isPalindrome(inputString);
         console.log(`${result ? "yes" : "no"}`);
-        
 
+        
+**5. Write a program to remove duplicates from an array?** 
+
+    function removeDuplicates(arr) {
+    return [...new Set(arr)];
+    }
+    const array = [1, 2, 2, 3, 4, 4, 5, 6, 6];
+    const uniqueArray = removeDuplicates(array);
+    console.log(uniqueArray); 

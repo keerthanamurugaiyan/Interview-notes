@@ -58,4 +58,9 @@
     - .bg-primary (background-color: primary)
     - .d-none (display: none)
 
-Utilities simplify CSS coding, making development faster and more efficient.     
+Utilities simplify CSS coding, making development faster and more efficient.  
+
+
+**6. How do you include Bootstrap in a project?**
+
+    You can include Bootstrap in your project either by using a Content Delivery Network (CDN) or by downloading the Bootstrap files and including them in your project. For CDN, add the Bootstrap CSS and JS links in the <head> and before the closing **</body>** tag, respectively.

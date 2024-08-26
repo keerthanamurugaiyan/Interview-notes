@@ -558,4 +558,9 @@ Async and await are used to handle asynchronous operations more easily than Prom
 
 **30. what is  nullish coalescing operator?**
 
-      The nullish coalescing operator (??) in JavaScript is used to provide a default value when the left-hand side of the operation is null or undefined. It allows for more precise control than the logical OR (||) operator, which returns the right-hand side if the left-hand side is any 'falsy' value (like 0, '', false, etc.)."      
+      The nullish coalescing operator (??) in JavaScript is used to provide a default value when the left-hand side of the operation is null or undefined. It allows for more precise control than the logical OR (||) operator, which returns the right-hand side if the left-hand side is any 'falsy' value (like 0, '', false, etc.)."  
+
+
+**31. What is the Virtual Dom?**
+      
+      The Virtual Dom is a lightweight copy of the actual Dom in memory. React uses its to  improve performance by updating only the changed parts of the actual Dom.
