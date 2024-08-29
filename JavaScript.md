@@ -621,4 +621,29 @@ Async and await are used to handle asynchronous operations more easily than Prom
             closes the current window.
       **setTimeout():**
             perform the action after specified time.
+
+
+**36. What is a promise chaining?**
+
+            Promise chaining is a way to execute multiple asynchronous operations in sequence by chaining promises together.  
+
+
+**37. Explain passed by value and passed by reference.**
+
+        In JavaScript, primitive data types are passed by value and non-primitive data types are passed by reference.
+
+
+**38. What is 'this' keyword in javascript ?**
+
+      The 'this' keywprd in Javascript refer to the currently calling object. It is commonly used in constructors to assign values to object properties.
+      Ex : const person = {
+      name: "Vino",
+      greet() {
+            console.log('Hello, ' + this.name); // 'this' refers to the 'person' object
+      }
+      };
+      person.greet(); 
+
+   **Output :**
+       Hello Vino        
                           

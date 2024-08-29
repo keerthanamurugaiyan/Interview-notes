@@ -83,4 +83,20 @@ for (let [coin, count] of Object.entries(combination)) {
         const validateNumber = /^\d{10}$/;
         return validateNumber.test(val)
         };
-        console.log(validNumber(1234567890))    
+        console.log(validNumber(1234567890))  
+
+
+**7. Write a JavaScript program to find the maximum number in an array.**
+
+        function findMaxNumber(arr) {
+        if (arr.length === 0) {
+            return "Array is empty";
+        }
+        const maxNumber = Math.max(...arr);
+
+        return maxNumber;
+        }
+        const numbers = [];
+        const max = findMaxNumber(numbers)
+        ;
+        console.log("The maximum number is:", max);
