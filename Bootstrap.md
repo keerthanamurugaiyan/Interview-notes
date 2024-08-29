@@ -64,3 +64,8 @@ Utilities simplify CSS coding, making development faster and more efficient.
 **6. How do you include Bootstrap in a project?**
 
     You can include Bootstrap in your project either by using a Content Delivery Network (CDN) or by downloading the Bootstrap files and including them in your project. For CDN, add the Bootstrap CSS and JS links in the <head> and before the closing **</body>** tag, respectively.
+
+
+ **7. What is a Bootstrap card and how is it used?**
+        
+        A Bootstrap card is a versatile component that helps organize and display various types of content in a structured format. You use the .card class to create the basic card layout. Inside the card, you can use .card-header for the top section, .card-body for the main content, and .card-footer for the bottom section, making it easy to present information clearly and neatly.   

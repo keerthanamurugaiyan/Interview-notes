@@ -170,3 +170,33 @@
       }
 
       export default MyForm;
+
+
+**9. What is the difference between  React and React native?**
+
+   **React:**
+      ReactJS, is a JavaScript library for building user interfaces, particularly for web applications. It is primarily used to create dynamic and interactive web pages. It perform in web. Uses CSS for styling. Styles are applied via class names or inline styles.
+
+   **React Native:**
+      React Native is a framework for building mobile applications using JavaScript and React. 
+      It allows developers to create cross-platform mobile apps for iOS and Android using a single codebase. 
+      It perform in Mobile (iOS and Android)Uses JavaScript objects to style components.
+      Styling is done using a subset of CSS properties, but not all CSS properties are available, and the styling syntax is different (StyleSheet.create() is commonly used).
+      Uses a different set of components that map directly to native UI components, such as <View>, <Text>, <Button>, etc., instead of standard HTML elements like <div>, <span>, or <button>.
+
+ 
+ **10. Explain the difference between React and Angular?**
+
+   **React.js**
+      •	React.js is a JavaScript library. As it indicates react js updates only the virtual DOM is present and the data flow is always in a single direction.
+      •	React.js is more simplified as it follows MVC ie., Model View Control.
+      •	It is highly scalable.
+      •	It supports Uni-directional data binding which is one-way data binding.
+      •	It has a virtual DOM.     
+
+   **Angular**
+      •	Angular is a framework. Angular updates the Real DOM and the data flow is ensured in the architecture in both directions.
+      •	The architecture is complex as it follows MVVM models ie., Model View-ViewModel. 
+      •	It is less scalable than React JS.
+      •	It supports Bi-directional data binding which is two way data binding.
+      •	It has regular DOM.     

@@ -76,3 +76,11 @@ for (let [coin, count] of Object.entries(combination)) {
     const array = [1, 2, 2, 3, 4, 4, 5, 6, 6];
     const uniqueArray = removeDuplicates(array);
     console.log(uniqueArray); 
+
+**6. Write a function for mobile number validation in Javascript Regular expression?**
+       
+        function validNumber(val){
+        const validateNumber = /^\d{10}$/;
+        return validateNumber.test(val)
+        };
+        console.log(validNumber(1234567890))    

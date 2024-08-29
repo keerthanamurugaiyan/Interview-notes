@@ -564,3 +564,61 @@ Async and await are used to handle asynchronous operations more easily than Prom
 **31. What is the Virtual Dom?**
       
       The Virtual Dom is a lightweight copy of the actual Dom in memory. React uses its to  improve performance by updating only the changed parts of the actual Dom.
+
+
+**32. What is a closure in javascript?**
+      
+            A closure is a feature where an inner function has access to the outer functions variables.
+
+
+ **33. . What is the role of deferred scripts in JavaScript?**
+
+            The processing of HTML code while the page loads are disabled by nature till the script hasn't halted. Your page will be affected if your network is a bit slow, or if the script is very hefty. When you use Deferred, the script waits for the HTML parser to finish before executing it. This reduces the time it takes for web pages to load, allowing them to appear more quickly. 
+
+
+ **34. What is Destructuring in JavaScript?**
+
+      oru array illa object la irukka multiple values-a separate variables-la store panna destructuring use pannuvom.
+
+      In JavaScript, destructuring is a way to extract values from arrays or objects and assign them to variables in a simple and concise manner. Instead of accessing each value individually, destructuring allows you to unpack multiple values and store them in variables easily.
+
+   **Example :-**
+
+      // Array Destructuring
+      const fruits = ['apple', 'banana', 'orange'];
+      const [fruit1, fruit2, fruit3] = fruits;
+      console.log(fruit1); // Output: apple
+      console.log(fruit2); // Output: banana
+      console.log(fruit3); // Output: orange
+
+      // Object Destructuring
+      const person = { name: 'John', age: 30, city: 'Chennai' };
+      const { name, age, city } = person;
+      console.log(name); // Output: John
+      console.log(age); // Output: 30
+      console.log(city); // Output: Chennai  
+
+
+**35. what is the use of window object?**
+      
+      window object is created auomatically by the browser.
+      that represents a window of a browser.
+      it is not an object of javascript.
+      it is a browser object.
+      the window object is used to display the popup diolog box.
+      lets see with description.
+      
+   **METHODS:**
+      **alert():**
+            display the alert box containing with ok button.
+      **confirm():**
+            confirm dialog box box containing the message with ok and cancel button.
+      **prompt():**
+            display a dialog box to get input from the user.
+      **open():**
+            opens the new window.
+      **close():**
+            closes the current window.
+      **setTimeout():**
+            perform the action after specified time.
+                          
