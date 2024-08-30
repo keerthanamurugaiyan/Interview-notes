@@ -60,5 +60,10 @@ Auto-dismissal: They can be set to disappear automatically after a set time or c
       **•**	The architecture is complex as it follows MVVM models ie., Model View-ViewModel. 
       **•**	It is less scalable than React JS.
       **•**	It supports Bi-directional data binding which is two way data binding.
-      **•**	It has regular DOM.      
+      **•**	It has regular DOM.  
+
+
+**7. Is there any relation between Java and JavaScript?**
+       
+       No, they are entirely two different programming languages and have nothing to do with each other. But both of them are Object Oriented Programming languages and like many other languages, they follow similar syntax for basic features(if, else, for, switch, break, continue etc).          
 

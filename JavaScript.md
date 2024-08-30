@@ -647,3 +647,56 @@ Async and await are used to handle asynchronous operations more easily than Prom
    **Output :**
        Hello Vino        
                           
+
+**39. What do you mean by Self Invoking Functions?**
+      
+      •  Without being requested, a self-invoking expression is automatically invoked (initiated). If a function expression is followed by (), it will execute automatically. A function declaration cannot be invoked by itself.
+
+      •  Normally, we declare a function and call it, however, anonymous functions may be used to run a function automatically when it is described and will not be called again. And there is no name for these kinds of functions
+
+
+**40. what is self invoked function?**
+           
+            A self-invoking function is a nameless (anonymous) function that is invoked immediately after its definition.
+
+            An anonymous function is enclosed inside a set of parentheses followed by another set of parentheses (), which does the execution.
+
+            (function(){
+            console.log("This function is called immediately");
+            })();
+            Self-invoking functions are useful for initialization tasks. For example, if we have a web page in which we want to attach event listeners to DOM elements and other initialization work, self-invoking functions would be the best tool for the job!
+
+            The primary benefit of self-invoking functions is that they execute only once and won’t fill the global namespace with all sorts of crud that lasts for the lifetime of the page.
+
+            It doesn’t seem like adding a few things to the global namespace would be a problm until you start getting into thousands of lines of javascript and having collisions between functions or variables.
+
+   **How they actually work ?**
+            
+            Since the function is defined anonymously, there are neither global nor even local variables except, of course, the variables declared inside the function’s body. We do not keep reference to the function, not even to its return value. After the function has been initialized, it is being immediately invoked and it’s executed only once as after the execution we’ll lose the reference to the function.      
+
+
+**41. Error Handling Techniques?**
+            
+   **try...catch Statement:**
+
+            This is the most common way to handle errors in JavaScript. The code that might throw an error is placed inside the try block. If an error occurs, the control is passed to the catch block, where you can handle the error.
+
+   **eg:**   try {
+            let result = riskyFunction();
+            } catch (error) {
+            console.error("An error occurred:", error.message);
+            }
+
+            finally Block:
+
+            You can use a finally block after try...catch. Code in the finally block will execute regardless of whether an error was caught or not, making it ideal for cleanup operations.
+
+   **eg:**  try {
+            let result = riskyFunction();
+            } catch (error) {
+            console.error("An error occurred:", error.message);
+            } finally {
+            console.log("This will run no matter what.");
+            }
+
+            wait      
