@@ -80,4 +80,9 @@
  **6. 1. what is calc() function in CSS.**   
      
      The calc() function in CSS allows you to perform mathematical calculations to determine CSS property values. This function is particularly useful for creating dynamic and responsive layouts where you need to combine different units or make calculations 
-based on other values.      
+     based on other values.     
+
+
+**7. How do you create a CSS grid layout?**
+
+      Use the display: grid; property on a container element, and then define rows and columns with properties like grid-template-rows and grid-template-columns.      

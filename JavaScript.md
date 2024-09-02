@@ -700,3 +700,23 @@ Async and await are used to handle asynchronous operations more easily than Prom
             }
 
             wait      
+
+
+**42. //indexOf//**
+      
+      It is used to find the index of an element
+      let fruits=['Apple','Orange','Guva']
+      let fruit=fruits.indexOf('Guva')
+      console.log(fruit);
+
+   **//Splice//**
+     
+      It is used to add and remove element from an array
+      let fruits = ['Apple', 'Orange', 'Guava'];
+      let fruit = fruits.splice(1, 1, 'Greenapple');
+
+      console.log(fruit); 
+      console.log(fruits);
+
+
+     

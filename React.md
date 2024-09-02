@@ -199,4 +199,9 @@
       •	The architecture is complex as it follows MVVM models ie., Model View-ViewModel. 
       •	It is less scalable than React JS.
       •	It supports Bi-directional data binding which is two way data binding.
-      •	It has regular DOM.     
+      •	It has regular DOM.
+
+
+**11.  What is one way binding in react?**
+
+            In React, one-way binding (also known as one-way data flow) refers to the way data flows in a single direction from the parent component to the child component. It is a key concept that ensures that changes in the state of a component affect the user interface (UI) predictably.            

@@ -69,3 +69,8 @@ Utilities simplify CSS coding, making development faster and more efficient.
  **7. What is a Bootstrap card and how is it used?**
         
         A Bootstrap card is a versatile component that helps organize and display various types of content in a structured format. You use the .card class to create the basic card layout. Inside the card, you can use .card-header for the top section, .card-body for the main content, and .card-footer for the bottom section, making it easy to present information clearly and neatly.   
+
+
+**8. How do you integrate Bootstrap with a custom theme?**
+
+         By customizing Bootstrap’s variables, overriding default styles with your own CSS, and integrating the theme’s design elements with Bootstrap’s components.
