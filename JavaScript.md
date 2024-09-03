@@ -719,4 +719,49 @@ Async and await are used to handle asynchronous operations more easily than Prom
       console.log(fruits);
 
 
+**43. (i),Sorts**
+
+   **Definition:** Sorts the elements of an array in place and returns the array.
+   **Example:**
+      let numbers = [3, 1, 4, 1, 5];
+      numbers.sort();
+      console.log(numbers):
+      **// Output:** [1, 1, 3, 4, 5]
+
+   **(ii).Join**
+
+   **Definition:** Joins all elements of an array into a string.
+   **Example:**
+      let words = ['Hello', 'World'];
+      let sentence = words.join(' '); // Joins elements with a space
+      console.log(sentence); 
+      **// Output:** 'Hello World' 
+
+
+**44. What is the difference between querySelector() and getElementById()?**
+
+   **getElementById() :**
+        Only selects elements by their id attribute. You must provide the exact id of the element.
+        Returns a single element object that matches the given id. If no element with the specified id exists, it returns null.
+
+   **querySelector() :**
+        More versatile; it allows you to select elements using any valid CSS selector **(e.g., #id, .class, tag, attribute, etc.)**
+        Returns the first element that matches the given CSS selector. If no element matches the selector, it returns null. 
+
+
+**45. Split method is used to convert string to an array.**
+          
+          let js="javascript";
+          const java=js.split("")
+          console.log(java)
+
+   **Concat method is used to join two array elements.**
+          
+          let user=[1,2,3,4]
+          let looser=[5,7,8,9]
+          let total=user.concat(looser)
+          console.log(total)
+                   
+
+
      

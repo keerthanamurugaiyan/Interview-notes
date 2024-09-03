@@ -85,4 +85,17 @@
 
 **7. How do you create a CSS grid layout?**
 
-      Use the display: grid; property on a container element, and then define rows and columns with properties like grid-template-rows and grid-template-columns.      
+      Use the display: grid; property on a container element, and then define rows and columns with properties like grid-template-rows and grid-template-columns.
+
+
+**8. what is meane by RGB function?**          
+
+         The RGB function is used to define colors in digital systems by specifying the intensity of three primary colors: Red, Green, and Blue. Each of these colors can have a value between 0 and 255. By combining different values of red, green, and blue, the RGB function can create a vast array of colors.
+
+  **For example:**
+
+        rgb(255, 0, 0) produces pure red.
+        rgb(0, 255, 0) produces pure green.
+        rgb(0, 0, 255) produces pure blue.
+        rgb(255, 255, 255) produces white.
+        rgb(0, 0, 0) produces black.            

@@ -74,3 +74,14 @@ Utilities simplify CSS coding, making development faster and more efficient.
 **8. How do you integrate Bootstrap with a custom theme?**
 
          By customizing Bootstrap’s variables, overriding default styles with your own CSS, and integrating the theme’s design elements with Bootstrap’s components.
+
+
+**9. What are the different Navbar Components in Bootstrap?**
+
+   - **Navbar Brand:** Displays the website's name/logo, typically on the left. Use the `.navbar-brand` class.
+   - **Navbar Links:** Clickable links to navigate the site. Use `.nav-link` inside `.navbar-nav`.
+   - **Dropdowns:** Groups related links under one item. Use `.dropdown` and `.dropdown-menu`.
+   - **Navbar Toggler:** A "hamburger" icon to toggle the navbar on small screens. Use `.navbar-toggler`.
+   - **Collapse Content:** Shows/hides content to save space on small screens. Wrap it in `.collapse`.
+   - **Forms:** Embed forms like search or login in the navbar. Use Bootstrap form classes (e.g., `.form-inline`).
+   - **Navbar Text:** Adds text like welcome messages. Use `.navbar-text`.        
