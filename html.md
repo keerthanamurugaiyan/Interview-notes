@@ -54,3 +54,8 @@
 
 **(iii) Animationend:**
       The animationend event occurs when a CSS animation has completed.
+
+
+**5. Why do we need to use HTML entities?**
+
+      We use HTML entities to ensure that special characters are displayed correctly on a webpage. For example, if you want to display a less-than sign (<) on a webpage, you need to use &lt; to avoid it being interpreted as the start of an HTML tag      

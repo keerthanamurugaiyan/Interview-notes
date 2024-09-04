@@ -98,4 +98,7 @@
         rgb(0, 255, 0) produces pure green.
         rgb(0, 0, 255) produces pure blue.
         rgb(255, 255, 255) produces white.
-        rgb(0, 0, 0) produces black.            
+        rgb(0, 0, 0) produces black. 
+
+
+.                   

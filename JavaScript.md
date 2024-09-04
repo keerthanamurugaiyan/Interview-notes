@@ -763,5 +763,15 @@ Async and await are used to handle asynchronous operations more easily than Prom
           console.log(total)
                    
 
+**46. why we used eventpreventdeafault ?**
 
+   **Form Submission:** 
+      In HTML, when a form is submitted, the default action is to reload the page or navigate to a new 
+      URL (as specified by the action attribute). By using event.preventDefault(), you can prevent this default action, 
+      allowing you to handle the form submission with JavaScript instead
+**Example:**
+      document.querySelector('form').addEventListener('submit', function(event) {
+      event.preventDefault(); // Prevents the form from submitting
+      // Handle form submission with JavaScript
+      });
      

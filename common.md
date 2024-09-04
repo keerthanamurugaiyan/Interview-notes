@@ -67,3 +67,25 @@ Auto-dismissal: They can be set to disappear automatically after a set time or c
        
        No, they are entirely two different programming languages and have nothing to do with each other. But both of them are Object Oriented Programming languages and like many other languages, they follow similar syntax for basic features(if, else, for, switch, break, continue etc).          
 
+
+**8. 1. How an HTTP Server Works:**
+
+   **Client Sends a Request:**
+         The process begins when a client (like a web browser) sends an HTTP request to the server. This request includes details like the method (GET, POST, etc.), the URL, headers, and sometimes a body (for POST requests).
+
+   **Server Receives the Request:**
+         The HTTP server listens on a specific port (usually port 80 for HTTP and 443 for HTTPS). When it receives a request, it processes the incoming data.
+
+   **Server Processes the Request:**
+         The server determines what action to take based on the request. For example, if a user requests a webpage, the server might retrieve the HTML file associated with that URL or generate content dynamically using a server-side language like Node.js, PHP, or Python.
+   
+   **Server Sends a Response:**
+         After processing, the server sends an HTTP response back to the client. This response includes a status code (e.g., 200 for success, 404 for not found), headers, and a body (which could be an HTML page, JSON data, an image, etc.).
+
+   **Client Receives the Response:**
+         The client processes the response and displays the content to the user or handles the data accordingly.
+
+
+**9. What is the fetch API?**
+         
+         The fetch API is a modern JavaScript interface that allows you to make network requests, such as retrieving data from a server or sending data to a server. It provides a more powerful and flexible way to work with HTTP requests and responses compared to older techniques like XMLHttpRequest.
