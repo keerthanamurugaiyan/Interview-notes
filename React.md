@@ -205,3 +205,46 @@
 **11.  What is one way binding in react?**
 
             In React, one-way binding (also known as one-way data flow) refers to the way data flows in a single direction from the parent component to the child component. It is a key concept that ensures that changes in the state of a component affect the user interface (UI) predictably.            
+
+
+**12.  What are keys in React?**
+         
+         A key is a special string attribute that needs to be included when using lists of elements.
+
+   **The "REACT WAY" to render a list**  
+            **(i)**Use array.map
+            **(ii)**Note a for loop
+            **(iii)**Give each item a unique key
+            **(iv)**Aviod using array index as the key       
+
+   **Example of a list using key -**
+
+         const ids = [1,2,3,4,5];
+         const listElements = ids.map((id)=>{
+         return(
+         <li key={id.toString()}>
+         {id}
+         </li>
+         )
+         })
+
+   **Importance of keys -**
+
+     • Keys help react identify which elements were added, changed or removed.
+     • Keys should be given to array elements for providing a unique identity for each element.
+     • Without keys, React does not understand the order or uniqueness of each element.
+     • With keys, React has an idea of which particular element was deleted, edited, and added.
+     • Keys are generally used for displaying a list of data coming from an API.
+   
+   **Note-** Keys used within arrays should be unique among siblings. They need not be globally unique.
+
+
+**13. Explain the building blocks of React?**
+
+   The five main building blocks of React are:
+
+   **Components:**These are reusable blocks of code that return HTML.
+   **JSX:** It stands for JavaScript and XML and allows you to write HTML in React.
+   **Props and State:** props are like function parameters and State is similar to variables.
+   **Context:** This allows data to be passed through components as props in a hierarchy.
+   **Virtual DOM:** It is a lightweight copy of the actual DOM which makes DOM manipulation easier.   

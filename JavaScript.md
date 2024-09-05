@@ -766,12 +766,38 @@ Async and await are used to handle asynchronous operations more easily than Prom
 **46. why we used eventpreventdeafault ?**
 
    **Form Submission:** 
+      
       In HTML, when a form is submitted, the default action is to reload the page or navigate to a new 
       URL (as specified by the action attribute). By using event.preventDefault(), you can prevent this default action, 
       allowing you to handle the form submission with JavaScript instead
+
 **Example:**
+      
       document.querySelector('form').addEventListener('submit', function(event) {
       event.preventDefault(); // Prevents the form from submitting
       // Handle form submission with JavaScript
       });
+
+
+**47. (i)Array Length**
+            
+            To get the length of an array, you can use the .length property.
+            const fruits = ["apple", "banana", "cherry", "date"];
+            console.log(fruits.length); 
+
+   **(ii)Array Slice**
+            
+            The slice() method returns a shallow copy of a portion of an array into a new array. You can specify the start and end indices.
+            const fruits = ["apple", "banana", "cherry", "date", "elderberry"];
+            const slicedFruits = fruits.slice(1, 3);
+            console.log(slicedFruits);      
      
+
+ **48. What is type coercion?**
+
+            Type coercion is the automatic conversion of values from one type to another by JavaScript. For example, when adding a number to a string, JavaScript converts the number to a string and performs concatenation. 
+
+
+**49. What is Array in Javascript?**
+
+            An array in JavaScript is a special type of object used to store multiple values in a single variable. Arrays can hold different data types such as numbers, strings, or even other arrays. They are indexed, meaning each element is assigned a numeric index starting from 0               
