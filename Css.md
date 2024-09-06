@@ -101,4 +101,79 @@
         rgb(0, 0, 0) produces black. 
 
 
-.                   
+**9. Types of Selectors:**
+
+   Different types of CSS selectors with explanations:
+
+   **1. Universal Selector (*)**
+         Selects all elements on the page.
+         **Example:** * { margin: 0; padding: 0; } removes margin and padding for all elements.
+
+   **2. Type Selector (Element Selector)**
+         Selects elements based on their HTML tag name.
+         **Example:** p { font-size: 16px; } targets all <p> (paragraph) elements.
+
+**3. Class Selector (.)**
+         Selects elements with a specific class attribute.
+         **Example:** .button { background-color: blue; } selects elements with the class "button".
+
+**4. ID Selector (#)**
+         Selects a single element based on its ID attribute.
+         **Example:** #header { background-color: gray; } targets the element with id="header".
+         The grouping selector in CSS allows you to apply the same styles to multiple elements by listing them together, separated by commas. Instead of writing separate rules for each element, you group them and apply a single set of styles.
+
+
+**10. HTML Tags:**
+   **common HTML tags:-**
+
+   **Document Structure:**
+         **<html>:** Root element.
+         **<head>:** Metadata and links.
+         **<body>:** Main content.
+
+   **Text Formatting:**
+         <p>: Paragraph.
+         <h1> - <h6>: Headings.
+         <b>, <strong>: Bold text.
+         <i>, <em>: Italic text.
+         <br>: Line break.
+
+   **Links and Images:**
+         <a>: Hyperlink.
+         <img>: Image (self-closing).
+
+   **Lists:**
+         <ul>: Unordered list.
+         <ol>: Ordered list.
+         <li>: List item.
+
+   **Tables:**
+         <table>: Table.
+         <tr>: Table row.
+         <td>: Table cell.
+         <th>: Table header.
+
+   **Forms:**
+         <form>: Form container.
+         <input>: Input field.
+         <button>: Button.
+
+   **Semantic Tags:**
+         <header>: Header section.
+         <nav>: Navigation links.
+         <section>: Content section.
+         <footer>: Footer section.
+
+   **Self-closing:**
+         <img>, <br>, <hr>: No closing tag needed. 
+
+
+**11. What are pseudo-classes and pseudo-elements? Can you provide examples?**
+
+   **Pseudo-classes:**
+         Apply styles to elements based on their state **(e.g., :hover for when an element is hovered over, :focus for when an element is focused).**
+   
+   **Pseudo-elements:** 
+         Target specific parts of an element **(e.g., ::before to insert content before an element's content, ::after to insert content after).**                 
+
+                   

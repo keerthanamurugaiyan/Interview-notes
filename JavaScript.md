@@ -800,4 +800,28 @@ Async and await are used to handle asynchronous operations more easily than Prom
 
 **49. What is Array in Javascript?**
 
-            An array in JavaScript is a special type of object used to store multiple values in a single variable. Arrays can hold different data types such as numbers, strings, or even other arrays. They are indexed, meaning each element is assigned a numeric index starting from 0               
+            An array in JavaScript is a special type of object used to store multiple values in a single variable. Arrays can hold different data types such as numbers, strings, or even other arrays. They are indexed, meaning each element is assigned a numeric index starting from 0 
+
+
+**50. In javascript, how do you turn object{} into an array[]?**
+
+      In JavaScript, you can turn an object into an array in several ways, depending on what information
+      you want to extract from the object. Here are some common methods:
+
+   **(i). Convert Object Values to Array: If you want to get an array of the object's values:**
+
+      const obj = { a: 1, b: 2, c: 3 };
+      const valuesArray = Object.values(obj);
+      console.log(valuesArray); **// Output: [1, 2, 3]**
+
+   **(ii). Convert Object Keys to Array: If you want to get an array of the object's keys:**
+
+      const obj = { a: 1, b: 2, c: 3 };
+      const keysArray = Object.keys(obj);
+      console.log(keysArray); **// Output: ['a', 'b', 'c']** 
+
+   **(iii). Convert Object Entries to Array: If you want to get an array of the object's key-value pairs:**
+
+     const obj = { a: 1, b: 2, c: 3 };
+     const entriesArray = Object.entries(obj);
+     console.log(entriesArray); **// Output: [['a', 1], ['b', 2], ['c', 3]]**                      
