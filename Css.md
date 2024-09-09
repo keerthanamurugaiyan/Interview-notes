@@ -174,6 +174,17 @@
          Apply styles to elements based on their state **(e.g., :hover for when an element is hovered over, :focus for when an element is focused).**
    
    **Pseudo-elements:** 
-         Target specific parts of an element **(e.g., ::before to insert content before an element's content, ::after to insert content after).**                 
+         Target specific parts of an element **(e.g., ::before to insert content before an element's content, ::after to insert content after).**  
+
+
+**12. what is css overflow?**
+
+            the overflow property determines how content that exceeds the size of its container is handled. It is particularly useful when you want to control what happens when content is too large to fit within an element.
+
+**visible (default):**
+      The content is not clipped and may overflow outside the container. This can lead to content spilling out beyond the defined boundaries.
+
+**hidden:**
+      The content is clipped, and anything that overflows the container is hidden. The overflowed part is not visible and cannot be scrolled to.                        
 
                    

@@ -100,3 +100,19 @@ for (let [coin, count] of Object.entries(combination)) {
         const max = findMaxNumber(numbers)
         ;
         console.log("The maximum number is:", max);
+
+
+**8. Program to find Reverse of a string without using built-in method ?**
+
+        function reverse(str){
+            let user='';
+            for(let i=str.length-1;i>=0;i--){
+                user+=str[i];
+            }
+            return user;
+        }
+        let input='Hello World'
+        let user=reverse(input)
+        console.log(user)
+
+        

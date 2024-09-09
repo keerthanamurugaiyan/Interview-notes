@@ -89,3 +89,14 @@ Auto-dismissal: They can be set to disappear automatically after a set time or c
 **9. What is the fetch API?**
          
          The fetch API is a modern JavaScript interface that allows you to make network requests, such as retrieving data from a server or sending data to a server. It provides a more powerful and flexible way to work with HTTP requests and responses compared to older techniques like XMLHttpRequest.
+
+
+**10. What is Authentication and Authorization?**
+         
+         Authentication and authorization are both important security processes that work together to keep applications, systems, and data safe: 
+ 
+   **Authentication:**
+         Verifies the identity of a user or device to ensure that only authorized users can access systems, services, and resources. 
+ 
+   **Authorization:**
+         Determines what actions, resources, or services a user is allowed to perform, based on their level of access.

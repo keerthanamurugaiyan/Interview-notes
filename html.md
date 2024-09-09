@@ -58,4 +58,9 @@
 
 **5. Why do we need to use HTML entities?**
 
-      We use HTML entities to ensure that special characters are displayed correctly on a webpage. For example, if you want to display a less-than sign (<) on a webpage, you need to use &lt; to avoid it being interpreted as the start of an HTML tag      
+            We use HTML entities to ensure that special characters are displayed correctly on a webpage. For example, if you want to display a less-than sign (<) on a webpage, you need to use &lt; to avoid it being interpreted as the start of an HTML tag 
+
+
+**6. What is the advantage of collapsing white space?**
+
+            In HTML, a blank sequence of whitespace characters is treated as a single space character, Because the browser collapses multiple spaces into a single space character and this helps a developer to indent lines of text without worrying about multiple spaces and maintain readability and understandability of HTML codes.           

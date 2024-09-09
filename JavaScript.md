@@ -825,3 +825,12 @@ Async and await are used to handle asynchronous operations more easily than Prom
      const obj = { a: 1, b: 2, c: 3 };
      const entriesArray = Object.entries(obj);
      console.log(entriesArray); **// Output: [['a', 1], ['b', 2], ['c', 3]]**                      
+
+
+**51. What is a pure function?**
+
+            A pure function is a function that meets two important criteria:
+
+            Deterministic: It always returns the same result given the same inputs. This means it behaves consistently regardless of external factors or system state.
+
+            No Side Effects: A pure function does not modify any external state or interact with the outside world. It doesn't change global variables, update data, perform I/O operations (like logging or making HTTP requests), or modify its inputs.
