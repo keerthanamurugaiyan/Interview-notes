@@ -247,4 +247,9 @@
    **JSX:** It stands for JavaScript and XML and allows you to write HTML in React.
    **Props and State:** props are like function parameters and State is similar to variables.
    **Context:** This allows data to be passed through components as props in a hierarchy.
-   **Virtual DOM:** It is a lightweight copy of the actual DOM which makes DOM manipulation easier.   
+   **Virtual DOM:** It is a lightweight copy of the actual DOM which makes DOM manipulation easier. 
+
+
+**14. What are fragments?**
+         
+         It's a common pattern or practice in React for a component to return multiple elements. Fragments let you group a list of children without adding extra nodes to the DOM. You need to use either <Fragment> or a shorter syntax having empty tag (<></>).     

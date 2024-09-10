@@ -185,6 +185,33 @@
       The content is not clipped and may overflow outside the container. This can lead to content spilling out beyond the defined boundaries.
 
 **hidden:**
-      The content is clipped, and anything that overflows the container is hidden. The overflowed part is not visible and cannot be scrolled to.                        
+      The content is clipped, and anything that overflows the container is hidden. The overflowed part is not visible and cannot be scrolled to. 
 
+
+**13. 1.What is the difference between ~isibility: hidden and display: none~?**
+
+   **Visibility: hidden:**
+           **=>** The element is hidden, but it still takes up space in the layout.
+           **=>** The content remains invisible, but the area it occupies is not removed.
+   
+   **Display: none:**
+           **=>** The element is completely removed from the layout as if it doesn't exist.
+           **=>** It takes up no space, and surrounding elements may adjust to fill the gap                             
+
+
+**14. What is Flexbox and how its work?**
+            
+            Flexbox is a CSS tool used to organize and align elements in a container. It helps in easily placing items horizontally or vertically, making layouts flexible and responsive to different screen sizes.
+
+   **Here’s how it works:**
+            Container Setup: First, you define a parent container as a flex container, which will control the layout of its child items.
+   
+   **Horizontal Alignment:** 
+            You can align the items inside the container to the left, right, center, or spread them out evenly.
+   
+   **Vertical Alignment:** 
+            You can align items to the top, bottom, center, or stretch them to fill the height of the container.
+   
+   **Responsive Design:** 
+            Flexbox adjusts the size and position of items automatically based on the available space, which makes it useful for building layouts that adapt to different devices.
                    

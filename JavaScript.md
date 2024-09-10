@@ -834,3 +834,17 @@ Async and await are used to handle asynchronous operations more easily than Prom
             Deterministic: It always returns the same result given the same inputs. This means it behaves consistently regardless of external factors or system state.
 
             No Side Effects: A pure function does not modify any external state or interact with the outside world. It doesn't change global variables, update data, perform I/O operations (like logging or making HTTP requests), or modify its inputs.
+
+
+**52. what is map function in javascript?**
+
+            In JavaScript, the map() method is used to create a new array by applying a function to each element of an existing array. It iterates over the array, applies a callback function to each element, and returns a new array with the transformed values.
+            const numbers = [1, 2, 3, 4];
+            const doubled = numbers.map(function(number) {
+            return number * 2;
+            });
+
+            console.log(doubled); 
+
+            console.log(numbers)
+            ;             
