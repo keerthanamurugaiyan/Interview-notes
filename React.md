@@ -243,10 +243,14 @@
 
    The five main building blocks of React are:
 
-   **Components:**These are reusable blocks of code that return HTML.
+   **Components:** These are reusable blocks of code that return HTML.
+   
    **JSX:** It stands for JavaScript and XML and allows you to write HTML in React.
+   
    **Props and State:** props are like function parameters and State is similar to variables.
+   
    **Context:** This allows data to be passed through components as props in a hierarchy.
+   
    **Virtual DOM:** It is a lightweight copy of the actual DOM which makes DOM manipulation easier. 
 
 
