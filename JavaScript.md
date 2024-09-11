@@ -852,4 +852,17 @@ Async and await are used to handle asynchronous operations more easily than Prom
 
 **53. what is DOM manipulation?**
 
-        DOM manipulation refers to the process of changing, adding, or removing elements and content from a webpage dynamically using            JavaScript. The DOM (Document Object Model) is a programming interface that represents the structure of a webpage as a tree of           objects (nodes), such as elements, attributes, and text.            
+        DOM manipulation refers to the process of changing, adding, or removing elements and content from a webpage dynamically using            JavaScript. The DOM (Document Object Model) is a programming interface that represents the structure of a webpage as a tree of           objects (nodes), such as elements, attributes, and text.
+
+
+**54. Why do we need JSON.Parse and JSON.Stringify?**
+            
+           •  When working with web application data is often exchanged between the client and the server.
+           
+           •  The data is typically sent in JSON format because it is a lightweight, text based format that is easy to read and write for              both humans and machines
+
+   **JSON Parse:**
+            JSON.parse is a method in javascript that takes JSON String and converts it into a JavaScript object.
+
+   **JSON Stringify:**
+            JSON.stringify is  a method in Javascript that takes a javascript and converts it into a JSON String.            
