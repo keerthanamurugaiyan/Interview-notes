@@ -115,4 +115,35 @@ for (let [coin, count] of Object.entries(combination)) {
         let user=reverse(input)
         console.log(user)
 
+
+**9. Find subset an array**
+        
+        function findSubsetSum(arr, targetSum) {
+        let result = [];
+        let tempSum = 0;
+    
+        // Sort the array in descending order to prioritize larger numbers
+        arr.sort((a, b) => b - a);
+    
+        for (let i = 0; i < arr.length; i++) {
+            if (tempSum + arr[i] <= targetSum) {
+                tempSum += arr[i];
+                result.push(arr[i]);
+    
+                // If we reach the target sum, break the loop
+                if (tempSum === targetSum) {
+                    break;
+                }
+            }
+        }
+    
+        return result;
+    }
+    
+    const input = [1, 6, 9, 10, 70, 90, 210, 410];
+    const targetSum = 80;
+    const subset = findSubsetSum(input, targetSum);
+    console.log('Subset:', subset);
+    console.log('Sum:', subset.reduce((acc, val) => acc + val, 0));
+
         
