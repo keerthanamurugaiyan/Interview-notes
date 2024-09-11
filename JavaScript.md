@@ -847,4 +847,9 @@ Async and await are used to handle asynchronous operations more easily than Prom
             console.log(doubled); 
 
             console.log(numbers)
-            ;             
+            ;  
+
+
+**53. what is DOM manipulation?**
+
+        DOM manipulation refers to the process of changing, adding, or removing elements and content from a webpage dynamically using            JavaScript. The DOM (Document Object Model) is a programming interface that represents the structure of a webpage as a tree of           objects (nodes), such as elements, attributes, and text.            
