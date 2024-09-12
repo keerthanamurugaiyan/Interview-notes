@@ -907,10 +907,13 @@ Async and await are used to handle asynchronous operations more easily than Prom
            Let’s explain the most common ones:
 
    **i=> While Loop:**
+          
            A while loop continues to execute as long as a specified condition evaluates to true.
            The condition is checked before the loop's code runs, so if the condition is false from the start,
            the loop will not execute.
+   
    **Example:**
+        
         let i = 0;
         while (i < 5) {
             console.log(i);
@@ -918,10 +921,13 @@ Async and await are used to handle asynchronous operations more easily than Prom
         }
 
    **ii=> For Loop:**
+          
            A for loop is commonly used when the number of iterations is known. 
            It is a compact version of a loop that combines initialization, condition checking, 
            and incrementing (or decrementing) in a single line.
+  
    **Example:**
+        
         for (let i = 0; i < 5; i++) {
             console.log(i);
         }
@@ -929,9 +935,12 @@ Async and await are used to handle asynchronous operations more easily than Prom
    **iii=> Do-While Loop:**
             
    **A do-while loop is similar to a while loop, but with one key difference:**  
-                   it checks the condition after executing the loop body. This guarantees that the loop
-                   will run at least once, regardless of the condition.
+                   
+            it checks the condition after executing the loop body. This guarantees that the loop
+            will run at least once, regardless of the condition.
+   
    **Example:**
+            
             let i = 0;
             do {
                 console.log(i);
@@ -939,18 +948,24 @@ Async and await are used to handle asynchronous operations more easily than Prom
             } while (i < 5);
 
    **iv=> For-In Loop:**
+           
            The for-in loop iterates over the properties of an object (not the elements of an array). 
            It's useful for looping through object properties.
+   
    **Example:**
+   
         const obj = { name: 'John', age: 30 };
         for (let key in obj) {
             console.log(key, obj[key]);
         }
 
    **v=> For-Of Loop:**
+           
            The for-of loop iterates over iterable objects like arrays, strings, maps, etc.
            It gives the values of the iterable, unlike for-in, which gives the keys.        
+   
    **Example:**
+   
         const array = [1, 2, 3];
         for (let value of array) {
             console.log(value);
