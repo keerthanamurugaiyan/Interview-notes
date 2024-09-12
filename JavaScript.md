@@ -865,4 +865,93 @@ Async and await are used to handle asynchronous operations more easily than Prom
             JSON.parse is a method in javascript that takes JSON String and converts it into a JavaScript object.
 
    **JSON Stringify:**
-            JSON.stringify is  a method in Javascript that takes a javascript and converts it into a JSON String.            
+            JSON.stringify is  a method in Javascript that takes a javascript and converts it into a JSON String.
+
+
+**55. Array.length and Array.toString()**
+
+**Array.length**
+   
+   **Description:** 
+           The .length property of an array returns the number of elements in the array.
+   
+   **Example:**
+        const arr = [1, 2, 3, 4, 5];
+        console.log(arr.length);  
+
+**Array.toString()**
+
+   **Description:** 
+           The .toString() method converts the elements of an array into a comma-separated string.
+  
+   **Example:**
+        const arr = [1, 2, 3, 4, 5];
+        console.log(arr.toString());             
+
+
+**56. What are Cookies?**
+       
+       • Cookies are data, stored in small text files, on your computer.
+        
+       • When a web server has sent a web page to a browser, the connection is shut down, and the server forgets everything about the user.
+        
+       • Cookies were invented to solve the problem "how to remember information about the user":
+        
+       • When a user visits a web page, his/her name can be stored in a cookie.
+       • Next time the user visits the page, the cookie "remembers" his/her name
+
+
+**57.  What are all the looping structures in JavaScript ?**
+
+           In JavaScript, there are several looping structures, each designed for different use cases.
+           Let’s explain the most common ones:
+
+   **i=> While Loop:**
+           A while loop continues to execute as long as a specified condition evaluates to true.
+           The condition is checked before the loop's code runs, so if the condition is false from the start,
+           the loop will not execute.
+   **Example:**
+        let i = 0;
+        while (i < 5) {
+            console.log(i);
+            i++;
+        }
+
+   **ii=> For Loop:**
+           A for loop is commonly used when the number of iterations is known. 
+           It is a compact version of a loop that combines initialization, condition checking, 
+           and incrementing (or decrementing) in a single line.
+   **Example:**
+        for (let i = 0; i < 5; i++) {
+            console.log(i);
+        }
+
+   **iii=> Do-While Loop:**
+            
+   **A do-while loop is similar to a while loop, but with one key difference:**  
+                   it checks the condition after executing the loop body. This guarantees that the loop
+                   will run at least once, regardless of the condition.
+   **Example:**
+            let i = 0;
+            do {
+                console.log(i);
+                i++;
+            } while (i < 5);
+
+   **iv=> For-In Loop:**
+           The for-in loop iterates over the properties of an object (not the elements of an array). 
+           It's useful for looping through object properties.
+   **Example:**
+        const obj = { name: 'John', age: 30 };
+        for (let key in obj) {
+            console.log(key, obj[key]);
+        }
+
+   **v=> For-Of Loop:**
+           The for-of loop iterates over iterable objects like arrays, strings, maps, etc.
+           It gives the values of the iterable, unlike for-in, which gives the keys.        
+   **Example:**
+        const array = [1, 2, 3];
+        for (let value of array) {
+            console.log(value);
+        }
