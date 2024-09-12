@@ -214,4 +214,9 @@
    
    **Responsive Design:** 
             Flexbox adjusts the size and position of items automatically based on the available space, which makes it useful for building layouts that adapt to different devices.
+
+
+**15. what is animatable in css ?**
+
+                In CSS, animatable refers to properties that can be smoothly transitioned or animated over time using CSS animations or transitions. If a CSS property is animatable, you can create visual effects where the property changes gradually rather than instantly.            
                    
