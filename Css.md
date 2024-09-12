@@ -7,6 +7,7 @@
                 font-weight: Determines the thickness of the text (e.g., bold).
                 font-style: Specifies the style of the text (e.g., ital)
 
+
 **2.Difference between display block element and display inline element**    
 
    **Ans:**      
