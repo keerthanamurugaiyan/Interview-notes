@@ -256,4 +256,27 @@
 
 **14. What are fragments?**
          
-         It's a common pattern or practice in React for a component to return multiple elements. Fragments let you group a list of children without adding extra nodes to the DOM. You need to use either <Fragment> or a shorter syntax having empty tag (<></>).     
+         It's a common pattern or practice in React for a component to return multiple elements. Fragments let you group a list of children without adding extra nodes to the DOM. You need to use either <Fragment> or a shorter syntax having empty tag (<></>).
+
+
+**15. React Hooks:** 
+
+   **(i) useState Hook**
+            
+            useState allows you to add state to a function component. It returns two values: the current state and a function to update it.
+
+   **(ii). useEffect Hook:**
+            
+            useEffect lets you perform side effects in function components, such as data fetching, subscriptions, or manually changing the DOM.
+
+   **(iii). useContext Hook:**
+            
+            useContext allows you to access React’s Context API, making it easier to pass data through a component tree without manually passing props at every level.
+
+   **(iv). useReducer Hook:**
+
+            useReducer is used for managing more complex state logic. It's an alternative to useState when state transitions are more involved.
+
+   **(v). useRef Hook:**
+            
+            useRef is used to persist values across renders without causing a re-render when the value changes. It’s often used to reference DOM elements.         
