@@ -970,3 +970,27 @@ Async and await are used to handle asynchronous operations more easily than Prom
         for (let value of array) {
             console.log(value);
         }
+
+
+**58. what is filter in javascript?**
+
+            The filter() method in JavaScript creates a new array with elements that pass the test provided by a function. It doesn’t modify the original array, but instead returns a new array that contains only the elements for which the provided function returns true.
+            const numbers = [1, 2, 3, 4, 5];
+            
+            // Filter out numbers greater than 3
+            const filteredNumbers = numbers.filter(num => num <= 3);
+            
+            console.log(filteredNumbers);  // Output: [4, 5]
+            
+            
+            const employees = [
+              { id: 1, name: 'Alice', age: 25 },
+              { id: 2, name: 'Bob', age: 35 },
+              { id: 3, name: 'Charlie', age: 28 }
+            ];
+            
+            // Filter employees who are 30 or younger
+            const youngEmployees = employees.filter(employee => employee.age <= 28);
+            
+            console.log(youngEmployees);
+            
