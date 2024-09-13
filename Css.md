@@ -217,7 +217,67 @@
             Flexbox adjusts the size and position of items automatically based on the available space, which makes it useful for building layouts that adapt to different devices.
 
 
-**15. what is animatable in css ?**
+**15. CSS position property:**
 
-                In CSS, animatable refers to properties that can be smoothly transitioned or animated over time using CSS animations or transitions. If a CSS property is animatable, you can create visual effects where the property changes gradually rather than instantly.            
+                The CSS position property is used to specify how an element is positioned in a webpage. It determines where an element will appear and how it behaves in relation to other elements
+
+ **Here are the different types of positioning in CSS:**
+
+   **Static:** 
+           This is the default position. Elements are placed in the normal document flow (based on how they appear in the HTML).
+
+   **Relative:**
+           The element is positioned relative to its normal position. You can use top, right, bottom, and left properties to move it from where it would normally be.
+
+   **Absolute:**
+           The element is positioned relative to its nearest positioned ancestor (anything except static). If there's no positioned ancestor, it uses the document body.
+
+   **Fixed:** 
+           The element is positioned relative to the browser window, so it stays in the same place even when the page is scrolled.
+
+   **Sticky:**
+           The element switches between relative and fixed, depending on the scroll position. It behaves like relative until it hits a certain point on the page, and then it sticks in place.                
+
+
+**16. what is animatable in css ?**
+
+                In CSS, animatable refers to properties that can be smoothly transitioned or animated over time using CSS animations or transitions. If a CSS property is animatable, you can create visual effects where the property changes gradually rather than instantly.
+
+
+**17. There are three main types of stylesheets used in web development:**
+
+   **Inline Styles:**
+                Written directly in the HTML element using the style attribute.
+   
+   **Example:**
+       
+        <h1 style="color: blue;">Hello World</h1>
+        Internal (Embedded) Stylesheet:
+        Defined within a <style> tag inside the <head> section of the HTML document.
+        Example:
+        <style>
+          h1 {
+            color: blue;
+          }
+        </style>
+   
+   **External Stylesheet:**
+                Written in a separate CSS file and linked to the HTML document using a <link> tag.
+
+   **Example:**
+        
+        <link rel="stylesheet" href="styles.css">
+        CSS File (styles.css):
+        h1 {
+          color: blue;
+        } 
+
+
+**18. what is colspan  and rowspan in html.**
+    
+   **a)Colspan :**
+              Colspan attribute is used to span a cell across multiple columns.
+    
+   **b) Rowspan :**
+              Rowspan attribute is used to span a cell across multiple rows.        
                    
