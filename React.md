@@ -279,4 +279,27 @@
 
    **(v). useRef Hook:**
             
-            useRef is used to persist values across renders without causing a re-render when the value changes. It’s often used to reference DOM elements.         
+            useRef is used to persist values across renders without causing a re-render when the value changes. It’s often used to reference DOM elements.   
+
+
+**16. What is virtual DOM in React?**
+
+            React uses Virtual DOM which is like a lightweight copy of the actual DOM(a virtual representation of the DOM). So for every object that exists in the original DOM, there is an object for that in React Virtual DOM. It is the same, but it does not have the power to directly change the layout of the document. Manipulating DOM is slow, but manipulating Virtual DOM is fast as nothing gets drawn on the screen. So each time there is a change in the state of our application, the virtual DOM gets updated first instead of the real DOM.            
+
+
+**17. What npm stands for**
+
+            npm stands for Node Package Manager. It's a tool that comes with Node.js and is used to manage libraries and packages in JavaScript projects.
+
+  **Here's a simple breakdown of how npm works:**
+
+   **Node:**
+             Refers to Node.js, a runtime environment that allows JavaScript to run outside of the browser (e.g., on a server).
+
+   **Package:**
+               A package is a piece of reusable code, like a library, that you can install and use in your project.
+  
+   **Manager:**
+               npm helps manage these packages, allowing you to easily install, update, and remove them.
+
+            With npm, you can also create and share your own packages. It’s very common in JavaScript development to use npm to install things like libraries, frameworks, or tools for building applications.
