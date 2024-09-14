@@ -84,4 +84,9 @@ Utilities simplify CSS coding, making development faster and more efficient.
    - **Navbar Toggler:** A "hamburger" icon to toggle the navbar on small screens. Use `.navbar-toggler`.
    - **Collapse Content:** Shows/hides content to save space on small screens. Wrap it in `.collapse`.
    - **Forms:** Embed forms like search or login in the navbar. Use Bootstrap form classes (e.g., `.form-inline`).
-   - **Navbar Text:** Adds text like welcome messages. Use `.navbar-text`.        
+   - **Navbar Text:** Adds text like welcome messages. Use `.navbar-text`.
+
+
+**10. what is bootstrap utility classes?**
+
+            Bootstrap utility classes are predefined CSS classes provided by the Bootstrap framework that enable developers to quickly apply specific styles to elements without writing custom CSS. These classes cover a wide range of styling needs and help in speeding up the development process by providing common, reusable styling options.       
