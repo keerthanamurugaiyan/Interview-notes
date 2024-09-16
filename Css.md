@@ -279,5 +279,10 @@
               Colspan attribute is used to span a cell across multiple columns.
     
    **b) Rowspan :**
-              Rowspan attribute is used to span a cell across multiple rows.        
+              Rowspan attribute is used to span a cell across multiple rows. 
+
+
+**19. What is object-fit property in css?**
+
+                The object-fit property in CSS is used to control how an element’s content fits within its container. This is particularly useful for images and other media elements, allowing you to specify how they should be resized and positioned within a given space.              
                    
