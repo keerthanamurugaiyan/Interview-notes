@@ -284,5 +284,26 @@
 
 **19. What is object-fit property in css?**
 
-                The object-fit property in CSS is used to control how an element’s content fits within its container. This is particularly useful for images and other media elements, allowing you to specify how they should be resized and positioned within a given space.              
+                The object-fit property in CSS is used to control how an element’s content fits within its container. This is particularly useful for images and other media elements, allowing you to specify how they should be resized and positioned within a given space. 
+
+
+**20. What are pseudo-clasees and pseudo-elements?**
+
+   **Pseudo-Classes:**
+
+                A pseudo-class is used to define a special state of an element. It targets elements based on information that is not present in the document tree, such as user interactions or element positions.
+
+   **Pseudo-Elements:**
+
+                A pseudo-element is used to style specific parts of an element, rather than the whole element itself. It creates "virtual" elements that don’t exist in the DOM but are still styleable.
+
+   **Key Differences:**
+
+                Pseudo-classes target the entire element when it is in a specific state (e.g., hovered, focused).
+Pseudo-elements target specific parts of an element (e.g., the first letter, content before/after an element).
+
+   **Syntax:**
+        Pseudo-classes use a single colon (:)
+        : :hover, :focus.
+        Pseudo-elements use double colons (::): ::before, ::after. (However, older versions of CSS allowed pseudo-elements to be written with a single colon.)                
                    
