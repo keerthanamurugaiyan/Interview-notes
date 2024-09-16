@@ -1005,4 +1005,9 @@ Async and await are used to handle asynchronous operations more easily than Prom
    
    **Rejected:** The operation failed, and the promise has a reason for the failure.
 
+
+**60. what is reduceRIght in javascript?**
+
+            In JavaScript, the reduceRight() method is similar to reduce(), but it processes the array from right to left rather than left to right. It applies a function (the "reducer") against an accumulator and each element in the array, reducing it to a single value.   
+
    
