@@ -70,12 +70,14 @@
 
    **Internal Link:**
             An internal link navigates to another page or section within the same website.
+   
    **Syntax:**
             <a href="about.html">About Us</a>
             This link takes the user to the "about.html" page within the same website.
 
    **External Link:**
             An external link takes you to a different website or domain.
+   
    **Syntax:**
             <a href=""https://www.google.com" target="_blank">Go to Google</a>
             This link opens an external website, like Google, often in a new tab if you use target="_blank"  .
