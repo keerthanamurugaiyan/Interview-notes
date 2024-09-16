@@ -303,3 +303,16 @@
                npm helps manage these packages, allowing you to easily install, update, and remove them.
 
             With npm, you can also create and share your own packages. It’s very common in JavaScript development to use npm to install things like libraries, frameworks, or tools for building applications.
+
+
+**18. what are web components**
+
+            Web Components are a set of standardized technologies in web development that allow developers to create reusable, encapsulated, and customizable UI elements. These components work natively in browsers without requiring external libraries or frameworks.
+
+   **Benefits of Web Components:**
+
+   **Reusabil8ity:** Components can be reused across different projects or pages.
+   
+   **Encapsulation:** Styles and scripts within the component are isolated, avoiding conflicts with the global page.
+   
+   **Compatibility:** Works with any framework (React, Vue, Angular) or without a framework, since it's a native browser technology.            
