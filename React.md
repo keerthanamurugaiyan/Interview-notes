@@ -315,4 +315,17 @@
    
    **Encapsulation:** Styles and scripts within the component are isolated, avoiding conflicts with the global page.
    
-   **Compatibility:** Works with any framework (React, Vue, Angular) or without a framework, since it's a native browser technology.            
+   **Compatibility:** Works with any framework (React, Vue, Angular) or without a framework, since it's a native browser technology.
+
+
+**19.  What are components and their type in React?**
+
+            A Component is one of the core building blocks of React. In other words, we can say that every application you will develop in React will be made up of pieces called components. Components make the task of building UIs much easier. 
+
+   **In React, we mainly have two types of components:** 
+
+   **Functional Components:**
+               Functional components are simply javascript functions. We can create a functional component in React by writing a javascript function. 
+
+   **Class Components:** 
+               The class components are a little more complex than the functional components. The functional components are not aware of the other components in your program whereas the class components can work with each other. We can pass data from one class component to another class component.   
