@@ -1010,4 +1010,49 @@ Async and await are used to handle asynchronous operations more easily than Prom
 
             In JavaScript, the reduceRight() method is similar to reduce(), but it processes the array from right to left rather than left to right. It applies a function (the "reducer") against an accumulator and each element in the array, reducing it to a single value.   
 
+
+**61.**
+  **Array.find()**
+   
+   **Purpose:** Returns the first element in the array that satisfies the provided testing function.
+           
+            const numbers = [1, 2, 3, 4, 5];
+            const result = numbers.find((num) => num > 3);
+            console.log(result); // Output: 4
+            Array.findIndex()
+   
+   **Purpose:** Returns the index of the first element in the array that satisfies the provided testing function. If no elements satisfy the testing function, it returns -1.
+           
+            const numbers = [1, 2, 3, 4, 5];
+            const index = numbers.findIndex((num) => num > 3);
+            console.log(index); // Output: 3  
+
+
+**62. What is switch statement in javascript?**
+
+            The switch statement in JavaScript is used for making decisions when you need to compare a variable or expression against several possible values. It's an alternative to using multiple if...else statements and helps make code cleaner and more readable.
+
+   **Syntax:**
+        switch (expression) {
+          **case value1:**
+            // Code to execute if expression === value1
+            break;
+          **case value2:**
+            // Code to execute if expression === value2
+            break;
+          // Add more cases as needed
+          **default:**
+            // Code to execute if no cases match
+        }
+
+  **Key Points:**
+   
+   **Expression :** The value or variable you are comparing.
+   
+   **Case :** Represents a possible value for the expression.
+   
+   **Break :** Ends the current case and exits the switch. Without it, the next case will execute (fall-through).
+   
+   **Default :** If no case matches, execute the default block.            
+
    
