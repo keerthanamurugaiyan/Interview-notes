@@ -305,5 +305,19 @@ Pseudo-elements target specific parts of an element (e.g., the first letter, con
    **Syntax:**
         Pseudo-classes use a single colon (:)
         : :hover, :focus.
-        Pseudo-elements use double colons (::): ::before, ::after. (However, older versions of CSS allowed pseudo-elements to be written with a single colon.)                
+        Pseudo-elements use double colons (::): ::before, ::after. (However, older versions of CSS allowed pseudo-elements to be written with a single colon.)    
+
+
+**21. Explain how CSS variables work.**
+   
+            CSS variables, also known as custom properties, allow you to define values in one place and reuse them throughout your CSS. This helps make your code more maintainable, easier to update, and flexible, especially when working with complex designs.
+
+            CSS variables are defined using the -- prefix and are typically declared within a :root selector so they can be used globally. However, they can also be defined within any specific selector for local use.
+
+   **example:**
+      
+         :root {
+             --primary-color: #3498db;
+             --font-size-large: 20px;
+         }        
                    
