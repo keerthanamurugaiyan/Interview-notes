@@ -84,3 +84,20 @@
   
    **<a> tag:**
        The anchor tag creates the link.            
+
+
+**8.  In how many ways you can display HTML elements?**
+
+   **inline:**     Using this we can display any block-level element as an inline element. The height and width attribute values of the element will not affect.
+
+   **block:**     using this, we can display any inline element as a block-level element. 
+
+   **inline-block:**     This property is similar to inline, except by using the display as inline-block, we can actually format the element using height and width values.
+
+   **flex:**     It displays the container and element as a flexible structure. It follows flexbox property.
+
+   **inline-flex:**     It displays the flex container as an inline element while its content follows the flexbox properties.
+
+   **grid:**     It displays the HTML elements as a grid container.
+
+   **none:**     Using this property we can hide the HTML element.
