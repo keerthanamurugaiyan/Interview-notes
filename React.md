@@ -329,3 +329,14 @@
 
    **Class Components:** 
                The class components are a little more complex than the functional components. The functional components are not aware of the other components in your program whereas the class components can work with each other. We can pass data from one class component to another class component.   
+
+
+**20. What are keys in React and why do we need them?**
+
+            The "key" is a special attribute used when working with arrays of 
+            elements in React. It helps React keep track of changes, additions, 
+            and removals in the array.
+            
+            When you're rendering a list of items, React needs a way to identify 
+            each item uniquely. The "key" prop serves this purpose, allowing 
+            React to efficiently update the user interface.               
