@@ -1056,3 +1056,8 @@ Async and await are used to handle asynchronous operations more easily than Prom
    **Default :** If no case matches, execute the default block.            
 
    
+**63. Difference between Array.map() and Array.forEach()?**
+
+   **Array.map():**     creates a new array by applying a function to each element in the original array. It returns a new array with the transformed data, so you can chain other methods like .filter(), .reduce(), etc.
+
+   **Array.forEach():**     iterates over each element in an array and executes a function, but it does not return a new array. It is used for side effects like logging, modifying external variables, etc.
