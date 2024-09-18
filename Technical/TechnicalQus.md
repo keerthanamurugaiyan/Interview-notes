@@ -147,3 +147,32 @@ for (let [coin, count] of Object.entries(combination)) {
     console.log('Sum:', subset.reduce((acc, val) => acc + val, 0));
 
         
+**10. Rotate an array**
+
+   **function rotateRightByOne:**     
+     
+         function rotateRightByOne(arr) {
+        // Remove the last element and insert it at the beginning of the array
+        let lastElement = arr.pop();  // Removes the last element
+        arr.unshift(lastElement);  // Inserts the last element at the beginning
+        return arr;
+    }
+
+   **Example usage:**
+       
+        const arr = [1, 2, 3, 4, 5];
+        console.log(rotateRightByOne(arr));  // Output: [5, 1, 2, 3, 4]
+
+   **function rotateLeftByOne:**
+   
+           function rotateLeftByOne(arr) {
+            // Remove the first element and append it to the end of the array
+            let firstElement = arr.shift();  // Removes the first element
+            arr.push(firstElement);  // Appends the first element to the end
+            return arr;
+        }
+
+   **Example usage:**
+            
+            const arr = [1, 2, 3, 4, 5];
+            console.log(rotateLeftByOne(arr));  // Output: [2, 3, 4, 5, 1]
