@@ -321,3 +321,7 @@ Pseudo-elements target specific parts of an element (e.g., the first letter, con
              --font-size-large: 20px;
          }        
                    
+
+**22. what is default value in css?**
+
+                In CSS, a default value is the initial or predefined value that a CSS property will take if no specific value is assigned to it by the developer. Every CSS property has a default value that the browser applies automatically when the property isn't explicitly set.
