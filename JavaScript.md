@@ -1061,3 +1061,8 @@ Async and await are used to handle asynchronous operations more easily than Prom
    **Array.map():**     creates a new array by applying a function to each element in the original array. It returns a new array with the transformed data, so you can chain other methods like .filter(), .reduce(), etc.
 
    **Array.forEach():**     iterates over each element in an array and executes a function, but it does not return a new array. It is used for side effects like logging, modifying external variables, etc.
+
+
+   **64. what is default value in css?**
+
+            In CSS, a default value is the initial or predefined value that a CSS property will take if no specific value is assigned to it by the developer. Every CSS property has a default value that the browser applies automatically when the property isn't explicitly set.
