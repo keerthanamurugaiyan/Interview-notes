@@ -1063,6 +1063,19 @@ Async and await are used to handle asynchronous operations more easily than Prom
    **Array.forEach():**     iterates over each element in an array and executes a function, but it does not return a new array. It is used for side effects like logging, modifying external variables, etc.
 
 
-   **64. what is default value in css?**
+**64. what is default value in css?**
 
             In CSS, a default value is the initial or predefined value that a CSS property will take if no specific value is assigned to it by the developer. Every CSS property has a default value that the browser applies automatically when the property isn't explicitly set.
+
+
+**65. What are some of the javascript frameworks and their uses?**
+
+  **Popular JavaScript frameworks and their uses:**
+
+   **1. React:** For building user interfaces with reusable components (developed by Facebook).
+   **2. Angular:** Full-fledged framework for large-scale, enterprise web apps (developed by Google).
+   **3. Vue.js:** Progressive, flexible framework for building user interfaces, great for both small and large apps.
+   **4. Node.js:** Server-side framework for building fast, scalable network applications.
+   **5. Express.js:** Minimalistic backend framework built on Node.js for creating APIs and web apps.
+   **6. Next.js:** Built on React for server-side rendering and static site generation.
+   **7. Svelte:** Compiles components to optimized JavaScript, resulting in faster, smaller applications.            
