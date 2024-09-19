@@ -339,4 +339,9 @@
             
             When you're rendering a list of items, React needs a way to identify 
             each item uniquely. The "key" prop serves this purpose, allowing 
-            React to efficiently update the user interface.               
+            React to efficiently update the user interface.    
+
+
+**20. Why ReactDOM is separated from React?**
+
+            ReactDOM was separated from React to promote modularity and maintainability of the library. Initially, React bundled both the core React library and the DOM-specific rendering logic. However, as React evolved to support multiple platforms (such as web, mobile, and even virtual reality), it became necessary to decouple the core functionality from the platform-specific rendering mechanisms.            
