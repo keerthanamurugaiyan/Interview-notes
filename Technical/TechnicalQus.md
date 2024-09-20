@@ -176,3 +176,28 @@ for (let [coin, count] of Object.entries(combination)) {
             
             const arr = [1, 2, 3, 4, 5];
             console.log(rotateLeftByOne(arr));  // Output: [2, 3, 4, 5, 1]
+
+
+**11. Explain the steps to create a react application and print Hello World?**
+
+            To install React, first, make sure Node is installed on your computer. After installing Node. Open the terminal and type the following command.
+
+        npx create-react-app <<Application_Name>>
+        
+        Navigate to the folder.
+        
+        cd <<Application_Name>>
+        
+        This is the first code of ReactJS Hello World!
+        
+        import React from "react";
+        import "./App.css";
+        function App() {
+          return <div className="App">Hello World !</div>;
+        }
+        export default App;
+        
+        Type the following command to run the application
+        npm start            
+
+
