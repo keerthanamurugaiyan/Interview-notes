@@ -325,3 +325,25 @@ Pseudo-elements target specific parts of an element (e.g., the first letter, con
 **22. what is default value in css?**
 
                 In CSS, a default value is the initial or predefined value that a CSS property will take if no specific value is assigned to it by the developer. Every CSS property has a default value that the browser applies automatically when the property isn't explicitly set.
+
+
+**23. Approaching Cross-Browser Compatibility Issues in CSS:**
+
+                Cross-browser compatibility is about ensuring that a website looks and works consistently across different browsers. Here are common strategies and techniques to handle cross-browser CSS issues:
+
+
+   **Example:** 
+        
+        * {
+          margin: 0;
+          padding: 0;
+          box-sizing: border-box;
+        }                
+
+
+**24. what is  specificity in CSS?**
+        
+   **(i)** Element selector 
+   **(ii)** id selector
+   **(iii)** class selector
+   **(iv)** inline style
