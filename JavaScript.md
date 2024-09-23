@@ -1084,3 +1084,71 @@ Async and await are used to handle asynchronous operations more easily than Prom
 **66. what is charCodeAt() in string methods?**
 
             The charCodeAt() method in JavaScript is used to return the Unicode value (an integer) of the character at a specified index in a string. Unicode values represent characters as numbers, so this method helps you determine the numeric value for a character at a given position.
+
+
+**67. What tools and techniques do you employ for debugging JavaScript code?**
+
+   **1. console.log() Method:**
+
+   **Explanation:**
+        The simplest and most commonly used method is console.log(). It allows you to print variable values or outputs to the browser console, helping you track the flow of your code and identify where it goes wrong.
+
+**Example:**
+        let value = 5;
+        console.log("Value is: ", value);
+
+   **2. Browser Developer Tools:**
+
+   **Explanation:**
+        Every modern browser comes with built-in Developer Tools (DevTools), which provide a rich set of debugging features. Using these, you can inspect elements, check JavaScript errors in the console, view network requests, and even see how JavaScript is executed step-by-step.
+
+   **How to Use:**
+        Right-click on a webpage → Click "Inspect" → Go to the Console tab to see logs and errors.
+
+   **3. debugger Statement:**
+
+   **Explanation:**
+        The debugger keyword stops JavaScript execution at a specific point and lets you examine the values of variables at that point in the code. You can then continue the execution step by step.
+
+   **Example:**
+
+        function checkValue(num) {
+          debugger;  // Pauses the code execution here
+          return num * 2;
+        }
+
+   **4. Error Stack Trace:**
+
+   **Explanation:**
+            When an error occurs, the browser console provides an error stack trace, which shows where the error happened. Clicking on the error link takes you directly to the code line that caused the issue.
+
+   **5. Breakpoints in DevTools:**
+
+   **Explanation:**
+            In Developer Tools, you can set breakpoints on specific lines of code. When the browser reaches that line, it will pause execution, allowing you to inspect variable values and understand the flow.
+
+   **How to Use:**
+
+        Open DevTools → Navigate to the Sources tab → Set breakpoints by clicking on the line number in your code.
+
+   **6. Using try...catch:**
+   
+   **Explanation:**
+        Wrapping code inside a try...catch block helps handle errors gracefully without breaking the whole application. You can use catch to log or manage the error.
+
+   **Example:**
+        try {
+          let value = riskyOperation();
+        } catch (error) {
+          console.log("Error occurred: ", error);
+        }
+
+   **7. Linters (ESLint):**
+
+   **Explanation:**
+        Linters like ESLint analyze your code and automatically detect potential syntax or logical errors. These tools highlight issues before you even run the code, helping you maintain cleaner and error-free code.
+
+   **8. Network Tab (For APIs):**
+
+   **Explanation:**
+            When dealing with API requests, you can use the Network tab in the browser DevTools to check which requests were made, their status, and the data being sent or received. This helps in debugging issues related to API communication.            
