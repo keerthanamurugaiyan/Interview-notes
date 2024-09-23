@@ -100,3 +100,44 @@ Auto-dismissal: They can be set to disappear automatically after a set time or c
  
    **Authorization:**
          Determines what actions, resources, or services a user is allowed to perform, based on their level of access.
+
+
+**11. what is waterfall model and agile model ?**
+
+   **(ii) Waterfall Model:-**
+
+   **Sequential Process:**
+               
+                The Waterfall model is linear and sequential. Each phase must be completed before moving to the next (e.g., Requirements → Design → Implementation → Testing → Deployment → Maintenance).
+
+   **Rigid Structure:**
+           
+                Once a phase is completed, it's difficult to go back and make changes. There’s little room for flexibility or changes during development.
+
+   **Documentation-heavy:**
+                   
+                   This model requires comprehensive documentation at every stage, ensuring that each phase is well documented.
+Best for Small Projects: Waterfall works best for projects with clearly defined requirements that are unlikely to change.
+Testing at the End: Testing is done only after the entire development process is complete, which may delay discovering issues.
+
+   **(i) Agile Model:-**
+
+   **Iterative and Incremental:**
+                   
+                   Agile is flexible and emphasizes iterative development. It breaks the project into small, manageable units (called sprints), where each sprint focuses on developing a small part of the functionality.
+
+   **Flexibility:**
+                   
+                   Agile allows changes to be made throughout the project, even late in the development cycle. Teams can adapt to changing requirements.
+
+   **Continuous Collaboration:**
+   
+                   Agile encourages regular communication and collaboration between developers and stakeholders to ensure the project is on track.
+
+   **Less Documentation:**
+                   
+                   Instead of heavy documentation, Agile focuses on working software and direct collaboration, though some level of documentation is still maintained.
+
+   **Early Testing:**
+   
+                   Testing is done throughout the project at the end of each sprint, which helps identify and fix issues early.
