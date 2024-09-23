@@ -1078,4 +1078,9 @@ Async and await are used to handle asynchronous operations more easily than Prom
    **4. Node.js:** Server-side framework for building fast, scalable network applications.
    **5. Express.js:** Minimalistic backend framework built on Node.js for creating APIs and web apps.
    **6. Next.js:** Built on React for server-side rendering and static site generation.
-   **7. Svelte:** Compiles components to optimized JavaScript, resulting in faster, smaller applications.            
+   **7. Svelte:** Compiles components to optimized JavaScript, resulting in faster, smaller applications.    
+
+
+**66. what is charCodeAt() in string methods?**
+
+            The charCodeAt() method in JavaScript is used to return the Unicode value (an integer) of the character at a specified index in a string. Unicode values represent characters as numbers, so this method helps you determine the numeric value for a character at a given position.
