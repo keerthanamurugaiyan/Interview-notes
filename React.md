@@ -344,4 +344,30 @@
 
 **20. Why ReactDOM is separated from React?**
 
-            ReactDOM was separated from React to promote modularity and maintainability of the library. Initially, React bundled both the core React library and the DOM-specific rendering logic. However, as React evolved to support multiple platforms (such as web, mobile, and even virtual reality), it became necessary to decouple the core functionality from the platform-specific rendering mechanisms.            
+            ReactDOM was separated from React to promote modularity and maintainability of the library. Initially, React bundled both the core React library and the DOM-specific rendering logic. However, as React evolved to support multiple platforms (such as web, mobile, and even virtual reality), it became necessary to decouple the core functionality from the platform-specific rendering mechanisms. 
+
+
+**21. What is conditional rendering in React?**
+
+            Conditional rendering in React involves selectively rendering components based on specified conditions. By evaluating these conditions, developers can control which components are displayed, allowing for dynamic and responsive user interfaces in React applications.
+
+            Let us look at this sample code to understand conditional rendering. 
+
+            {isLoggedIn == false ? <DisplayLoggedOut /> : <DisplayLoggedIn />}
+
+            Here if the boolean isLoggedIn is false then the DisplayLoggedOut component will be rendered otherwise DisplayLoggedIn component will be rendered.            
+
+
+**22. What is Controlled Components?**
+
+   **i)** In controlled components, form elements(like input, textareas, etc.)  are controlled by react state.
+
+   **ii)** The Value of the form elements is bound to the state, and any change in the input updates the state via event handlers like onChange.
+
+**What is UnControlled Components?**
+ 
+   **i)** In uncontrolled components, form elements store their own state in the DOM, and React does not manage it directly.
+
+   **ii)** You access the values of form elements using refs rather than React state.
+
+   
