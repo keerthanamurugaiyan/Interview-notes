@@ -382,7 +382,6 @@ your computer. You can download it from Node.js
 a new React application (replace my-react-app with your 
 
    **preferred application name):**
-
             "npx create-react-app my-react-app"
 
    **3. Run the Application**
