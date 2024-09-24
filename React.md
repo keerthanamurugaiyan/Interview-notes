@@ -371,3 +371,22 @@
    **ii)** You access the values of form elements using refs rather than React state.
 
    
+**23. Explain the steps to create a react application?**
+
+   **1.Install Node:**
+            Before installing React, ensure that Node is installed on 
+your computer. You can download it from Node.js
+
+   **2. Create React App:**
+            Open the terminal and run the following command to create 
+a new React application (replace my-react-app with your 
+
+   **preferred application name):**
+
+            "npx create-react-app my-react-app"
+
+   **3. Run the Application**
+            In the terminal, run the following command to start the 
+
+   **development server:**
+            npm start
