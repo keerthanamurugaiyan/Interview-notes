@@ -1151,4 +1151,25 @@ Async and await are used to handle asynchronous operations more easily than Prom
    **8. Network Tab (For APIs):**
 
    **Explanation:**
-            When dealing with API requests, you can use the Network tab in the browser DevTools to check which requests were made, their status, and the data being sent or received. This helps in debugging issues related to API communication.            
+            When dealing with API requests, you can use the Network tab in the browser DevTools to check which requests were made, their status, and the data being sent or received. This helps in debugging issues related to API communication.   
+
+
+**68. Why are promises used in JavaScript?**
+
+        "Promises in JavaScript are used to handle asynchronous tasks, like loading data from a server. A promise lets us write cleaner code compared to using callbacks. 
+
+   **It has two possible outcomes :**
+        
+        If the task is successful, the promise is fulfilled.
+        If it fails, the promise is rejected.
+        We can handle these outcomes using .then() for success and .catch() for failure. This makes it easier to manage tasks that take         time to complete without blocking other code."
+
+   **Key Features of Promises :**
+   
+   **States:**
+   
+   **Pending :** The initial state; the operation is still ongoing.
+
+   **Fulfilled :** The operation completed successfully.
+   
+   **Rejected :** The operation failed.            
