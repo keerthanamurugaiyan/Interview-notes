@@ -347,3 +347,33 @@ Pseudo-elements target specific parts of an element (e.g., the first letter, con
    **(ii)** id selector
    **(iii)** class selector
    **(iv)** inline style
+
+
+**25. What are CSS Grid and Flexbox, and how do they differ?**
+
+   **CSS Grid:** A two-dimensional layout system that allows you to design both rows and columns. It provides more control over complex layouts with grid lines and areas like dashboards,gallery pages etc.., 
+
+   **Flexbox:** A one-dimensional layout system that arranges items in either a row or a column. It is useful for simpler, linear layouts and is more flexible with item alignment and distribution.
+
+
+**26. .what is universal selector.**
+
+     The universal selector in CSS is represented by the * symbol and is used to select all elements on a web page. It applies the specified styles to every element, unless those elements are overridden by more specific selectors.
+
+      In this case, the universal selector resets the margin and padding to 0 and applies the box-sizing property to all elements on the page.
+
+   **Example:**
+       * {
+          margin: 0;
+          padding: 0;
+          box-sizing: border-box;
+        }   
+
+
+**27. How many tags can be used to separate a section of texts?**
+
+   **<br> tag -** Usually **<br>** tag is used to separate the line of text. It breaks the current line and conveys the flow to the next line
+
+   **<p> tag -** The **<p>** tag contains the text in the form of a new paragraph.
+
+   **<blockquote> tag -** It is used to define a large quoted section. If you have a large quotation, then put the entire text within **<blockquote>.............</blockquote>** tag.        
