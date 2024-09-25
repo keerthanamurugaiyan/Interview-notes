@@ -389,3 +389,22 @@ a new React application (replace my-react-app with your
 
    **development server:**
             npm start
+
+
+**24. what is the difference between element and component in react**
+
+   **Element**
+
+   **Definition:**
+               A React element is an object representation of a DOM node. It is the simplest building block of a React application and describes what you want to see on the screen.
+
+   **Component**
+
+   **Definition:**
+               A React component is a JavaScript function or class that can accept inputs (called props) and returns a React element (or elements). Components can manage their own state and lifecycle.
+
+   **Types:** There are two main types of components:
+
+   **Functional Components:** Simple functions that return a React element.
+
+   **Class Components:** More complex components that can hold and manage state and lifecycle methods.
