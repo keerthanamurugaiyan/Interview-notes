@@ -1172,4 +1172,11 @@ Async and await are used to handle asynchronous operations more easily than Prom
 
    **Fulfilled :** The operation completed successfully.
    
-   **Rejected :** The operation failed.            
+   **Rejected :** The operation failed.  
+
+
+   **69. what is use strict?**
+
+   **=>**  Strict mode in JavaScript is a way to opt into a restricted variant of the language, which helps catch common coding errors and unsafe actions. It was introduced in ECMAScript 5 (ES5) to make it easier to write "secure" JavaScript.
+
+   **=>**  In strict mode, certain actions that would normally fail silently (without throwing an error) will throw an error instead. For example, assigning a value to an undeclared variable will throw an error.
