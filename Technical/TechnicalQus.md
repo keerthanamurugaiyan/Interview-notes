@@ -201,3 +201,36 @@ for (let [coin, count] of Object.entries(combination)) {
         npm start            
 
 
+**12. Write a function to flattern a nested array**
+       
+        let  nums=[1,[2,3],[9,[8,0]]]
+        function user(nums){
+            return nums.flat()
+        }
+        console.log(user(nums))
+
+
+**13. Replace and ReplaceAll in javaScript**
+
+   **replace():** Replaces only the first occurrence of a pattern.
+
+   **replaceAll():** Replaces all occurrences of a pattern.
+
+   **(i),replace();**
+        
+        let str = "Hello world, welcome to the world of JavaScript!";
+        let result = str.replace("world", "universe");
+
+   console.log(result); 
+
+   **// Output:** "Hello universe, welcome to the world of JavaScript!"
+
+   **(ii),replaceAll();**
+
+            let str = "Hello world, welcome to the world of JavaScript!";
+            let result = str.replaceAll("world", "universe");
+
+    console.log(result); 
+
+   **// Output:** "Hello universe, welcome to the universe of JavaScript!"
+   
