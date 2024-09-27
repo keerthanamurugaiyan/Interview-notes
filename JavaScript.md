@@ -1180,3 +1180,23 @@ Async and await are used to handle asynchronous operations more easily than Prom
    **=>**  Strict mode in JavaScript is a way to opt into a restricted variant of the language, which helps catch common coding errors and unsafe actions. It was introduced in ECMAScript 5 (ES5) to make it easier to write "secure" JavaScript.
 
    **=>**  In strict mode, certain actions that would normally fail silently (without throwing an error) will throw an error instead. For example, assigning a value to an undeclared variable will throw an error.
+
+
+**70. what is break statement in javascript?**
+
+            In JavaScript, the break statement is used to terminate a loop, switch statement, or a labeled block of code before it completes its normal execution. When the break statement is encountered, the program exits the loop or block and continues executing the code that follows it.
+
+
+**71. how to run javascript using tag?**
+
+    This method places the JavaScript directly inside the <script> tag in the HTML file.
+     
+   **Inline JavaScript:**
+         <script>
+            function showMessage() {
+                alert("Hello, this is JavaScript running inside an HTML file!");
+            }
+        </script>
+     
+   **External JavaScript:**
+          <script src="script.js"></script>
