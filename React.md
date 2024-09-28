@@ -81,12 +81,16 @@
       root.render(myElement);        
 
 
-**5.  What is the use of Redux in React?**
+**5. (i) what is redux saga**
 
-      Redux helps manage the state of your entire React application in a centralized way. Instead of each component managing its own state, Redux allows you to keep the application’s state in one place (the store). This makes it easier to handle complex applications, share data between components, and maintain the state across different parts of your app.
+            Redux Saga is a middleware library that helps manage side effects in Redux applications, such as data fetching or communicating with external services.It allows you to handle complex asynchronous operations in a more predictable and efficient way. Redux Saga works by using generator functions, which enable you to write asynchronous code that looks synchronous, making it easier to read, test, and maintain.
+
+   **(ii) What is the use of Redux in React?**
+
+            Redux helps manage the state of your entire React application in a centralized way. Instead of each component managing its own state, Redux allows you to keep the application’s state in one place (the store). This makes it easier to handle complex applications, share data between components, and maintain the state across different parts of your app.
 
    
-**What is difference between ReactJS and Redux:**      
+**(iii) What is difference between ReactJS and Redux:**      
 
    **ReactJS:**
       
