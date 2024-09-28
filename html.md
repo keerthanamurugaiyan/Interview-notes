@@ -101,3 +101,14 @@
    **grid:**     It displays the HTML elements as a grid container.
 
    **none:**     Using this property we can hide the HTML element.
+
+
+   **9. 1. What is the use of an iframe tag?**
+    
+                  In HTML, the <iframe> tag is used to embed another HTML document within the current document. It's like showing another webpage inside your webpage. Think of it as creating a window inside your page, and through that window, you can see another web page or content.
+
+   **Example:**
+          
+          <iframe src="https://www.example.com" width="600" height="400"></iframe>
+
+            https://www.example.com
