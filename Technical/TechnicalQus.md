@@ -234,3 +234,16 @@ for (let [coin, count] of Object.entries(combination)) {
 
    **// Output:** "Hello universe, welcome to the universe of JavaScript!"
    
+
+**14. write a program to find a minimum in array**
+       
+        function user(arr){
+            if(arr.length === 0){
+                return "Array is Empty";
+            }
+            return Math.min(...arr);
+        }
+        let num = [2, 90, 99, 88, 34];
+        
+        console.log(user(num));
+
