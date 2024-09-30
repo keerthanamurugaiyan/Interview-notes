@@ -1254,3 +1254,97 @@ Async and await are used to handle asynchronous operations more easily than Prom
    **8. How does using Promises improve code structure?**
 
            - Using Promises improves code structure by allowing chaining of `.then()` methods, which flattens the code and makes it easier to read and manage.
+
+
+**75. what is String?**
+
+        A string is a sequence of characters, like letters, numbers, symbols, or spaces, used to represent text in programming. In most programming languages, a string is enclosed in quotes (either single quotes ' ', double quotes " ", or backticks ` ` in JavaScript).
+
+   **String Methods**
+
+concat()
+let str1 = "Hello";
+let str2 = "World";
+let result = str1.concat(" ", str2);
+console.log(result); // Output: "Hello World"
+
+
+replace() -Replaces a specified value in the string with another value.
+
+let str = "I love JavaScript";
+let result = str.replace("JavaScript", "React");
+console.log(result); // Output: "I love React"
+
+
+toLowerCase()-Converts all characters in the string to lowercase.
+
+let str = "HELLO WORLD";
+let result = str.toLowerCase();
+console.log(result); // Output: "hello world"
+
+
+toUpperCase() – Converts all characters in the string to uppercase.
+
+let str = "hello world";
+let result = str.toUpperCase();
+console.log(result); // Output: "HELLO WORLD"
+
+
+str.length – Returns the length (number of characters) of the string.
+
+let str = "Hello";
+console.log(str.length); // Output: 5
+
+
+trim() – Removes whitespace from both sides of the string.
+
+let str = "       Hello World   ";
+let result = str.trim();
+console.log(result); // Output: "Hello World"
+
+padEnd() – Pads the string at the end with a specified string until it reaches a given length.
+
+let str = "Hello";
+let result = str.padEnd(10, ".");
+console.log(result); // Output: "Hello....."
+
+
+indexOf() – Returns the index of the first occurrence of the specified value in the string. If not found, it returns `-1`.
+
+let str = "Hello World";
+let result = str.indexOf("a");
+console.log(result); // Output: 6
+
+
+lastIndexOf() – Returns the index of the last occurrence of the specified value in the string. If not found, it returns `-1`.
+
+let str = "Hello Hello World";
+let result = str.lastIndexOf("Hello");
+console.log(result); // Output: 6
+
+
+search() – Searches for a match in the string based on a regular expression and returns the index of the match.
+
+let str = "I love JavaScript";
+let result = str.search("JavaScript");
+console.log(result); // Output: 7
+
+includes() – Checks if the string contains the specified value. Returns `true` or `false`.
+
+let str = "I love JavaScript";
+let result = str.includes("loves");
+console.log(result); // Output: true
+
+
+startsWith() – Checks if the string starts with the specified value. Returns `true` or `false`.
+
+let str = "Hello World";
+let result = str.startsWith("W");
+console.log(result); // Output: true
+
+
+endsWith()– Checks if the string ends with the specified value. Returns `true` or `false`.
+
+let str = "Hello World";
+let result = str.endsWith("World");
+console.log(result); // Output: true
