@@ -509,7 +509,7 @@ Async and await are used to handle asynchronous operations more easily than Prom
 
 **27. What is NaN property in JavaScript?**
 
-      NaN property represents the “Not-a-Number” value. It indicates a value that is not a legal number.
+   JavaScript's **NaN** property stands for **"Not-a-Number."** It is a special value that indicates a mathematical operation has resulted in a value that is not a valid number. For example, trying to divide zero by zero or performing an invalid type conversion can lead to NaN.
 
       typeof of NaN will return a Number.
 
