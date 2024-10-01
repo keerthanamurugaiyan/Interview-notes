@@ -412,3 +412,8 @@ a new React application (replace my-react-app with your
    **Functional Components:** Simple functions that return a React element.
 
    **Class Components:** More complex components that can hold and manage state and lifecycle methods.
+
+
+**25. What is higher-order component in React?**
+
+            Higher-order components or HOC is the advanced method of reusing the component functionality logic. It simply takes the original component and returns the enhanced component. HOC are beneficial as they are easy to code and read. Also, helps to get rid of copying the same logic in every component.
