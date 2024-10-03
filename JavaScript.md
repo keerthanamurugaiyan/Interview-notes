@@ -1262,89 +1262,126 @@ Async and await are used to handle asynchronous operations more easily than Prom
 
    **String Methods**
 
-concat()
-let str1 = "Hello";
-let str2 = "World";
-let result = str1.concat(" ", str2);
-console.log(result); // Output: "Hello World"
+   **- concat()**
+        
+            let str1 = "Hello";
+            let str2 = "World";
+            let result = str1.concat(" ", str2);
+            console.log(result); // Output: "Hello World"
+
+   **- replace() -Replaces a specified value in the string with another value.**
+
+            let str = "I love JavaScript";
+            let result = str.replace("JavaScript", "React");
+            console.log(result); // Output: "I love React"
+
+   **- toLowerCase()-Converts all characters in the string to lowercase.**
+
+            let str = "HELLO WORLD";
+            let result = str.toLowerCase();
+            console.log(result); // Output: "hello world"
+
+   **- toUpperCase() – Converts all characters in the string to uppercase.**
+
+            let str = "hello world";
+            let result = str.toUpperCase();
+            console.log(result); // Output: "HELLO WORLD"
+
+   **- str.length – Returns the length (number of characters) of the string.**
+
+            let str = "Hello";
+            console.log(str.length); // Output: 5
+
+   **- trim() – Removes whitespace from both sides of the string.**
+
+            let str = "       Hello World   ";
+            let result = str.trim();
+            console.log(result); // Output: "Hello World"
+
+   **- padEnd() – Pads the string at the end with a specified string until it reaches a given length.**
+
+            let str = "Hello";
+            let result = str.padEnd(10, ".");
+            console.log(result); // Output: "Hello....."
+
+   **- indexOf() – Returns the index of the first occurrence of the specified value in the string. If not found, it returns `-1`.**
+
+            let str = "Hello World";
+            let result = str.indexOf("a");
+            console.log(result); // Output: 6
 
 
-replace() -Replaces a specified value in the string with another value.
+   **- lastIndexOf() – Returns the index of the last occurrence of the specified value in the string. If not found, it returns `-1`.**
 
-let str = "I love JavaScript";
-let result = str.replace("JavaScript", "React");
-console.log(result); // Output: "I love React"
+            let str = "Hello Hello World";
+            let result = str.lastIndexOf("Hello");
+            console.log(result); // Output: 6
 
+   **- search() – Searches for a match in the string based on a regular expression and returns the index of the match.**
 
-toLowerCase()-Converts all characters in the string to lowercase.
+            let str = "I love JavaScript";
+            let result = str.search("JavaScript");
+            console.log(result); // Output: 7
 
-let str = "HELLO WORLD";
-let result = str.toLowerCase();
-console.log(result); // Output: "hello world"
+   **includes() – Checks if the string contains the specified value. Returns `true` or `false`.**
 
+            let str = "I love JavaScript";
+            let result = str.includes("loves");
+            console.log(result); // Output: true
 
-toUpperCase() – Converts all characters in the string to uppercase.
+   **- startsWith() – Checks if the string starts with the specified value. Returns `true` or `false`.**
 
-let str = "hello world";
-let result = str.toUpperCase();
-console.log(result); // Output: "HELLO WORLD"
+            let str = "Hello World";
+            let result = str.startsWith("W");
+            console.log(result); // Output: true
 
+   **- endsWith()– Checks if the string ends with the specified value. Returns `true` or `false`.**
 
-str.length – Returns the length (number of characters) of the string.
-
-let str = "Hello";
-console.log(str.length); // Output: 5
-
-
-trim() – Removes whitespace from both sides of the string.
-
-let str = "       Hello World   ";
-let result = str.trim();
-console.log(result); // Output: "Hello World"
-
-padEnd() – Pads the string at the end with a specified string until it reaches a given length.
-
-let str = "Hello";
-let result = str.padEnd(10, ".");
-console.log(result); // Output: "Hello....."
+            let str = "Hello World";
+            let result = str.endsWith("World");
+            console.log(result); // Output: true
 
 
-indexOf() – Returns the index of the first occurrence of the specified value in the string. If not found, it returns `-1`.
+**76. Explain passed by value and passed by reference.:**  
 
-let str = "Hello World";
-let result = str.indexOf("a");
-console.log(result); // Output: 6
+        Differentiate between pass by value and pass by reference.  
 
+   **- Pass by Value:** A copy of the data is passed to the function, so changes inside the function do not affect the original value.
 
-lastIndexOf() – Returns the index of the last occurrence of the specified value in the string. If not found, it returns `-1`.
+   **- Pass by Reference:** A reference to the original data is passed, so changes inside the function directly affect the original variable.
 
-let str = "Hello Hello World";
-let result = str.lastIndexOf("Hello");
-console.log(result); // Output: 6
+   **Key Differences:**
 
+   **Pass by Value:**     Only a copy is passed, original data is not changed.
 
-search() – Searches for a match in the string based on a regular expression and returns the index of the match.
-
-let str = "I love JavaScript";
-let result = str.search("JavaScript");
-console.log(result); // Output: 7
-
-includes() – Checks if the string contains the specified value. Returns `true` or `false`.
-
-let str = "I love JavaScript";
-let result = str.includes("loves");
-console.log(result); // Output: true
+   **Pass by Reference:**   A reference to the actual data is passed, and changes affect the original data.
 
 
-startsWith() – Checks if the string starts with the specified value. Returns `true` or `false`.
+**77. What is JSON and why is it used?**
 
-let str = "Hello World";
-let result = str.startsWith("W");
-console.log(result); // Output: true
+        JSON (JavaScript Object Notation) is a lightweight data format used to store and transfer data. It’s easy to read and write for humans, and easy for machines to parse and generate. JSON is widely used in web applications to send and receive data between a server and a client.
+
+   **example:-**
+        
+        {
+          "name": "John",
+          "age": 25,
+          "city": "Chennai"
+        }
+
+   **- Why is JSON used?**
+
+   **Lightweight:** JSON is simple and lightweight, which makes data transfer over the network faster and more efficient.
+
+   **Language-Independent:** Although JSON originated from JavaScript, it is supported by almost all programming languages like Python, Java, C#, etc. This makes it versatile for data exchange between different platforms.
+
+   **Easy to Parse:** Both browsers and servers can easily parse JSON, making it ideal for transferring data in web applications.
 
 
-endsWith()– Checks if the string ends with the specified value. Returns `true` or `false`.
+**78. what is type conversion in js?**
 
-let str = "Hello World";
-let result = str.endsWith("World");
-console.log(result); // Output: true
+        Type conversion (or type coercion) is the process of converting one data type to another. In JavaScript, there are two types of type conversion:
+
+   **Implicit type conversion (Automatic type conversion):** JavaScript automatically converts one data type to another based on the operation being performed.
+
+   **Explicit type conversion (Manual type conversion):** You manually convert one data type to another using specific functions or methods.
