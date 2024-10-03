@@ -247,3 +247,34 @@ for (let [coin, count] of Object.entries(combination)) {
         
         console.log(user(num));
 
+
+**15. Write a program**
+        *****
+        ****
+        ***
+        **
+        *
+
+        function user(star){
+    for(let i=star; i>=1;i--){
+        let twinkle='';
+        for(j=1;j<=i; j++){
+            twinkle +="*"
+        }
+        console.log(twinkle);
+    }
+  }
+  user(5)
+
+   **Output**
+
+        *****
+        ****
+        ***
+        **
+        *
+
+
+
+
+  
