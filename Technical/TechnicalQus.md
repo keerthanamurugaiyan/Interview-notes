@@ -251,13 +251,9 @@ for (let [coin, count] of Object.entries(combination)) {
 **15. Write a program**
         
         *****
-       
         ****
-       
         ***
-       
-        **
-        
+        **        
         *
 
         function user(star){
@@ -280,10 +276,22 @@ for (let [coin, count] of Object.entries(combination)) {
         *
 
 
-**17. .What would be the result of 3+2+”7″?**
+**16. What would be the result of 3+2+”7″?**
     
    Here, 3 and 2 behave like an integer, and “7” behaves like a string. So 3 plus 2 will be 5. Then the output will be **5+”7″ = 57.**
 
 
+**17. Math Properties:**
 
-  
+        console.log(Math.PI);
+        console.log(Math.trunc(Math.PI));
+        console.log(Math.round(5.4));
+        console.log(Math.ceil(5.3));
+        console.log(Math.floor(4.8));
+        console.log(Math.pow(3,4));
+        console.log(Math.min(4,6));
+        console.log(Math.max(6,3));
+        console.log(Math.random());
+        console.log(Math.floor(Math.random()*100+1))
+        
+          
