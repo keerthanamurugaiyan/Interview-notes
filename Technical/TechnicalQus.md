@@ -249,10 +249,15 @@ for (let [coin, count] of Object.entries(combination)) {
 
 
 **15. Write a program**
+        
         *****
+       
         ****
+       
         ***
+       
         **
+        
         *
 
         function user(star){
@@ -274,6 +279,10 @@ for (let [coin, count] of Object.entries(combination)) {
         **
         *
 
+
+**17. .What would be the result of 3+2+”7″?**
+    
+   Here, 3 and 2 behave like an integer, and “7” behaves like a string. So 3 plus 2 will be 5. Then the output will be **5+”7″ = 57.**
 
 
 
