@@ -283,25 +283,34 @@ for (let [coin, count] of Object.entries(combination)) {
 
 **17. Math Properties:**
 
-       (i) console.log(Math.PI);    
-            // output: 3.141592653589793
-       (ii) console.log(Math.trunc(Math.PI));   
-            // output: 3
-       (iii) console.log(Math.round(5.4));    
-            //output:5
-       (iv) console.log(Math.ceil(5.3));    
-            //output:6
-       (v) console.log(Math.floor(4.8));   
-            //output:4
-       (vi) console.log(Math.pow(3,4));
-            //output:81
-        (vii) console.log(Math.min(4,6));   
-            //output:4
-        (viii) console.log(Math.max(6,3));    
-            //output:6
-        (ix) console.log(Math.random());    
-            //output:0.5487990729071615
-        (x) console.log(Math.floor(Math.random()*100+1));    
-            //output:55
+   **(i)** console.log(Math.PI);    
+            **// output: 3.141592653589793**
+       
+   **(ii)** console.log(Math.trunc(Math.PI));   
+            **// output: 3**
+       
+   **(iii)** console.log(Math.round(5.4));    
+            **//output:5**
+       
+   **(iv)** console.log(Math.ceil(5.3));    
+            **//output:6**
+       
+   **(v)** console.log(Math.floor(4.8));   
+            **//output:4**
+       
+   **(vi)** console.log(Math.pow(3,4));
+            **//output:81**
+       
+   **(vii)** console.log(Math.min(4,6));   
+              **//output:4**
+       
+   **(viii)** console.log(Math.max(6,3));    
+              **//output:6**
+       
+   **(ix)** console.log(Math.random());    
+             **//output:0.5487990729071615**
+       
+   **(x)** console.log(Math.floor(Math.random()*100+1));    
+             **//output:55**
         
           
