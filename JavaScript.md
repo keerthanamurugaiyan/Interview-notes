@@ -1385,3 +1385,11 @@ Async and await are used to handle asynchronous operations more easily than Prom
    **Implicit type conversion (Automatic type conversion):** JavaScript automatically converts one data type to another based on the operation being performed.
 
    **Explicit type conversion (Manual type conversion):** You manually convert one data type to another using specific functions or methods.
+
+
+**79. addEventListener() and removeEventListener()**
+
+   **(i)   The addEventListener()** method in JavaScript is used to attach an event handler to a specified element, so that when the specified event occurs, the attached handler function is executed. It can be applied to any DOM element, the document, window, or other objects that support events.
+
+   **(ii)   removeEventListener()** is a JavaScript method used to remove an event listener that was previously added using addEventListener(). When you use this method, the event will no longer trigger the function that was originally attached to it.
+
