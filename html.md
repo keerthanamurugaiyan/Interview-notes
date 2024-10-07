@@ -117,7 +117,9 @@
         The HTML provides an anchor tag to create a hyperlink that links one page to another page. These tags can appear in any of the following ways:
 
    **Unvisited link** - It is displayed, underlined and blue.
+   
    **Visited link** - It is displayed, underlined and purple.
+   
    **Active link** - It is displayed, underlined and red.
 
    
