@@ -417,3 +417,33 @@ a new React application (replace my-react-app with your
 **25. What is higher-order component in React?**
 
             Higher-order components or HOC is the advanced method of reusing the component functionality logic. It simply takes the original component and returns the enhanced component. HOC are beneficial as they are easy to code and read. Also, helps to get rid of copying the same logic in every component.
+
+
+**26. what is the diffference between takeEvery and takeLatest in redux saga?**
+
+Here’s a concise 2-mark explanation of the difference between `takeEvery` and `takeLatest` in Redux Saga:
+
+---
+
+### **Difference between takeEvery and takeLatest:**
+
+ **takeEvery:**
+
+ - **Definition:** Allows multiple instances of a saga to run concurrently for each dispatched action.
+
+ - **Behavior:** Each action dispatched triggers a new saga, meaning all instances run to completion.
+
+ **takeLatest:**
+
+ - **Definition:** Only allows the most recent instance of a saga to run, canceling any previous instances for the same action type.
+    
+ - **Behavior:** If a new action is dispatched while a saga is still running, the previous saga is canceled, and only the latest action is processed.
+
+
+### Summary of Differences:
+| Feature              | `takeEvery`                           | `takeLatest`                          |
+|----------------------|---------------------------------------|---------------------------------------|
+| **Behavior**         | Spawns a new saga for every action   | Cancels previous saga, keeps the latest |
+| **Concurrency**      | Allows multiple sagas to run         | Only runs the latest saga             |
+| **Use Case**         | When every action should be handled   | When only the latest action matters   |
+
