@@ -94,4 +94,12 @@ Utilities simplify CSS coding, making development faster and more efficient.
 
 **10.  What is a Bootstrap modal and how do you use it?**
 
-            A modal is a popup window that is displayed on top of the current page. You can create a modal using the modal class and trigger it with a button or link using data-toggle="modal" and data-target="#modalId" attributes            
+            A modal is a popup window that is displayed on top of the current page. You can create a modal using the modal class and trigger it with a button or link using data-toggle="modal" and data-target="#modalId" attributes  
+
+
+**11. What is a navbar in Bootstrap?**
+
+        A navbar (navigation bar) in Bootstrap is a component that helps create a responsive navigation menu for a website. It typically contains links to different sections of the website, making it easy for users to navigate through the content.            
+
+
+
