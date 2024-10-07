@@ -1393,3 +1393,84 @@ Async and await are used to handle asynchronous operations more easily than Prom
 
    **(ii)   removeEventListener()** is a JavaScript method used to remove an event listener that was previously added using addEventListener(). When you use this method, the event will no longer trigger the function that was originally attached to it.
 
+
+**80.  What are the types of errors in javascript?**
+
+In JavaScript, errors can generally be classified into two types:
+
+### 1. **Syntax Error:**
+   - Syntax errors occur when there are **mistakes in the code's structure or spelling**, causing the program to fail to execute or stop running unexpectedly.
+   
+   - The code won't work, and JavaScript will typically provide an error message indicating the issue.
+
+  **Example:**
+  ```js
+  console.log("Hello  // Missing closing quotation and parenthesis
+  ```
+
+### 2. **Logical Error:**
+  - Logical errors happen when the code's **syntax is correct**, but the **logic** or **program behavior** is wrong. 
+  
+  - The program runs without showing an error, but the results are incorrect. These errors are harder to spot because the code doesn't produce any error messages.
+
+  **Example:**
+  ```js
+  let total = 10;
+  let result = total * 2;  // Expected division, but used multiplication
+  ```
+
+### Summary:
+- **Syntax Error:** Code won't run due to incorrect grammar or structure.
+- **Logical Error:** Code runs, but produces the wrong output due to flawed logic.
+
+
+**81.explanation for each of the errors in JavaScript:**
+
+### **1. Syntax Error:**
+A **syntax error** happens when there’s a mistake in the way the code is written. JavaScript can’t understand the code because it doesn’t follow proper rules.
+
+#### Example:
+```js
+console.log("Hello"  // Missing closing bracket
+```
+
+### **2. Reference Error:**
+A **reference error** occurs when you try to use a variable that hasn’t been defined or declared yet.
+
+#### Example:
+```js
+console.log(x);  // 'x' is not defined
+```
+
+### **3. Type Error:**
+A **type error** happens when a value is used in an incorrect way, like calling a function on something that isn’t a function.
+
+#### Example:
+```js
+let num = 5;
+num.toUpperCase();  // Numbers don't have 'toUpperCase()' method
+```
+
+### **4. Range Error:**
+A **range error** occurs when a number is out of its allowable range. For example, giving an array a negative size.
+
+#### Example:
+```js
+let arr = new Array(-1);  // Array size cannot be negative
+```
+
+### **5. Eval Error:**
+An **eval error** occurs when the `eval()` function is used incorrectly or with invalid code. The `eval()` function executes a string as code.
+
+#### Example:
+```js
+eval("5 +");  // Incomplete code, so it causes an Eval Error
+```
+
+### **6. URI Error:**
+A **URI (URL) error** happens when a URL (web address) is incorrectly formatted or contains invalid characters during encoding or decoding.
+
+#### Example:
+```js
+decodeURI("%");  // Invalid character in URL causes an error
+```
