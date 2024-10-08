@@ -1,4 +1,4 @@
-1.   In Javascript write a function that takes a string. Split the string by dot(.) and returns the second last string from that split. If there are no dots in the original string return an empty string. For example the parameter "ggg.ttt.com" the function returns "ttt"?
+1.   In Javascript write a function that takes a string. Split the string by dot(.) and returns the second last string from that split. If there are no dots in the original string return an empty string. For example the parameter "ggg.ttt.com" the function returns "ttt"?**
 
 varum
 
@@ -12,6 +12,7 @@ function elements(str){
 console.log(elements("aaa.bbbb.hdhsfh.sdfhdsgh.sdhghgsdh"))
 console.log(elements("aagfggga"))
 console.log(elements("aaa.ccc.hhh.fgfftt.hhghgg"))
+
 
 **2. Given the following JavaScript code, which calculates the minimum number of coins needed to make a specific total, what will the output be when the total is set to 108?**
 
