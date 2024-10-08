@@ -1474,3 +1474,76 @@ A **URI (URL) error** happens when a URL (web address) is incorrectly formatted 
 ```js
 decodeURI("%");  // Invalid character in URL causes an error
 ```
+
+
+**81. Rest Operator:**
+
+        The rest operator is used to collect multiple elements into a single array or object. It gathers remaining elements into an array or object when used in function parameters or object destructuring.
+        
+        const [first, ...rest] = [1, 2, 3, 4];
+        console.log(first); // 1
+        console.log(rest); // [2, 3, 4]
+
+
+**82. createElement**
+
+        In the DOM (Document Object Model), createElement is a method used to create a new HTML element dynamically using JavaScript. It allows you to programmatically add elements to your web page without having to hard-code them in the HTML.
+
+   **Syntax:**
+        document.createElement(tagName)
+
+   **Example**
+        **// Create a new <p> element**
+         const newParagraph = document.createElement('p');
+
+   **// Add some text content to the new element**
+     newParagraph.textContent = 'This is a dynamically created paragraph.';
+
+   **// Append the new element to the body of the document**
+      document.body.appendChild(newParagraph);
+
+   **createTextNode**
+        
+        In the DOM, you can create a text node using the createTextNode method. A text node contains the actual text content that you want to insert into an element.
+
+   **Syntax**
+        document.createTextNode(data)
+
+   **Example**
+        
+   **// Create a new <p> element**
+        const newParagraph = document.createElement('p');
+
+   **// Create a text node with some text**
+            const textNode = document.createTextNode('This is a text node inside a paragraph.');
+
+   **// Append the text node to the <p> element**
+            newParagraph.appendChild(textNode);
+
+   **// Append the <p> element to the document body**
+            document.body.appendChild(newParagraph);
+
+   **createAttribute**
+   
+        In the DOM, you can use the createAttribute method to create a new attribute for an element. After creating the attribute, you can assign a value to it and then add it to an element using the setAttributeNode method.
+
+   **Syntax**
+        document.createAttribute(attributeName)
+
+   **Example**
+    **// Create a new <div> element**
+    const newDiv = document.createElement('div');
+
+   **// Create a new attribute 'id'**
+    const newAttribute = document.createAttribute('id');
+
+   **// Set the value for the new attribute**
+    newAttribute.value = 'uniqueID';
+
+   **// Add the attribute to the <div> element**
+    newDiv.setAttributeNode(newAttribute);
+
+   **// Append the <div> element to the body**
+    document.body.appendChild(newDiv);        
+
+    
