@@ -314,3 +314,36 @@ for (let [coin, count] of Object.entries(combination)) {
              **//output:55**
         
           
+**18. Memoization**
+
+        Memoization is the process of caching the result of a function based on its inputs, so the function doesn't need to recompute the result if the same inputs are given again
+
+            function add(num1, num2) {
+              console.log('Calculating...');
+              return num1 + num2;
+            }
+            
+            function memoize(fn) {
+              let cache = {};
+              return function (num1, num2) {
+                let key = num1 + ',' + num2;
+                if (cache[key]) {
+                  return cache[key];
+                } else {
+                  let result = fn(num1, num2);
+                  cache[key] = result;
+                  return result;
+                }
+              };
+            }
+            
+            const memoizedAdd = memoize(add);
+            
+            console.log(memoizedAdd(2, 3)); // First time
+            console.log(memoizedAdd(2, 3)); // Second time (from cache)
+
+   **//OutPut:**
+
+       Calculating...
+       5
+       5
