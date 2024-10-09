@@ -1,4 +1,4 @@
-1.   In Javascript write a function that takes a string. Split the string by dot(.) and returns the second last string from that split. If there are no dots in the original string return an empty string. For example the parameter "ggg.ttt.com" the function returns "ttt"?**
+**1.   In Javascript write a function that takes a string. Split the string by dot(.) and returns the second last string from that split. If there are no dots in the original string return an empty string. For example the parameter "ggg.ttt.com" the function returns "ttt"?**
 
 varum
 
@@ -348,3 +348,27 @@ for (let [coin, count] of Object.entries(combination)) {
        Calculating...
        5
        5
+
+
+**16. //  Write a JavaScript function to print the following  number pattern:**
+
+function numbers(row){
+    for(let i=1; i <= row; i++){
+        let total="";
+        for(let j=1; j <=i; j++){
+            total += j + ' '
+        }
+        console.log(total)
+    }
+    
+}
+numbers(5)       
+
+
+   **outPut**
+
+        // 1
+        // 1 2
+        // 1 2 3
+        // 1 2 3 4
+        // 1 2 3 4 5
