@@ -376,4 +376,18 @@ Pseudo-elements target specific parts of an element (e.g., the first letter, con
 
    **<p> tag -** The **<p>** tag contains the text in the form of a new paragraph.
 
-   **<blockquote> tag -** It is used to define a large quoted section. If you have a large quotation, then put the entire text within **<blockquote>.............</blockquote>** tag.        
+   **<blockquote> tag -** It is used to define a large quoted section. If you have a large quotation, then put the entire text within **<blockquote>.............</blockquote>** tag. 
+
+
+**28. What does margin: 40px 100px 120px 80px signify?**
+
+   **The shorthand notation margin:** 40px 100px 120px 80px; in CSS sets the margin for each side of an element in a clockwise order, starting from the top.
+   
+   **Here's what each value represents:**
+       
+        Top margin: 40px
+        Right margin: 100px
+        Bottom margin: 120px
+        Left margin: 80px
+
+        This means that the element will have 40 pixels of space on the top, 100 pixels on the right, 120 pixels at the bottom, and 80 pixels on the left.   
