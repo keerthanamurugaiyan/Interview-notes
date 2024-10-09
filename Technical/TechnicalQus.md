@@ -352,17 +352,17 @@ for (let [coin, count] of Object.entries(combination)) {
 
 **16. //  Write a JavaScript function to print the following  number pattern:**
 
-function numbers(row){
-    for(let i=1; i <= row; i++){
-        let total="";
-        for(let j=1; j <=i; j++){
-            total += j + ' '
-        }
-        console.log(total)
-    }
-    
-}
-numbers(5)       
+            function numbers(row){
+                for(let i=1; i <= row; i++){
+                    let total="";
+                    for(let j=1; j <=i; j++){
+                        total += j + ' '
+                    }
+                    console.log(total)
+                }
+                
+            }
+            numbers(5)       
 
 
    **outPut**
