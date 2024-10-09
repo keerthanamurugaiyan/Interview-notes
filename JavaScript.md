@@ -1588,3 +1588,17 @@ decodeURI("%");  // Invalid character in URL causes an error
              console.log(entriesArray); // Output: [['a', 1], ['b', 2], ['c', 3]].
 
      
+**84. 1. What are template literals in JavaScript?**
+      
+      Template literals are a way to define strings in JavaScript using backticks (). They allow for multi-line strings and             
+      interpolation of expressions using ${expression} syntax. 
+
+   **For example:**
+                 
+                 const name = 'John';
+                 const greeting = Hello, ${name}! Welcome to JavaScript.`;
+                 console.log(greeting); 
+
+   **// Output: "Hello, John! Welcome to JavaScript."**
+
+                 
