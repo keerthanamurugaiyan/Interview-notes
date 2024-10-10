@@ -391,3 +391,12 @@ Pseudo-elements target specific parts of an element (e.g., the first letter, con
         Left margin: 80px
 
         This means that the element will have 40 pixels of space on the top, 100 pixels on the right, 120 pixels at the bottom, and 80 pixels on the left.   
+
+
+**29. Pseudo-class and Pseudo-element** 
+
+   **Pseudo-class:**
+                Pseudo-class selects the state of the entire element **(e.g., :hover or :focus).**
+
+   **Pseudo-element:**
+                Pseudo-element selects a specific part of an element or creates an element **(e.g., ::before, ::first-letter).**        
