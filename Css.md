@@ -106,19 +106,19 @@
 
    Different types of CSS selectors with explanations:
 
-   **1. Universal Selector (*)**
+   **(I). Universal Selector (*)**
          Selects all elements on the page.
          **Example:** * { margin: 0; padding: 0; } removes margin and padding for all elements.
 
-   **2. Type Selector (Element Selector)**
+   **(II). Type Selector (Element Selector)**
          Selects elements based on their HTML tag name.
          **Example:** p { font-size: 16px; } targets all <p> (paragraph) elements.
 
-**3. Class Selector (.)**
+   **(III). Class Selector (.)**
          Selects elements with a specific class attribute.
          **Example:** .button { background-color: blue; } selects elements with the class "button".
 
-**4. ID Selector (#)**
+   **(IV). ID Selector (#)**
          Selects a single element based on its ID attribute.
          **Example:** #header { background-color: gray; } targets the element with id="header".
          The grouping selector in CSS allows you to apply the same styles to multiple elements by listing them together, separated by commas. Instead of writing separate rules for each element, you group them and apply a single set of styles.
@@ -166,19 +166,10 @@
          <footer>: Footer section.
 
    **Self-closing:**
-         <img>, <br>, <hr>: No closing tag needed. 
+         <img>, <br>, <hr>: No closing tag needed.  
 
 
-**11. What are pseudo-classes and pseudo-elements? Can you provide examples?**
-
-   **Pseudo-classes:**
-         Apply styles to elements based on their state **(e.g., :hover for when an element is hovered over, :focus for when an element is focused).**
-   
-   **Pseudo-elements:** 
-         Target specific parts of an element **(e.g., ::before to insert content before an element's content, ::after to insert content after).**  
-
-
-**12. what is css overflow?**
+**11. what is css overflow?**
 
             the overflow property determines how content that exceeds the size of its container is handled. It is particularly useful when you want to control what happens when content is too large to fit within an element.
 
@@ -189,7 +180,7 @@
       The content is clipped, and anything that overflows the container is hidden. The overflowed part is not visible and cannot be scrolled to. 
 
 
-**13. 1.What is the difference between ~isibility: hidden and display: none~?**
+**12. 1.What is the difference between ~isibility: hidden and display: none~?**
 
    **Visibility: hidden:**
            **=>** The element is hidden, but it still takes up space in the layout.
@@ -200,7 +191,7 @@
            **=>** It takes up no space, and surrounding elements may adjust to fill the gap                             
 
 
-**14. What is Flexbox and how its work?**
+**13. What is Flexbox and how its work?**
             
             Flexbox is a CSS tool used to organize and align elements in a container. It helps in easily placing items horizontally or vertically, making layouts flexible and responsive to different screen sizes.
 
@@ -217,7 +208,7 @@
             Flexbox adjusts the size and position of items automatically based on the available space, which makes it useful for building layouts that adapt to different devices.
 
 
-**15. CSS position property:**
+**14. CSS position property:**
 
                 The CSS position property is used to specify how an element is positioned in a webpage. It determines where an element will appear and how it behaves in relation to other elements
 
@@ -239,12 +230,12 @@
            The element switches between relative and fixed, depending on the scroll position. It behaves like relative until it hits a certain point on the page, and then it sticks in place.                
 
 
-**16. what is animatable in css ?**
+**15. what is animatable in css ?**
 
                 In CSS, animatable refers to properties that can be smoothly transitioned or animated over time using CSS animations or transitions. If a CSS property is animatable, you can create visual effects where the property changes gradually rather than instantly.
 
 
-**17. There are three main types of stylesheets used in web development:**
+**16. There are three main types of stylesheets used in web development:**
 
    **Inline Styles:**
                 Written directly in the HTML element using the style attribute.
@@ -273,7 +264,7 @@
         } 
 
 
-**18. what is colspan  and rowspan in html.**
+**17. what is colspan  and rowspan in html.**
     
    **a)Colspan :**
               Colspan attribute is used to span a cell across multiple columns.
@@ -282,9 +273,18 @@
               Rowspan attribute is used to span a cell across multiple rows. 
 
 
-**19. What is object-fit property in css?**
+**18. What is object-fit property in css?**
 
                 The object-fit property in CSS is used to control how an element’s content fits within its container. This is particularly useful for images and other media elements, allowing you to specify how they should be resized and positioned within a given space. 
+
+
+**19. What are pseudo-classes and pseudo-elements? Can you provide examples?**
+
+   **Pseudo-classes:**
+         Apply styles to elements based on their state **(e.g., :hover for when an element is hovered over, :focus for when an element is focused).**
+   
+   **Pseudo-elements:** 
+         Target specific parts of an element **(e.g., ::before to insert content before an element's content, ::after to insert content after).** 
 
 
 **20. What are pseudo-clasees and pseudo-elements?**
@@ -391,12 +391,4 @@ Pseudo-elements target specific parts of an element (e.g., the first letter, con
         Left margin: 80px
 
         This means that the element will have 40 pixels of space on the top, 100 pixels on the right, 120 pixels at the bottom, and 80 pixels on the left.   
-
-
-**29. Pseudo-class and Pseudo-element** 
-
-   **Pseudo-class :**
-                Pseudo-class selects the state of the entire element **(e.g., :hover or :focus).**
-
-   **Pseudo-element :**
-                Pseudo-element selects a specific part of an element or creates an element **(e.g., ::before, ::first-letter).**        
+        
