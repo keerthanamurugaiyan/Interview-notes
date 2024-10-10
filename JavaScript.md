@@ -1602,3 +1602,6 @@ decodeURI("%");  // Invalid character in URL causes an error
    **// Output: "Hello, John! Welcome to JavaScript."**
 
                  
+**85. what is BOM in javascript ?**
+
+        In JavaScript, BOM stands for Browser Object Model. The BOM provides the ability to interact with the browser environment outside the content of the webpage (unlike the DOM, which focuses on HTML elements). It allows JavaScript to control aspects of the browser window, such as opening new tabs, navigating to different URLs, managing the browser history, and accessing information about the browser itself.
