@@ -395,8 +395,8 @@ Pseudo-elements target specific parts of an element (e.g., the first letter, con
 
 **29. Pseudo-class and Pseudo-element** 
 
-   **Pseudo-class :-**
+   **Pseudo-class :**
                 Pseudo-class selects the state of the entire element **(e.g., :hover or :focus).**
 
-   **Pseudo-element :-**
+   **Pseudo-element :**
                 Pseudo-element selects a specific part of an element or creates an element **(e.g., ::before, ::first-letter).**        
