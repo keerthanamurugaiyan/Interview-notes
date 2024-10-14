@@ -141,3 +141,44 @@ Testing at the End: Testing is done only after the entire development process is
    **Early Testing:**
    
                    Testing is done throughout the project at the end of each sprint, which helps identify and fix issues early.
+
+
+**12. What is the difference between HTML and React event handling?**
+
+ **i, Event Naming Convention**:
+   
+   - In *HTML*, event names are written in *lowercase*.
+     html
+     <button onclick="activateLasers()"></button>
+     
+   - In *React*, event names follow the *camelCase* convention.
+     jsx
+     <button onClick={activateLasers}></button>
+     
+ **ii, Preventing Default Behavior**:
+   
+   - In *HTML*, you can return `false` to stop the default behavior of an event.
+     html
+     <a href="#" onclick="console.log('The link was clicked.'); return false;"></a>
+     
+   - In *React*, you must use the `preventDefault()` function explicitly to stop the default behavior.
+     jsx
+     function handleClick(event) {
+       event.preventDefault();
+       console.log('The link was clicked.');
+     }
+     <a href="#" onClick={handleClick}></a>
+     
+ **iii, Calling Functions**:
+   
+   - In *HTML*, you directly call a function by adding `()` after the function name.
+     html
+     <button onclick="activateLasers()"></button>
+     
+   - In *React*, you pass the function name without `()` when assigning it to an event handler. React will call the function when the event occurs.
+     jsx
+     <button onClick={activateLasers}></button>     
+
+   **In summary:**
+
+        - React uses camelCase for event names, requires `preventDefault()` for stopping default actions, and functions are passed without `()` in event handlers.
