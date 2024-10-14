@@ -150,7 +150,6 @@ Testing at the End: Testing is done only after the entire development process is
    - In *HTML*, event names are written in *lowercase*.
 
      html
-
              <button onclick="activateLasers()"></button>
      
    - In *React*, event names follow the *camelCase* convention.
