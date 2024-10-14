@@ -432,7 +432,6 @@ Async and await are used to handle asynchronous operations more easily than Prom
       const add = (a, b) => a + b;
 
 
-
 **23. 1.what is the use of constructor function in javascript?**
       
       contructor function is used to create a objects in javascript.
@@ -1605,3 +1604,24 @@ decodeURI("%");  // Invalid character in URL causes an error
 **85. what is BOM in javascript ?**
 
         In JavaScript, BOM stands for Browser Object Model. The BOM provides the ability to interact with the browser environment outside the content of the webpage (unlike the DOM, which focuses on HTML elements). It allows JavaScript to control aspects of the browser window, such as opening new tabs, navigating to different URLs, managing the browser history, and accessing information about the browser itself.
+
+
+**86. Date Methods in javascript** 
+
+   **//getDate()//**
+        // let date=new Date();
+        // console.log(date.getDate())
+
+   **//getFullYear//**
+        // let date=new Date();
+        // console.log(date.getFullYear())
+
+   **//getTime//**
+        // let date=new Date();
+        // console.log(date.getTime())
+
+   **//setDate(day)//**
+        // let date=new Date();
+        // date.setDate(5);
+        // console.log(date);
+
