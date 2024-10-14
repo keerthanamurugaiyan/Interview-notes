@@ -123,3 +123,51 @@
    **Active link** - It is displayed, underlined and red.
 
    
+
+**11. Different kinds of Doctypes:**
+
+ ### i. **Strict Doctype**
+
+   - **Purpose**: Used for modern, standards-compliant HTML. 
+
+   - **Allows**: Only current HTML elements; no deprecated features.
+
+   - **Example**:
+  
+          ```html
+          <!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+          ```
+
+   ### ii. **Transitional Doctype**
+   
+   - **Purpose**: Used for documents that may still include older HTML features.
+   
+   - **Allows**: Deprecated elements and attributes, making it easier to transition to modern standards.
+   
+   - **Example**:
+
+     ```html
+          <!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+          ```
+
+   ### iii. **Frameset Doctype**
+
+   - **Purpose**: Used for documents that use frames to split the page into sections.
+   
+   - **Allows**: Frames but does not support the `<body>` tag.
+   
+   - **Example**:
+
+         ```html
+          <!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Frameset//EN" "http://www.w3.org/TR/html4/frameset.dtd">
+          ```
+
+   ### **HTML5 Doctype**
+
+   - **Purpose**: The simplified declaration for HTML5.
+
+   - **Example**:
+
+         ```html
+          <!DOCTYPE html>
+          ```
