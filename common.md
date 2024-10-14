@@ -151,13 +151,13 @@ Testing at the End: Testing is done only after the entire development process is
 
      html
 
-     <button onclick="activateLasers()"></button>
+             <button onclick="activateLasers()"></button>
      
    - In *React*, event names follow the *camelCase* convention.
 
      jsx
 
-     <button onClick={activateLasers}></button>
+             <button onClick={activateLasers}></button>
      
  **ii, Preventing Default Behavior**:
    
@@ -165,17 +165,17 @@ Testing at the End: Testing is done only after the entire development process is
 
      html
 
-     <a href="#" onclick="console.log('The link was clicked.'); return false;"></a>
+             <a href="#" onclick="console.log('The link was clicked.'); return false;"></a>
      
    - In *React*, you must use the `preventDefault()` function explicitly to stop the default behavior.
 
      jsx
 
-     function handleClick(event) {
-       event.preventDefault();
-       console.log('The link was clicked.');
-     }
-     <a href="#" onClick={handleClick}></a>
+             function handleClick(event) {
+               event.preventDefault();
+               console.log('The link was clicked.');
+             }
+             <a href="#" onClick={handleClick}></a>
      
  **iii, Calling Functions**:
    
@@ -183,13 +183,13 @@ Testing at the End: Testing is done only after the entire development process is
 
       html
 
-     <button onclick="activateLasers()"></button>
+             <button onclick="activateLasers()"></button>
      
    - In *React*, you pass the function name without `()` when assigning it to an event handler. React will call the function when the event occurs.
 
      jsx
 
-     <button onClick={activateLasers}></button>     
+             <button onClick={activateLasers}></button>     
 
    **In summary:**
 
