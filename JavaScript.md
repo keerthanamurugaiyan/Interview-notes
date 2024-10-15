@@ -1625,3 +1625,40 @@ decodeURI("%");  // Invalid character in URL causes an error
         // date.setDate(5);
         // console.log(date);
 
+
+**87. Different between Undefined and Null**
+
+  **Undefined:**
+   
+   **Meaning:** A variable is declared but hasn’t been assigned a value yet.
+
+   **Type:** It’s a primitive type and also the default value of uninitialized variables.
+
+   **example:**
+       
+        let x; // x is declared but not defined
+        console.log(x); // Output: undefined
+
+  **Null:**
+
+   **Meaning:** Represents an intentional absence of value; explicitly set by the programmer.
+
+   **Type:** It’s of type object.
+   
+   **example:**
+        
+        let y = null; // y is explicitly set to null
+        console.log(y); // Output: null
+
+
+**88. What is Event Delegation in javascipt?**
+        
+        Event delegation in JavaScript is a technique used to handle events efficiently by taking advantage of event bubbling (or event propagation). Instead of adding event listeners to multiple elements individually, you attach a single event listener to a common parent element, which will manage events triggered by its child elements.
+
+   **for eg:** 
+       
+        document.getElementById('parentElement').addEventListener('click', function(event) {
+            if (event.target.matches('.childElement')) {
+                console.log('Child element clicked:', event.target);
+            }
+        });        
