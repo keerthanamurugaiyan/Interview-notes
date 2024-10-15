@@ -447,3 +447,7 @@ Here’s a concise 2-mark explanation of the difference between `takeEvery` and 
 | **Concurrency**      | Allows multiple sagas to run         | Only runs the latest saga             |
 | **Use Case**         | When every action should be handled   | When only the latest action matters   |
 
+
+**27. what is react context api?**
+
+            The React Context API is a feature in React that allows you to manage and share state across components without having to pass props manually at every level of the component tree. It's mainly used to avoid "prop drilling", which occurs when you pass data from parent to deeply nested child components unnecessarily.
