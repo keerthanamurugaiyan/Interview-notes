@@ -1662,3 +1662,32 @@ decodeURI("%");  // Invalid character in URL causes an error
                 console.log('Child element clicked:', event.target);
             }
         });        
+
+
+**89. What is the role of break and continue statements in Javascript?**
+
+   **Break Statement :**
+        
+        The break statement means that during the execution of a loop, we can stop it wherever we need. It immediately exits the loop and moves the control outside.
+   
+   **Example :**
+        
+        for (let i = 0; i < 5; i++) {
+            if (i === 3) {
+                break; // when i equals 3, the loop will stop
+            }
+            console.log(i);
+        }
+
+   **Continue Statement :**
+        
+        The continue statement means that while the loop is running, it can skip a specific iteration and move to the next one without stopping the loop entirely.
+
+   **Example :** 
+        
+        for (let i = 0; i < 5; i++) {
+            if (i === 2) {
+                continue; // when i equals 2, it will be skipped, and the loop moves to 3
+            }
+            console.log(i);
+        }
