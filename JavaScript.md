@@ -1691,3 +1691,18 @@ decodeURI("%");  // Invalid character in URL causes an error
             }
             console.log(i);
         }
+
+**90.Difference between querySelector andquerySelectorAll?**
+         
+         let element = document.querySelector('.myClass');
+        console.log(element.textContent)
+        
+        let element1 = document.querySelectorAll('.myClass');
+        element1.forEach(function (element1) {
+            console.log(element1.textContent)
+        })
+
+
+**91. what is scope in javascript ?**
+
+            Scope in JavaScript refers to the context in which variables, functions, and objects are accessible. It determines where in your code you can use or "see" variables and functions. In simpler terms, scope defines where a variable or function can be accessed from.        
