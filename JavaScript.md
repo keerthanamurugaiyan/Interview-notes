@@ -1705,4 +1705,23 @@ decodeURI("%");  // Invalid character in URL causes an error
 
 **91. what is scope in javascript ?**
 
-            Scope in JavaScript refers to the context in which variables, functions, and objects are accessible. It determines where in your code you can use or "see" variables and functions. In simpler terms, scope defines where a variable or function can be accessed from.        
+            Scope in JavaScript refers to the context in which variables, functions, and objects are accessible. It determines where in your code you can use or "see" variables and functions. In simpler terms, scope defines where a variable or function can be accessed from.      
+
+
+**92. what is Try catch  block?**
+
+        The try-catch block in JavaScript is used for error handling. It allows you to handle potential errors in your code gracefully, preventing your program from crashing and giving you control over how to respond to errors when they occur.
+
+   **Purpose of try-catch:**
+
+   **Catch Errors:**  It helps you catch runtime errors (errors that occur during code execution).
+
+   **Handle Errors Gracefully:**   Instead of stopping the entire program, try-catch allows you to provide alternative solutions or error messages.
+
+   **Debugging:**    It helps developers identify and respond to errors in a more controlled way, making debugging easier.
+
+            try {
+              let data = JSON.parse('invalid JSON string'); // This will throw an error
+            } catch (err) {
+              console.log('An error occurred while parsing JSON:', err.message);
+            }            
