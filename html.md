@@ -171,3 +171,20 @@
          ```html
           <!DOCTYPE html>
           ```
+
+
+**12. html tags**
+
+   **I. <sourse> tag:**
+
+            The <source> tag is used in HTML to provide multiple media options (like videos or audio files) to ensure compatibility across different browsers. It helps the browser pick a format it supports.
+
+   **II. <embed> tag:**
+
+            The <embed> element is used to embed external content or applications, such as videos, audio, or interactive content (like Flash files). It is commonly used for multimedia purposes.
+
+   **III. <canvas> tag::**
+
+            The <canvas> element is used to draw graphics on a web page using JavaScript. It allows for rendering 2D shapes, images, and even animations.
+
+            
