@@ -451,3 +451,12 @@ Here’s a concise 2-mark explanation of the difference between `takeEvery` and 
 **27. what is react context api?**
 
             The React Context API is a feature in React that allows you to manage and share state across components without having to pass props manually at every level of the component tree. It's mainly used to avoid "prop drilling", which occurs when you pass data from parent to deeply nested child components unnecessarily.
+
+
+**28. What is the purpose of useReducer,***
+
+      The useReducer hook is used in React for managing complex state logic. It’s helpful when:
+
+   **State is complex:** If you have multiple related state variables or complex state updates, useReducer can organize this better than useState.
+
+   **Multiple actions:** When you need to handle different actions (like incrementing, decrementing, or resetting a counter).            
