@@ -460,3 +460,53 @@ Here’s a concise 2-mark explanation of the difference between `takeEvery` and 
    **State is complex:** If you have multiple related state variables or complex state updates, useReducer can organize this better than useState.
 
    **Multiple actions:** When you need to handle different actions (like incrementing, decrementing, or resetting a counter).            
+
+
+**29. What are inline conditional expressions?**
+
+            Inline conditional expressions in React allow you to render different parts of the UI based on certain conditions, all within the JSX syntax. These are useful for showing or hiding elements dynamically based on state or props.
+
+**There are several ways to use inline conditional expressions:**
+
+   **1. If Statements:**
+            You can use regular JavaScript if statements, but these are typically used outside of the JSX return because they don't return a value directly inside JSX.
+
+   **2. Ternary Operator (?:)**
+
+            This is a shorthand way of writing an if-else statement inside JSX. It allows you to conditionally render one of two values based on whether the condition is true or false.
+
+  **Example:**
+
+                  jsx
+                  Copy code
+                  <h1>Hello!</h1>
+                  {
+                    messages.length > 0 ? (
+                      <h2>You have {messages.length} unread messages.</h2>
+                    ) : (
+                      <h2>You don't have unread messages.</h2>
+                    )
+                  }
+                  If messages.length > 0 is true, the first <h2> will be rendered.
+                  If false, the second <h2> will be rendered.
+
+   **3. Logical AND Operator (&&):**
+
+            You can use the && (AND) operator to conditionally render something only when the condition is true. If the condition is false, it simply skips rendering that part of the UI.
+
+   **Example:**
+                  
+                  jsx
+                  Copy code
+                  <h1>Hello!</h1>
+                  {
+                    messages.length > 0 && !isLogin && (
+                      <h2>You have {messages.length} unread messages.</h2>
+                    )
+                  }
+            In this example:
+
+            If both messages.length > 0 and !isLogin are true, the message will be displayed.
+            If any of them is false, nothing is rendered.
+
+            
