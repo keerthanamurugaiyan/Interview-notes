@@ -372,3 +372,23 @@ for (let [coin, count] of Object.entries(combination)) {
         // 1 2 3
         // 1 2 3 4
         // 1 2 3 4 5
+
+
+**17. How can we print object properties or models in JavaScript?**
+
+     In JavaScript, object properties or models can be printed in several ways:
+
+   **1.Dot Notation:**
+           **eg;**
+                console.log(objectName.propertyName);
+
+   **2.Bracket Notation:**
+          **eg;**
+                console.log(objectName['propertyName']);
+
+   **3.Destructuring:**
+           **eg;**
+                let{username,age}
+                console.log(username+age)
+
+                
