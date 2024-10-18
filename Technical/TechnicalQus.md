@@ -285,49 +285,64 @@ for (let [coin, count] of Object.entries(combination)) {
 **17. Math Properties:**
 
    **(i) Math.PI()**
-            console.log(Math.PI);    
+            
+   console.log(Math.PI);    
             **// output: 3.141592653589793**
        
    **(ii) Math.trunc()** 
-           console.log(Math.trunc(5.4));   
+           
+   console.log(Math.trunc(5.4));   
             **// output: 5**
        
    **(iii) Math.round()**
-           console.log(Math.round(5.4));    
-            **//output:5**
+           
+   console.log(Math.round(5.4));    
+            **// output: 5**
        
    **(iv) Math.ceil()** 
-           console.log(Math.ceil(5.3));    
-            **//output:6**
+          
+   console.log(Math.ceil(5.3));    
+            **// output: 6**
        
    **(v) Math.floor()** 
-           console.log(Math.floor(4.8));   
-            **//output:4**
+           
+   console.log(Math.floor(4.8));   
+            **// output: 4**
        
    **(vi) Math.pow()** 
-               console.log(Math.pow(3,4));
-            **//output:81**
+
+   console.log(Math.pow(3,4));
+            **// output: 81**
        
    **(vii) Math.min()** 
-               console.log(Math.min(4,6));   
-              **//output:4**
+               
+   console.log(Math.min(4,6));   
+              **// output: 4**
        
    **(viii) Math.max()** 
-               console.log(Math.max(6,3));    
-              **//output:6**
+               
+   console.log(Math.max(6,3));    
+              **// output: 6**
        
    **(ix) Math.random()** 
-               console.log(Math.random());    
-             **//output:0.5487990729071615**
+               
+   console.log(Math.random());    
+             **// output: 0.5487990729071615**
        
-   **(x)** console.log(Math.floor(Math.random()*100+1));    
-             **//output:55**
+   **(x) random integer generation** 
+   
+   console.log(Math.floor(Math.random()*100+1));    
+             **// output: 55**
 
    **(xi) Math.abs()**
-console.log(Math.abs(-9.8));  
+
+   console.log(Math.abs(-9.8));  
+               **// output: 9.8** 
 
    **(xii) Math.sqrt()**
-console.log(Math.sqrt(16));
+
+   console.log(Math.sqrt(16));
+              **// output: 4** 
         
           
 **18. Memoization**
