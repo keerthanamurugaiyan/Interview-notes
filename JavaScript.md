@@ -1724,4 +1724,28 @@ decodeURI("%");  // Invalid character in URL causes an error
               let data = JSON.parse('invalid JSON string'); // This will throw an error
             } catch (err) {
               console.log('An error occurred while parsing JSON:', err.message);
-            }            
+            }  
+
+
+**93. Array Destructuring:**
+
+            let friuts=["apple","banana","orange"]
+            const [first,second,third]=friuts;
+            console.log(third) 
+
+   **//Output: orange**
+
+
+**94. What is Function Composition?**
+
+            Function Composition is the process of combining multiple functions so that the output of one becomes the input of the next.
+            
+   **(For eg) :**
+            const add = (x) => x + 2;
+            const multiply = (x) => x * 3;
+            
+            const composedFunction = (x) => multiply(add(x));
+            
+            console.log(composedFunction(5)); 
+            
+  **// Output: 21**
