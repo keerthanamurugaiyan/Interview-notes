@@ -188,3 +188,26 @@
             The <canvas> element is used to draw graphics on a web page using JavaScript. It allows for rendering 2D shapes, images, and even animations.
 
             
+**13. What are void elements in HTML?**
+
+            Void elements in HTML are elements that do not require a closing tag because they are self-contained. These elements do not wrap any content and are used for structural or media purposes. Examples include:
+
+   **<br /> -**  Inserts a line break.
+   
+   **<img /> -** Embeds an image.
+   
+   **<hr /> -** Creates a horizontal line or thematic break.
+
+   **<input /> -** Creates an input field in a form.
+
+   **<meta /> -** Provides metadata about the HTML document.
+
+   **<link /> -** Links to an external resource like a stylesheet.
+
+   **<source /> -** Specifies multiple media resources for elements like <video> or <audio>.
+
+   **<area /> -** Defines an area in an image map.
+   
+   **<base /> -** Specifies the base URL for all relative URLs in a document.
+
+        These elements are self-closing because they don't have any content, so there’s no need for an opening and closing pair. They are often called "self-closing tags."
