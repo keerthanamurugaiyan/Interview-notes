@@ -494,10 +494,13 @@ Async and await are used to handle asynchronous operations more easily than Prom
 
 **most using to :**
       
-   **•**onclick
-   **•**onchange
-   **•**onsubmit
-   **•**onblur      
+   •onclick
+   
+   •onchange
+   
+   •onsubmit
+   
+   •onblur      
 
 
 **26.what is higher-order function.**
@@ -1749,3 +1752,94 @@ decodeURI("%");  // Invalid character in URL causes an error
             console.log(composedFunction(5)); 
             
   **// Output: 21**
+
+
+**95. what is typeof operator in javascript?**
+
+        The typeof operator in JavaScript is used to check the data type of a variable or value. It returns a string indicating the type of the operand.
+   
+   **Example:**
+           
+            console.log(typeof 42);               // "number"
+            console.log(typeof "Hello");          // "string"
+            console.log(typeof true);             // "boolean"
+            console.log(typeof undefined);        // "undefined"
+            console.log(typeof { name: "John" }); // "object"
+            console.log(typeof function() {});    // "function"
+            console.log(typeof null);             // "object" 
+
+
+**96. Array Methods**
+
+   **i. splice():**
+
+        This method modifies the original array by adding, removing, or replacing elements. It returns the removed elements.
+
+   **Syntax :** array.splice(start, deleteCount, item1, item2, ...)
+   **start:** Index to start changing the array.
+   **deleteCount:** Number of elements to remove.
+     item1, item2, ...: Elements to add (optional).
+
+   **Example of splice():**
+         
+          let fruits = ['Apple', 'Banana', 'Cherry', 'Dates'];
+
+            // Remove 1 element starting from index 1
+            let removed = fruits.splice(1, 1);  
+            console.log(fruits);  // ['Apple', 'Cherry', 'Dates']
+            console.log(removed); // ['Banana']
+            
+            // Add 'Orange' at index 1 without removing anything
+            fruits.splice(1, 0, 'Orange');
+            console.log(fruits);  // ['Apple', 'Orange', 'Cherry', 'Dates']
+            
+            // Replace 'Cherry' with 'Mango'
+            fruits.splice(2, 1, 'Mango');
+            console.log(fruits);  // ['Apple', 'Orange', 'Mango', 'Dates']
+
+
+   **ii. slice():**
+            
+            This method does not modify the original array. It returns a shallow copy of a portion of the array into a new array.
+
+   **Syntax :** array.slice(start, end)
+   **start:** Starting index (inclusive).
+   **end:** Ending index (exclusive).
+
+   **Example of slice():**
+        
+        let fruits = ['Apple', 'Banana', 'Cherry', 'Dates'];
+
+        // Extract a slice from index 1 to 3 (excluding 3)
+        let sliced = fruits.slice(1, 3);
+        console.log(sliced);  // ['Banana', 'Cherry']
+        
+        // Original array remains unchanged
+        console.log(fruits);  // ['Apple', 'Banana', 'Cherry', 'Dates']            
+
+
+**97. what is set methods in js?**
+
+        Set is a special collection that holds unique values, meaning that duplicate values are not allowed.
+   
+   **Eg:**
+       
+        const mySet = new Set();
+        mySet.add(1);
+        mySet.add(2);
+        mySet.add(1); // Duplicate value; won't be added
+        console.log(mySet); // Output: Set { 1, 2 }        
+
+
+**98. What is the purpose of JSON.stringify() and JSON.parse()?**
+
+   **JSON.stringify():** Converts a JavaScript object into a JSON string.
+   **JSON.parse():** Converts a JSON string into a JavaScript object.
+
+   **For example:**
+
+        let obj = { name: "Alice", age: 25 };
+        let jsonString = JSON.stringify(obj);  // '{"name":"Alice","age":25}'
+        let parsedObj = JSON.parse(jsonString);  // { name: "Alice", age: 25 
+
+        
