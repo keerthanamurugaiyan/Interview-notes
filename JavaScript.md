@@ -1776,8 +1776,11 @@ decodeURI("%");  // Invalid character in URL causes an error
         This method modifies the original array by adding, removing, or replacing elements. It returns the removed elements.
 
    **Syntax :** array.splice(start, deleteCount, item1, item2, ...)
+   
    **start:** Index to start changing the array.
+   
    **deleteCount:** Number of elements to remove.
+     
      item1, item2, ...: Elements to add (optional).
 
    **Example of splice():**
@@ -1803,7 +1806,9 @@ decodeURI("%");  // Invalid character in URL causes an error
             This method does not modify the original array. It returns a shallow copy of a portion of the array into a new array.
 
    **Syntax :** array.slice(start, end)
+   
    **start:** Starting index (inclusive).
+  
    **end:** Ending index (exclusive).
 
    **Example of slice():**
