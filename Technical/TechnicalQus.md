@@ -422,3 +422,21 @@ for (let [coin, count] of Object.entries(combination)) {
                 console.log(username+age)
 
                 
+**18.remove duplicates**
+
+        const array = [1, 2, 2, 3, 4, 4, 5];
+        const uniqueArray = array.filter((value, index) => array.indexOf(value) === index);
+        
+        console.log(uniqueArray);
+
+   **Output:  [1,2,3,4,5]**
+
+
+**19.  Sum of all Elements**
+        
+        let arr = [1, 2, 3, 4];
+        let sum = arr.reduce((acc, val) => acc + val,0); 
+        console.log(sum) 
+
+   **output: 10**        
+
