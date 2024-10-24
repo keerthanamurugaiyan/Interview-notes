@@ -392,3 +392,29 @@ Pseudo-elements target specific parts of an element (e.g., the first letter, con
 
         This means that the element will have 40 pixels of space on the top, 100 pixels on the right, 120 pixels at the bottom, and 80 pixels on the left.   
         
+
+**29. CSS Sprites**  
+                CSS Sprites are a technique used in web development to optimize web page loading by combining multiple images into a single image file. This helps reduce the number of HTTP requests to the server, making the page load faster. Instead of loading each image separately, CSS is used to display different portions of the combined image, called a sprite, as needed.
+
+   **Example:**
+
+                /* Example CSS */
+                .sprite {
+                  background-image: url('icons-sprite.png');
+                  width: 32px; /* Width of a single icon */
+                  height: 32px; /* Height of a single icon */
+                  display: inline-block;
+                }
+                
+                .home-icon {
+                  background-position: 0 0; /* Top-left corner */
+                }
+                
+                .search-icon {
+                  background-position: -32px 0; /* Shift 32px to the right */
+                }
+                
+                .settings-icon {
+                  background-position: -64px 0; /* Shift 64px to the right */
+                }
+                
