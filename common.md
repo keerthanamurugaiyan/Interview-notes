@@ -28,6 +28,7 @@
    **•** Postman
    **•** Alertsite api monitoring   
 
+
 **4. What is Api?**
     
    An API **(Application Programming Interface)** is a set of rules that allows different software applications to communicate with each other, enabling them to request and exchange data. It's like a bridge that connects different systems, allowing them to work together.
@@ -193,3 +194,8 @@ Testing at the End: Testing is done only after the entire development process is
    **In summary:**
 
         - React uses camelCase for event names, requires `preventDefault()` for stopping default actions, and functions are passed without `()` in event handlers.
+
+
+**13. What is WebRTC?**
+
+                WebRTC stands for Web Real-Time Communication. It is a free and open-source project that enables real-time communication capabilities within browsers and applications. It provides protocols and APIs for peer-to-peer audio, video, and data sharing without the need for additional plugins or software installations. WebRTC allows users to have seamless voice and video calls, as well as share screens and transfer files directly from their web browsers. It has become popular for building applications such as video conferencing, live streaming, and real-time collaboration tools.
