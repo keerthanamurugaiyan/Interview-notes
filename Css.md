@@ -394,62 +394,35 @@ Pseudo-elements target specific parts of an element (e.g., the first letter, con
         
 
 **29. CSS Sprites**  
-                CSS Sprites are a technique used in web development to optimize web page loading by combining multiple images into a single image file. This helps reduce the number of HTTP requests to the server, making the page load faster. Instead of loading each image separately, CSS is used to display different portions of the combined image, called a sprite, as needed.
-
-   **Example:**
-
-                /* Example CSS */
-                .sprite {
-                  background-image: url('icons-sprite.png');
-                  width: 32px; /* Width of a single icon */
-                  height: 32px; /* Height of a single icon */
-                  display: inline-block;
-                }
-                
-                .home-icon {
-                  background-position: 0 0; /* Top-left corner */
-                }
-                
-                .search-icon {
-                  background-position: -32px 0; /* Shift 32px to the right */
-                }
-                
-                .settings-icon {
-                  background-position: -64px 0; /* Shift 64px to the right */
-                }
-
-
-**30. CSS Sprites**
-
-                CSS Sprites is a technique that combines multiple images into a single image file to reduce the number of HTTP requests made by a webpage, thereby improving load times and performance.
+                   
+                   CSS Sprites is a technique that combines multiple images into a single image file to reduce the number of HTTP requests made by a webpage, thereby improving load times and performance.
 
    **Example:** If you have three icons: icon1.png, icon2.png, and icon3.png, you can combine them into one image file called sprites.png. You can then use CSS to display specific icons by adjusting the background-position.
 
-   **eg,**
+   **Ex:**
 
-                //html:
-                        <div class="icon1"></div>
-                        <div class="icon2"></div>
-                        <div class="icon3"></div>
-
-                //css:
-                        .icon1 {
-                          background-image: url('sprites.png');
-                          background-position: 0 0; /* Position for icon1 */
+                /* Example CSS */
+                        .sprite {
+                          background-image: url('icons-sprite.png');
+                          width: 32px; /* Width of a single icon */
+                          height: 32px; /* Height of a single icon */
+                          display: inline-block;
                         }
                         
-                        .icon2 {
-                          background-image: url('sprites.png');
-                          background-position: -50px 0; /* Position for icon2 */
+                        .home-icon {
+                          background-position: 0 0; /* Top-left corner */
                         }
                         
-                        .icon3 {
-                          background-image: url('sprites.png');
-                          background-position: -100px 0; /* Position for icon3 */
+                        .search-icon {
+                          background-position: -32px 0; /* Shift 32px to the right */
                         }
-                
+                        
+                        .settings-icon {
+                          background-position: -64px 0; /* Shift 64px to the right */
+                        }
 
-**31.  What are the limitations of CSS?**
+
+**30.  What are the limitations of CSS?**
 
    **Disadvantages of CSS are given below:**
 
