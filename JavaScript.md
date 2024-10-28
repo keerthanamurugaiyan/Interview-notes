@@ -1901,3 +1901,7 @@ decodeURI("%");  // Invalid character in URL causes an error
            // file: app.js
            import { add } from './math';
    
+
+**100. What is Short Circuit  evaluation in js?**
+
+            Short Circuit evaluation stops the execution as soon as the result can be determined without evaluating the remaining sub-expression .
