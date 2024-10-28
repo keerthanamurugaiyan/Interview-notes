@@ -417,9 +417,39 @@ Pseudo-elements target specific parts of an element (e.g., the first letter, con
                 .settings-icon {
                   background-position: -64px 0; /* Shift 64px to the right */
                 }
+
+
+**30. CSS Sprites**
+
+                CSS Sprites is a technique that combines multiple images into a single image file to reduce the number of HTTP requests made by a webpage, thereby improving load times and performance.
+
+   **Example:** If you have three icons: icon1.png, icon2.png, and icon3.png, you can combine them into one image file called sprites.png. You can then use CSS to display specific icons by adjusting the background-position.
+
+   **eg,**
+
+                //html:
+                        <div class="icon1"></div>
+                        <div class="icon2"></div>
+                        <div class="icon3"></div>
+
+                //css:
+                        .icon1 {
+                          background-image: url('sprites.png');
+                          background-position: 0 0; /* Position for icon1 */
+                        }
+                        
+                        .icon2 {
+                          background-image: url('sprites.png');
+                          background-position: -50px 0; /* Position for icon2 */
+                        }
+                        
+                        .icon3 {
+                          background-image: url('sprites.png');
+                          background-position: -100px 0; /* Position for icon3 */
+                        }
                 
 
-**30.  What are the limitations of CSS?**
+**31.  What are the limitations of CSS?**
 
    **Disadvantages of CSS are given below:**
 
