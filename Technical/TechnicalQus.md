@@ -440,3 +440,15 @@ for (let [coin, count] of Object.entries(combination)) {
 
    **output: 10**        
 
+
+**20. //  Write a function to calculate the area of a rectangle.
+//  It should take the length and width as parameters and 
+//  return the calculated area.**
+
+
+function calculateArea (length,width){
+  return length*width;
+}
+console.log(calculateArea(6,7));
+
+   **output: 42** 
