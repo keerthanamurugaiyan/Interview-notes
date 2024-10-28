@@ -346,12 +346,12 @@
             React to efficiently update the user interface.    
 
 
-**20. Why ReactDOM is separated from React?**
+**21. Why ReactDOM is separated from React?**
 
             ReactDOM was separated from React to promote modularity and maintainability of the library. Initially, React bundled both the core React library and the DOM-specific rendering logic. However, as React evolved to support multiple platforms (such as web, mobile, and even virtual reality), it became necessary to decouple the core functionality from the platform-specific rendering mechanisms. 
 
 
-**21. What is conditional rendering in React?**
+**22. What is conditional rendering in React?**
 
             Conditional rendering in React involves selectively rendering components based on specified conditions. By evaluating these conditions, developers can control which components are displayed, allowing for dynamic and responsive user interfaces in React applications.
 
@@ -362,7 +362,7 @@
             Here if the boolean isLoggedIn is false then the DisplayLoggedOut component will be rendered otherwise DisplayLoggedIn component will be rendered.            
 
 
-**22. What is Controlled Components?**
+**23. What is Controlled Components?**
 
    **i)** In controlled components, form elements(like input, textareas, etc.)  are controlled by react state.
 
@@ -375,7 +375,7 @@
    **ii)** You access the values of form elements using refs rather than React state.
 
    
-**23. Explain the steps to create a react application?**
+**24. Explain the steps to create a react application?**
 
    **1.Install Node:**
             Before installing React, ensure that Node is installed on 
@@ -395,7 +395,7 @@ a new React application (replace my-react-app with your
             npm start
 
 
-**24. what is the difference between element and component in react**
+**25. what is the difference between element and component in react**
 
    **Element**
 
@@ -414,12 +414,12 @@ a new React application (replace my-react-app with your
    **Class Components:** More complex components that can hold and manage state and lifecycle methods.
 
 
-**25. What is higher-order component in React?**
+**26. What is higher-order component in React?**
 
             Higher-order components or HOC is the advanced method of reusing the component functionality logic. It simply takes the original component and returns the enhanced component. HOC are beneficial as they are easy to code and read. Also, helps to get rid of copying the same logic in every component.
 
 
-**26. what is the diffference between takeEvery and takeLatest in redux saga?**
+**27. what is the diffference between takeEvery and takeLatest in redux saga?**
 
 Here’s a concise 2-mark explanation of the difference between `takeEvery` and `takeLatest` in Redux Saga:
 
@@ -448,12 +448,12 @@ Here’s a concise 2-mark explanation of the difference between `takeEvery` and 
 | **Use Case**         | When every action should be handled   | When only the latest action matters   |
 
 
-**27. what is react context api?**
+**28. what is react context api?**
 
             The React Context API is a feature in React that allows you to manage and share state across components without having to pass props manually at every level of the component tree. It's mainly used to avoid "prop drilling", which occurs when you pass data from parent to deeply nested child components unnecessarily.
 
 
-**28. What is the purpose of useReducer,***
+**29. What is the purpose of useReducer,***
 
       The useReducer hook is used in React for managing complex state logic. It’s helpful when:
 
@@ -462,7 +462,7 @@ Here’s a concise 2-mark explanation of the difference between `takeEvery` and 
    **Multiple actions:** When you need to handle different actions (like incrementing, decrementing, or resetting a counter).            
 
 
-**29. What are inline conditional expressions?**
+**30. What are inline conditional expressions?**
 
             Inline conditional expressions in React allow you to render different parts of the UI based on certain conditions, all within the JSX syntax. These are useful for showing or hiding elements dynamically based on state or props.
 
@@ -510,7 +510,7 @@ Here’s a concise 2-mark explanation of the difference between `takeEvery` and 
             If any of them is false, nothing is rendered.
 
             
-**30. Sure! Here’s a shorter explanation of Controlled Components in React:**
+**31. Sure! Here’s a shorter explanation of Controlled Components in React:**
 
 ### Controlled Components in React
 
@@ -550,3 +550,40 @@ iii. **Handle Input Changes**: Create a function (like `handleChange`) to update
 - **State** controls the input value.
 - **Event handler** keeps the state updated with user input.
 - Input is fully managed by React, ensuring consistent behavior.
+
+
+**32. What are effects in redux saga?**
+
+  **1. call**
+
+   **Purpose:** To invoke a function (e.g., API call) and wait for it to complete.
+
+  **2. put**
+
+   **Purpose:** To dispatch an action to the Redux store.
+
+  **3. take**
+
+   **Purpose:** To pause the saga until a specific action is dispatched.
+
+  **4. takeEvery**
+
+   **Purpose:** To listen for every occurrence of a specific action and run a saga for each one.
+
+  **5. takeLatest**
+
+   **Purpose:** To run a saga for the latest occurrence of an action and cancel any previous ones if they are still running.
+
+  **6. select**
+
+   **Purpose:** To access the current state from the Redux store.
+
+  **7. fork**
+
+   **Purpose:** To create a non-blocking task that runs concurrently with the rest of the saga.
+
+  **8. delay**
+
+   **Purpose:** To pause the saga for a specified amount of time (non-blocking delay).
+
+   
