@@ -1847,4 +1847,57 @@ decodeURI("%");  // Invalid character in URL causes an error
         let jsonString = JSON.stringify(obj);  // '{"name":"Alice","age":25}'
         let parsedObj = JSON.parse(jsonString);  // { name: "Alice", age: 25 
 
+
+
+**99. Features of ES6**
+
+**Why ES6 is Useful:**
+
+   - **Improved Code Readability**: ES6 syntax is shorter and clearer, making code easier to understand.
+
+   - **Better Code Organization**: Use of `import` and `export` helps modularize code for better management of larger projects.
+
+   - **Enhanced Performance**: New features like `const`, `let`, and arrow functions optimize memory and speed.
+
+   - **Asynchronous Programming**: Introduces Promises for easier handling of asynchronous tasks, essential for web applications.
+
+### Key ES6 Features
+
+   **let and const**:
+
+   - **let**: Block-scoped variable that can be reassigned.
+   - **const**: Constant variable that can’t be reassigned.
+
+           let count = 10; // can be reassigned
+           const max = 100; // cannot be reassigned
+
+   **Arrow Functions**:
+
+      - Shorter syntax for functions, automatically binds `this`.
+   
+           const add = (a, b) => a + b;
+
+   **Template Literals**:
+
+      - Easy string formatting using backticks and `${variable}` for interpolation.
+ 
+           const name = "Bavya";
+           const message = `Hello, ${name}!`;
+
+   **Destructuring Assignment**:
+
+      - Extracts values from arrays and objects easily, reducing repetitive code.
+   
+           const person = { name: "Bavya", age: 22 };
+           const { name, age } = person; // extracts name and age
+
+   **Modules (import and export)**:
+
+      - Enables separation of code into multiple files for better organization.
+  
+           // file: math.js
+           export const add = (a, b) => a + b;
         
+           // file: app.js
+           import { add } from './math';
+   
