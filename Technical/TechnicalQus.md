@@ -380,7 +380,7 @@ for (let [coin, count] of Object.entries(combination)) {
        5
 
 
-**16. //  Write a JavaScript function to print the following  number pattern:**
+**19. //  Write a JavaScript function to print the following  number pattern:**
 
             function numbers(row){
                 for(let i=1; i <= row; i++){
@@ -404,7 +404,7 @@ for (let [coin, count] of Object.entries(combination)) {
         // 1 2 3 4 5
 
 
-**17. How can we print object properties or models in JavaScript?**
+**20. How can we print object properties or models in JavaScript?**
 
      In JavaScript, object properties or models can be printed in several ways:
 
@@ -422,7 +422,7 @@ for (let [coin, count] of Object.entries(combination)) {
                 console.log(username+age)
 
                 
-**18.remove duplicates**
+**21.remove duplicates**
 
         const array = [1, 2, 2, 3, 4, 4, 5];
         const uniqueArray = array.filter((value, index) => array.indexOf(value) === index);
@@ -432,7 +432,7 @@ for (let [coin, count] of Object.entries(combination)) {
    **Output:  [1,2,3,4,5]**
 
 
-**19.  Sum of all Elements**
+**22.  Sum of all Elements**
         
         let arr = [1, 2, 3, 4];
         let sum = arr.reduce((acc, val) => acc + val,0); 
@@ -441,7 +441,7 @@ for (let [coin, count] of Object.entries(combination)) {
    **output: 10**        
 
 
-**20. //  Write a function to calculate the area of a rectangle.
+**23. //  Write a function to calculate the area of a rectangle.
 //  It should take the length and width as parameters and 
 //  return the calculated area.**
 
@@ -452,3 +452,63 @@ for (let [coin, count] of Object.entries(combination)) {
             console.log(calculateArea(6,7));
 
    **output: 42** 
+
+
+**24. How to center elements in dynamic**
+        
+        <!DOCTYPE html>
+        <html lang="en">
+        <head>
+            <meta charset="UTF-8">
+            <meta name="viewport" content="width=device-width, initial-scale=1.0">
+            <title>Document</title>
+            <style>
+                *{
+                    margin: 0;
+                    padding: 0;
+                    box-sizing: border-box;
+                }
+                body{
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    min-height: 100vh;
+                }
+                #parent{
+                    display: grid;
+                    grid-template-columns: repeat(5,auto);
+                    justify-content: center;
+                    align-items: center;
+                    width: 1000px; 
+                    gap: 10px;
+                }
+                .child{
+                    width: 200px;
+                    height: 300px;
+                    background-color: black;
+                }
+            </style>
+        </head>
+        <body>
+            <div id="parent">
+                <div class="child"></div>
+                <div class="child"></div>
+                <div class="child"></div>
+                <div class="child"></div>
+                <div class="child"></div> 
+                <div class="child"></div> 
+                <div class="child"></div> 
+            </div>
+        
+            <script>
+                const childCount = document.getElementById("parent").childElementCount;
+                const parent = document.getElementById("parent");
+                if(childCount == 6){
+                    parent.style.gridTemplateColumns = 'repeat(3,auto)'
+                } else if( childCount == 7 ){
+                    parent.style.display = 'flex'
+                    parent.style.flexWrap = 'wrap'
+                }
+            </script>
+        </body>
+        </html>
