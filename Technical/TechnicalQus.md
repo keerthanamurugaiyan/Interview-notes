@@ -446,9 +446,9 @@ for (let [coin, count] of Object.entries(combination)) {
 //  return the calculated area.**
 
 
-function calculateArea (length,width){
-  return length*width;
-}
-console.log(calculateArea(6,7));
+            function calculateArea (length,width){
+              return length*width;
+            }
+            console.log(calculateArea(6,7));
 
    **output: 42** 
