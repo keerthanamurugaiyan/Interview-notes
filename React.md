@@ -510,9 +510,7 @@ Here’s a concise 2-mark explanation of the difference between `takeEvery` and 
             If any of them is false, nothing is rendered.
 
             
-**31. Sure! Here’s a shorter explanation of Controlled Components in React:**
-
-### Controlled Components in React
+**31. Controlled Components in React**
 
 **Controlled Components** are input elements where React state controls the input value. This ensures the input field and state are always in sync, making it easier to manage user inputs.
 
@@ -554,36 +552,31 @@ iii. **Handle Input Changes**: Create a function (like `handleChange`) to update
 
 **32. What are effects in redux saga?**
 
-  **1. call**
+  **- call:**
+             To invoke a function (e.g., API call) and wait for it to complete.
 
-   **Purpose:** To invoke a function (e.g., API call) and wait for it to complete.
+  **- put:**
+             To dispatch an action to the Redux store.
 
-  **2. put**
+  **- take:**
+              To pause the saga until a specific action is dispatched.
 
-   **Purpose:** To dispatch an action to the Redux store.
+  **- takeEvery:**
+             To listen for every occurrence of a specific action and run a saga for each one.
 
-  **3. take**
+  **- takeLatest:**
+             To run a saga for the latest occurrence of an action and cancel any previous ones if they are still running.
 
-   **Purpose:** To pause the saga until a specific action is dispatched.
+  **- select:**
+             To access the current state from the Redux store.
 
-  **4. takeEvery**
+  **- fork:**
+             To create a non-blocking task that runs concurrently with the rest of the saga.
 
-   **Purpose:** To listen for every occurrence of a specific action and run a saga for each one.
-
-  **5. takeLatest**
-
-   **Purpose:** To run a saga for the latest occurrence of an action and cancel any previous ones if they are still running.
-
-  **6. select**
-
-   **Purpose:** To access the current state from the Redux store.
-
-  **7. fork**
-
-   **Purpose:** To create a non-blocking task that runs concurrently with the rest of the saga.
-
-  **8. delay**
-
-   **Purpose:** To pause the saga for a specified amount of time (non-blocking delay).
+  **- delay:**
+             To pause the saga for a specified amount of time (non-blocking delay).
 
    
+**33. What is useContext?**
+
+            UseContext allows components to access shared values from a context provider without passing props manually. It simplifies sharing state across multiple components, avoiding prop drilling.
