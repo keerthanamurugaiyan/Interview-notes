@@ -1905,3 +1905,50 @@ decodeURI("%");  // Invalid character in URL causes an error
 **100. What is Short Circuit  evaluation in js?**
 
             Short Circuit evaluation stops the execution as soon as the result can be determined without evaluating the remaining sub-expression .
+
+
+**101. Is it possible to break javascript code into several lines?**
+
+            It is possible
+
+   **i. Using Backslashes for Line Continuation**
+                
+                The backslash (\) can be used for line continuation within strings.
+   **Example:**
+
+            let message = "This is a long message that we want to " + 
+                          "break into several lines without " + 
+                          "interrupting the flow.";
+
+   **ii. Breaking Code Inside Expressions or Statements**
+
+                JavaScript automatically allows line breaks after operators and commas:
+   **Example:**
+                
+                let sum = 1 + 2 +
+                          3 + 4 +
+                          5 + 6;
+
+   **iii. Template Literals**
+
+                With template literals (using backticks), multi-line strings are possible without concatenation:
+   **Example:**
+               
+                let message = `This is a long message 
+                that we want to break 
+                into several lines.`;
+
+
+**102. // Lexical scope refers to how variables are resolved in nested functions. A function can access variables defined in its scope and in its outer (parent) scope.**
+
+                function outerscope(){
+                    let outer="This is outer Scope"
+                    console.log(outer)
+                    function innerScope(){
+                        console.log(outer)
+                    }
+                    innerScope()
+                }
+                outerscope()
+
+   **output:**  This is outer Scope                  
