@@ -199,3 +199,18 @@ Testing at the End: Testing is done only after the entire development process is
 **13. What is WebRTC?**
 
                 WebRTC stands for Web Real-Time Communication. It is a free and open-source project that enables real-time communication capabilities within browsers and applications. It provides protocols and APIs for peer-to-peer audio, video, and data sharing without the need for additional plugins or software installations. WebRTC allows users to have seamless voice and video calls, as well as share screens and transfer files directly from their web browsers. It has become popular for building applications such as video conferencing, live streaming, and real-time collaboration tools.
+
+
+**14. What is the difference between HTML and CSS?**
+
+   **HTML:**  Provides the structure and content of a web page. It defines elements like headings, paragraphs, images, links, and forms.
+
+   **Example:** <p>Hello, world!</p>
+
+   **CSS:** Provides the style and appearance of the HTML content, controlling layout, colors, fonts, and spacing.
+
+   **Example:** 
+                p {
+                  color: blue;
+                  font-size: 20px;
+                }
