@@ -225,9 +225,9 @@ Testing at the End: Testing is done only after the entire development process is
 
   ### TCP Three-Way Handshake:
 
-   **- SYN**: The sender says, “Ready?” (sends a SYN (synchronize) packet).
-   **- SYN-ACK**: The receiver replies, “Yes, I’m ready” (sends SYN-ACK (synchronize acknowledgment) packet).
-   **- ACK**: The sender confirms, “Great, let’s start!” (sends ACK (acknowledgment) packet).
+   - **SYN**: The sender says, “Ready?” (sends a SYN (synchronize) packet).
+   - **SYN-ACK**: The receiver replies, “Yes, I’m ready” (sends SYN-ACK (synchronize acknowledgment) packet).
+   - **ACK**: The sender confirms, “Great, let’s start!” (sends ACK (acknowledgment) packet).
 
  This establishes a reliable connection.
 
