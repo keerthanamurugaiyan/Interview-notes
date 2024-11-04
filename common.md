@@ -214,3 +214,29 @@ Testing at the End: Testing is done only after the entire development process is
                   color: blue;
                   font-size: 20px;
                 }
+
+
+**15. Explain the difference between TCP and UDP with examples.**
+
+### TCP (Transmission Control Protocol):
+
+   - **Example:** Sending a file online with confirmation if it’s received correctly.
+   - **Reliable:** with feedback, uses a three-step "handshake" to start.
+
+  ### TCP Three-Way Handshake:
+
+   **- SYN**: The sender says, “Ready?” (sends a SYN (synchronize) packet).
+   **- SYN-ACK**: The receiver replies, “Yes, I’m ready” (sends SYN-ACK (synchronize acknowledgment) packet).
+   **- ACK**: The sender confirms, “Great, let’s start!” (sends ACK (acknowledgment) packet).
+
+ This establishes a reliable connection.
+
+  ### UDP (User Datagram Protocol):
+
+   - **Example**: Live video or gaming, where speed is key.
+   - **Fast** but no feedback, so less reliable. 
+
+ **In summary:**
+
+   - **TCP** = Reliable, feedback.
+   - **UDP** = Fast, no feedback.
