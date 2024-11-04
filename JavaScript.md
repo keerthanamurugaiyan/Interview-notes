@@ -1952,3 +1952,56 @@ decodeURI("%");  // Invalid character in URL causes an error
                 outerscope()
 
    **output:**  This is outer Scope                  
+
+
+**103. how do you detect a type primitive or non primitive in javascript**
+
+   **(i)** You can use the typeof operator for most primitives.
+   **(ii)**  Object constructor 
+
+   **i, typeof operator**
+          
+           The typeof operator in JavaScript is used to determine the data type of a given variable or value:
+
+                let name = "Strawberry";
+                console.log(typeof name);     // Output: "string"
+
+                console.log(typeof 42);                   // Output: "number"
+                console.log(typeof true);                 // Output: "boolean"
+                console.log(typeof { key: "value" });     // Output: "object"
+                console.log(typeof [1, 2, 3]);            // Output: "object" (arrays are a type of object)
+                console.log(typeof function() {});        // Output: "function"
+                console.log(typeof undefined);            // Output: "undefined"
+                console.log(typeof null);                 // Output: "object" (historical quirk in JavaScript)
+
+        The typeof operator is very useful for checking the type of a variable, especially in dynamic situations where you want to handle different data types differently.
+
+
+   **ii, Object constructor**
+   
+   Object constructor in JavaScript, you can take advantage of how the Object constructor behaves:
+
+       - Primitive values will be converted into their respective wrapper objects when passed to Object (e.g., Object(42) becomes Number {42}, Object("hello") becomes String {"hello"}).
+               
+       - Non-primitive values (objects) will return themselves when passed to Object.
+
+   **eg,**
+
+   **how do you detect a type primitive or non primitive in javascript**
+
+
+                function isNonPrimitive(value) {
+                  return value !== null && (typeof value === "object" || typeof value === "function");
+                }
+                
+                console.log(isNonPrimitive({}));         // true
+                console.log(isNonPrimitive([]));         // true
+                console.log(isNonPrimitive(() => {}));   // true
+                console.log(isNonPrimitive(42));         // false
+                console.log(isNonPrimitive("hello"));    // false
+                console.log(isNonPrimitive(null));       // false
+
+
+**104. what is concat methode in javascript?**
+
+            In JavaScript, concat is a method used with arrays to combine multiple arrays (or values) into a single, new array. It does not change the original arrays but instead returns a new array that contains the elements of the original arrays along with any additional values or arrays you include.
