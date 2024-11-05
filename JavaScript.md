@@ -2005,3 +2005,40 @@ decodeURI("%");  // Invalid character in URL causes an error
 **104. what is concat methode in javascript?**
 
             In JavaScript, concat is a method used with arrays to combine multiple arrays (or values) into a single, new array. It does not change the original arrays but instead returns a new array that contains the elements of the original arrays along with any additional values or arrays you include.
+
+
+**105.Undeclared Variables vs Undefined Variables**
+
+  **i. Undeclared Variables**
+
+   **Definition:** An undeclared variable is one that has not been declared using a var, let, or const keyword in JavaScript (or similar declarations in other languages).
+   
+   **Behavior:** Trying to access an undeclared variable will typically cause a reference error, as the environment has no record of the variable.
+
+   **Example:**
+            console.log(myVariable); // ReferenceError: myVariable is not defined
+
+  **ii. Undefined Variables:**
+
+   **Definition:** An undefined variable is one that has been declared but has not been assigned a value.
+   
+   **Behavior:** In JavaScript, when you declare a variable without initializing it, it is assigned the value undefined by default.
+
+   **Example:**
+            let myVariable;
+            console.log(myVariable); // undefined
+
+
+**106. How does encodeURI() work in JavaScript, and which characters does it encode in a URL?**
+
+        The encodeURI() function replaces certain characters in a URI with their UTF-8 encoded representations. For instance, spaces are encoded as %20. It’s often used on entire URIs (not individual query parameters) to keep them in a safe format for transmission over the internet.
+
+   **example:**
+            
+            const url = "https://example.com/page?param=Hello World!";
+            const encodedUrl = encodeURI(url);
+            console.log(encodedUrl);
+            
+   **// Output:** "https://example.com/page?param=Hello%20World!"            
+
+   
