@@ -512,3 +512,39 @@ for (let [coin, count] of Object.entries(combination)) {
             </script>
         </body>
         </html>
+
+
+**25.What will be the output of the following code? Explain why there is a difference in output between using let and var in the loop.** 
+
+            const b = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
+
+            for (let i = 0; i < 10; i++) {
+              setTimeout(() => console.log(b[i]), 1000);
+            }
+
+            for (var i = 0; i < 10; i++) {
+              setTimeout(() => console.log(b[i]), 1000);
+            }
+
+   **Output:**
+            1
+            2
+            3
+            4
+            5
+            6
+            7
+            8
+            9
+            10
+            undefined
+            undefined
+            undefined
+            undefined
+            undefined
+            undefined
+            undefined
+            undefined
+            undefined
+            undefined
+
