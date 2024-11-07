@@ -431,3 +431,32 @@ Pseudo-elements target specific parts of an element (e.g., the first letter, con
    **- Cross Browser issue:**   Some selectors behave differently in a different browser).
 
    **- There is no parent selector:** Currently, Using CSS, you can’t select a parent tag.
+
+
+**31. What are the types of lists in css?**
+
+   **1.Unordered List (<ul>):**
+        
+        Displays items with bullets (default) or other symbols like circles or squares.
+   **Example:**
+        ■ Item 1
+        ■ Item 2
+        ■ Item 3
+
+   **2.Ordered List (<ol>):**
+        
+        Displays items with numbers or letters, useful for steps or sequences.
+   **Example:**
+        I. First item
+        II. Second item
+        III. Third item
+
+   **3.Definition List (<dl>):**
+
+        Used for terms and their descriptions, often used for glossaries or FAQs.
+   **Example:**
+        HTML
+            A markup language for web pages.
+        
+        CSS
+            A style sheet language used to style web pages.
