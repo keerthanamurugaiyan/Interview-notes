@@ -2042,3 +2042,22 @@ decodeURI("%");  // Invalid character in URL causes an error
    **// Output:** "https://example.com/page?param=Hello%20World!"            
 
    
+**107. What is the spread operator (...) and how is it used?**
+
+        The spread operator (...) in JavaScript is used to unpack elements from an array or object into individual values. It can be used in arrays, objects, and function calls.
+
+   **In Arrays:**
+        You can use the ... operator to copy an array or combine multiple arrays.
+   **Example:**
+                const arr = [1, 2, 3];
+                const newArr = [...arr, 4, 5]; // Spread arr and add 4, 5
+                console.log(newArr); // Output: [1, 2, 3, 4, 5]
+
+In Objects:
+You can use the ... operator to copy an object or merge multiple objects.
+Example:
+const obj1 = { name: "Alice", age: 25 };
+const obj2 = { city: "New York", country: "USA" };
+const merged = { ...obj1, ...obj2 }; // Merge obj1 and obj2
+console.log(merged); 
+// Output: { name: "Alice", age: 25, city: "New York", country: "USA" }
