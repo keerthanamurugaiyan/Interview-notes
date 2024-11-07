@@ -2060,6 +2060,7 @@ decodeURI("%");  // Invalid character in URL causes an error
         You can use the ... operator to copy an object or merge multiple objects.
 
    **Example:**
+               
                 const obj1 = { name: "Alice", age: 25 };
                 const obj2 = { city: "New York", country: "USA" };
                 const merged = { ...obj1, ...obj2 }; // Merge obj1 and obj2
