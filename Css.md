@@ -439,6 +439,7 @@ Pseudo-elements target specific parts of an element (e.g., the first letter, con
         
         Displays items with bullets (default) or other symbols like circles or squares.
    **Example:**
+        
         ■ Item 1
         ■ Item 2
         ■ Item 3
@@ -447,6 +448,7 @@ Pseudo-elements target specific parts of an element (e.g., the first letter, con
         
         Displays items with numbers or letters, useful for steps or sequences.
    **Example:**
+        
         I. First item
         II. Second item
         III. Third item
@@ -455,6 +457,7 @@ Pseudo-elements target specific parts of an element (e.g., the first letter, con
 
         Used for terms and their descriptions, often used for glossaries or FAQs.
    **Example:**
+        
         HTML
             A markup language for web pages.
         
