@@ -2107,3 +2107,37 @@ decodeURI("%");  // Invalid character in URL causes an error
    **Usage:** Often used when you only want to update a few fields, not the entire resource.
 
    
+**109. What are set and map?**
+
+   **i. Set:**
+
+             A Set is a collection of unique values. It automatically removes duplicates.
+            It can store any type of value (primitives or objects).
+
+   **example:**
+    
+            let mySet = new Set();
+            mySet.add(1);
+            mySet.add(2);
+            mySet.add(2); // Duplicate value, won't be added
+            mySet.add(3);
+            
+            console.log(mySet); // Output: Set { 1, 2, 3 }
+
+
+   **ii. Map:**
+
+            A Map is a collection of key-value pairs where each key is unique.
+            Both keys and values can be of any type (primitives or objects).
+
+   **example:**
+            
+            let myMap = new Map();
+            myMap.set('name', 'John');
+            myMap.set('age', 30);
+            myMap.set('city', 'New York');
+            
+            console.log(myMap); // Output: Map { 'name' => 'John', 'age' => 30, 'city' => 'New York' }
+            console.log(myMap.get('name')); // Output: John
+
+            
