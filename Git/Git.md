@@ -28,7 +28,7 @@ In simple terms, **Git** is the underlying tool for managing versions of your co
 **4.What is the difference between git fetch and git pull?**
 
    **git fetch:**
-            The git fetch command retrieves changes from a remote repository to the local repository. It updates the remote-tracking branches (e.g., origin/master) in the local repository to reflect the state of the remote repository, but it does not update the working directory or merge any changes into the current branch. This means that after fetching, you can review the changes made in the remote repository without affecting your local work.
+            The git fetch command retrieves changes from a remote repository to the local repository. It updates the remote-tracking branches **(e.g., origin/master)** in the local repository to reflect the state of the remote repository, but it does not update the working directory or merge any changes into the current branch. This means that after fetching, you can review the changes made in the remote repository without affecting your local work.
 
    **git pull:**
             The git pull command also retrieves changes from a remote repository, but it goes a step further by fetching changes and merging them into the current branch in one step. It essentially performs a git fetch followed by a git merge to incorporate the changes from the remote repository into the current branch. 
