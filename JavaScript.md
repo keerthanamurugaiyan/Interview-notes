@@ -2073,31 +2073,37 @@ decodeURI("%");  // Invalid character in URL causes an error
   **i. POST:**  
          
    **Purpose:** Create a new resource on the server.
+   
    **Usage:** Used to send data to the server to create a new resource.
 
   **ii. GET:**
          
    **Purpose:** Retrieve data from the server.
+   
    **Usage:** Used to read or fetch resources without making any changes to them.
 
   **iii. GET by ID:**
         
    **Purpose:** Fetch a specific resource by its unique identifier (ID)
-.  **Example Use:** Viewing details of a single user, a specific blog post, or a product by ID.
+.  
+   **Example Use:** Viewing details of a single user, a specific blog post, or a product by ID.
 
    **iv. PUT:** 
        
    **Purpose:** Update or replace an existing resource.
+   
    **Usage:** Sends data to update an entire resource or create it if it doesn’t exist (in some cases).
 
   **v. DELETE:** 
       
    **Purpose:** Remove a resource from the server.
+   
    **Usage:** Deletes the specified resource by its unique identifier.
 
   **vi. PATCH – Partially Update a Resource:**
        
    **Purpose:** Modify only specific fields of an existing resource.
+   
    **Usage:** Often used when you only want to update a few fields, not the entire resource.
 
    
