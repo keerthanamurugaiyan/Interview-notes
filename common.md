@@ -240,3 +240,39 @@ Testing at the End: Testing is done only after the entire development process is
 
    - **TCP** = Reliable, feedback.
    - **UDP** = Fast, no feedback.
+
+
+**16. What is Authentication and authorization ?**
+
+  **i,Authentication**
+
+   **Definition:** Authentication is the process of verifying the identity of a user. It answers the question, "Who are you?"
+
+   **Purpose:** Ensures that the user is who they claim to be.
+
+   **Process:** Typically involves logging in with credentials like username/email and password. Other methods include OTPs, biometric scans, etc.
+
+   **Example in JavaScript:** Using Firebase Authentication or Passport.js to verify a user’s identity.
+
+                // Example using JSON Web Token (JWT) for authentication
+                const token = jwt.sign({ userId: user.id }, "yourSecretKey");
+
+
+  **ii,Authorization:**
+
+   **Definition:** Authorization is the process of determining whether a user has permission to access a resource or perform an action. It answers the question, "What are you allowed to do?"
+
+   **Purpose:** Ensures that the authenticated user has permission to access specific data or perform actions.
+
+   **Process:** Usually takes place after authentication. It checks roles or permissions assigned to the user.
+
+   **Example in JavaScript:** Checking a user's role (e.g., "admin" or "user") before allowing them access to a resource.
+
+                        // Example for checking authorization
+                        if (user.role === 'admin') {
+                          // grant access
+                        } else {
+                          // deny access
+                        }
+
+                        
