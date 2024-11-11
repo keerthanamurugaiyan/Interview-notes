@@ -211,3 +211,33 @@
    **<base /> -** Specifies the base URL for all relative URLs in a document.
 
         These elements are self-closing because they don't have any content, so there’s no need for an opening and closing pair. They are often called "self-closing tags."
+
+
+**14. What is Microdata in HTML5, and how does it help search engines?**
+
+**Microdata in HTML5** allows you to add extra information (metadata) to web content, helping search engines understand it better. It organizes content into items, each with properties (name-value pairs). Most search engines like Google and Bing use the schema.org vocabulary to interpret microdata.
+
+### Key Attributes:
+
+   - **itemscope**: Defines the scope of an item.
+   - **itemtype**: Specifies the vocabulary URL (like `http://schema.org/SoftwareApplication`).
+   - **itemprop**: Adds properties to an item (like name, rating, price).
+   - **itemid**: A unique identifier for the item.
+- **itemref**: Points to other element IDs with additional properties.
+
+### Example:
+
+                <div itemscope itemtype="http://schema.org/SoftwareApplication">
+                  <span itemprop="name">Interviewbit Games</span> -
+                  REQUIRES <span itemprop="operatingSystem">ANDROID</span><br>
+                  <div itemprop="aggregateRating" itemscope itemtype="http://schema.org/AggregateRating">
+                    RATING: <span itemprop="ratingValue">4.6</span> (
+                    <span itemprop="ratingCount">8864</span> ratings)
+                  </div>
+                  <div itemprop="offers" itemscope itemtype="http://schema.org/Offer">
+                    Price: Rs.<span itemprop="price">1.00</span>
+                    <meta itemprop="priceCurrency" content="INR" />
+                  </div>
+                </div>
+
+**Result**: This helps Google parse the app's name, OS requirement, rating, and price directly from the webpage.
