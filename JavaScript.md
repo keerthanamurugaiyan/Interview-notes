@@ -2141,3 +2141,6 @@ decodeURI("%");  // Invalid character in URL causes an error
             console.log(myMap.get('name')); // Output: John
 
             
+**110. what is debugging in javascript?**
+
+        JavaScript (JS) debugging is the process of finding and fixing errors, bugs, or issues in JavaScript code. Debugging is essential in development because even small errors can break functionality, cause unexpected behavior, or crash web applications.
