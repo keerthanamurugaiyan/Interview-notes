@@ -580,3 +580,19 @@ iii. **Handle Input Changes**: Create a function (like `handleChange`) to update
 **33. What is useContext?**
 
             UseContext allows components to access shared values from a context provider without passing props manually. It simplifies sharing state across multiple components, avoiding prop drilling.
+
+
+**34. state the core principle of redux ?** 
+ 
+ This principle is based on three key concepts:
+
+   **i. Single Source of Truth:** The entire application's state is stored in one central store, making it easy to manage and maintain. All parts of the app access and derive state from this single store, ensuring consistency.
+
+   **ii. State is Read-Only:** The application state cannot be modified directly. To make any change, an action must be dispatched. Actions are plain JavaScript objects that describe the change, keeping the flow of data predictable and easy to debug.
+
+   **iii. Changes are Made with Pure Functions:** Redux uses pure functions, called reducers, to manage how state changes in response to actions. Reducers take the current state and an action, then return a new state, ensuring that updates are consistent and free from side effects.            
+
+
+**35. Is it true that Redux can only be used with React?**
+
+            No, it is not true that Redux can only be used with React. Redux is being used as a data store for lots of UI layers. There are bindings available in Redux for React, Angular, Angular 2, Vue, etc.    
