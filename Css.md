@@ -463,3 +463,20 @@ Pseudo-elements target specific parts of an element (e.g., the first letter, con
         
         CSS
             A style sheet language used to style web pages.
+
+
+**32. Explain the difference between display:none and visiblitiy:hidden?**
+
+**i. display: none;**
+
+   **-When you use display: none;,** the element is completely removed from the page layout. It’s as if the element doesn’t exist at all, so any space it would have taken up is also removed.
+
+   **-Example:** If you have a <div> with **display: none;,** that <div> and the space it occupies will disappear, and other elements on the page will move up or adjust to fill the gap.
+
+
+**ii. visibility: hidden;:**
+
+   **-When you use visibility: hidden;,** the element is invisible (you can’t see it), but it still takes up space on the page. Other elements won’t move into the space where it is.
+
+   **Example:** If you have a <div> with **visibility: hidden;,** it won’t be visible, but it will still take up the same space it normally would.            
+
