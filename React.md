@@ -596,3 +596,26 @@ iii. **Handle Input Changes**: Create a function (like `handleChange`) to update
 **35. Is it true that Redux can only be used with React?**
 
             No, it is not true that Redux can only be used with React. Redux is being used as a data store for lots of UI layers. There are bindings available in Redux for React, Angular, Angular 2, Vue, etc.    
+
+
+**36. **Features of React**
+
+i. **Component-Based Architecture**:  
+   React uses a modular approach, breaking the UI into reusable, self-contained components. This makes the code more organized and easier to maintain.
+
+ii. **Virtual DOM**:  
+   React creates a lightweight, in-memory version of the DOM. When updates happen, only the necessary changes are applied to the actual DOM, making updates faster and more efficient.
+
+iii. **JSX (JavaScript XML)**:  
+   JSX allows developers to write HTML-like code in JavaScript, making the code more readable. It combines HTML tags and JavaScript in the same file and is compiled by tools like Babel.
+
+iv. **One-Way Data Binding**:  
+   React enforces a one-way data flow from parent to child components, making the application easier to understand and debug. This approach keeps components modular and predictable.
+
+v. **State Management**:  
+   React provides `useState` and `useReducer` hooks for managing component state. For complex state needs, tools like Context API and Redux help manage global state.
+
+vi. **Single-Page Application (SPA) Development**:  
+   React is ideal for SPAs, which update content dynamically without reloading the whole page, offering a smoother user experience.
+
+   
