@@ -241,3 +241,34 @@
                 </div>
 
 **Result**: This helps Google parse the app's name, OS requirement, rating, and price directly from the webpage.
+
+
+**15. Difference between Subscript and Superscript in HTML?**
+
+  **i,Subscript:**
+
+   **Position:** Characters are placed slightly below the baseline of the surrounding text.
+
+   **HTML Tag:** <sub>...</sub>
+
+   **Common Uses:**
+   
+            *Representing array elements in some notations, such as array[i], where "i" is subscripted.
+            *Writing chemical formulas, such as H₂O (water) or CO₂ (carbon dioxide).
+            *Denoting certain mathematical or scientific variables and constants.
+
+   **Example:**
+            H<sub>2</sub>O <!-- displays "H₂O" -->
+
+  **ii,Superscript:**
+
+   **Position:** Characters are placed slightly above the baseline of the surrounding text.
+
+   **HTML Tag:** <sup>...</sup>
+
+   **Common Uses:**
+                Denoting exponents, such as x² (where the "2" is superscripted).
+                Indicating units and constants, such as m² for square meters or E = mc² 
+
+   **Example:**
+                x<sup>2</sup> <!-- displays "x²" -->
