@@ -2161,8 +2161,8 @@ string containing the text entered by the user, or null.
 
 **112. The working of **timers in JavaScript** can be explained in two ways:**
 
-**i.** Timers are used to execute a piece of code at a set time or repeat the code at regular intervals. This is achieved using the functions `setTimeout`, `setInterval`, and `clearInterval`.
-                                                                                **(or)**
+**i.** Timers are used to execute a piece of code at a set time or repeat the code at regular intervals. This is achieved using the functions `setTimeout`, `setInterval`, and `clearInterval`. /
+                                                                                
 **ii.** Timers in JavaScript allow you to run code after a specific time or repeatedly at given intervals.
 
 ### Functions:
