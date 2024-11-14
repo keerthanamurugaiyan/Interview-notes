@@ -1386,7 +1386,13 @@ Async and await are used to handle asynchronous operations more easily than Prom
 
    **Implicit type conversion (Automatic type conversion):** JavaScript automatically converts one data type to another based on the operation being performed.
 
+                           eg,    let num = 123;
+                                  let str = "Number is: " + num; // "Number is: 123"
+
    **Explicit type conversion (Manual type conversion):** You manually convert one data type to another using specific functions or methods.
+
+                           eg,    let num = 123;
+                                  let str = String(num); // "123"
 
 
 **79. addEventListener() and removeEventListener()**
