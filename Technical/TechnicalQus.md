@@ -548,3 +548,11 @@ for (let [coin, count] of Object.entries(combination)) {
             undefined
             undefined
 
+
+**26. Write a function to calculate the circumference of a circle. It should take the radius as a parameter and return the calculated circumference.**
+
+   **Solution:-**
+
+                function circumference(radius){
+                return 2  Math.PI  radius;
+                }
