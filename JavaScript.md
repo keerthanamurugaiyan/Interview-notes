@@ -2158,3 +2158,16 @@ decodeURI("%");  // Invalid character in URL causes an error
 some text. It is often used if the user wants to input a value before entering a page. It returns a 
 string containing the text entered by the user, or null.
 
+
+**112. What is the working of timers in JavaScript?**
+
+   **i,** Timers are used to execute a piece of code at a set time or repeat the code in a given interval. This is done by using the functions setTimeout, setInterval, and clearInterval.
+                                                **(or)**
+   **ii,** Timers in JavaScript are used to run code after a specific time or repeatedly at intervals. 
+        
+
+- **setTimeout(function, delay)**: Runs the function once after the specified delay.
+- **setInterval(function, delay)**: Repeatedly runs the function at the specified interval.
+- **clearInterval(id)**: Stops the repeated execution started by `setInterval`.
+
+Timers work on a single thread, so events may queue up and wait to be executed.
