@@ -2144,3 +2144,11 @@ decodeURI("%");  // Invalid character in URL causes an error
 **110. what is debugging in javascript?**
 
         JavaScript (JS) debugging is the process of finding and fixing errors, bugs, or issues in JavaScript code. Debugging is essential in development because even small errors can break functionality, cause unexpected behavior, or crash web applications.
+
+
+**111. What is a prompt box?** 
+             
+             The prompt box is a dialog box with an optional message prompting the user to input 
+some text. It is often used if the user wants to input a value before entering a page. It returns a 
+string containing the text entered by the user, or null.
+
