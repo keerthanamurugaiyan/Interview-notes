@@ -102,4 +102,26 @@ Utilities simplify CSS coding, making development faster and more efficient.
         A navbar (navigation bar) in Bootstrap is a component that helps create a responsive navigation menu for a website. It typically contains links to different sections of the website, making it easy for users to navigate through the content.            
 
 
+**12. What is a breadcrumb in Bootstrap?**
 
+A **breadcrumb** in Bootstrap is a navigation tool that shows the path of pages the user has visited to reach the current page. It helps users understand where they are within a website.
+
+For example, if a user is on a blog post page, the breadcrumb might look like:
+`Home > Blog > Post`
+
+**In Bootstrap:**
+- A breadcrumb is made using an **unordered list** (`<ul>`) with the class `.breadcrumb`.
+- Bootstrap's **CSS** will automatically add the separators (like `>`).
+
+**Example Code**:
+```html
+<nav aria-label="breadcrumb">
+  <ol class="breadcrumb">
+    <li class="breadcrumb-item"><a href="#">Home</a></li>
+    <li class="breadcrumb-item"><a href="#">Library</a></li>
+    <li class="breadcrumb-item active" aria-current="page">Data</li>
+  </ol>
+</nav>
+```
+
+Here, "Home" and "Library" are links, while "Data" is the current page.
