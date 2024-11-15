@@ -396,7 +396,7 @@ Async and await are used to handle asynchronous operations more easily than Prom
   **(iii) shift() :**
      The **shift()** method removes the first element from an array and returns that element.
 
-      **eg:**
+   **eg:**
             let fruits = ['apple', 'banana', 'orange'];
             let firstFruit = fruits.shift();
             console.log(firstFruit); // 'apple'
@@ -406,10 +406,19 @@ Async and await are used to handle asynchronous operations more easily than Prom
   **(iv) unshift() :**
       The **unshift()** method adds one or more elements to the beginning of an array and returns the new length of the array.
    
-      **eg:**   
+   **eg:**   
             let fruits = ['banana', 'orange'];
             fruits.unshift('apple');
-            console.log(fruits); // ['apple', 'banana', 'orange']          
+            console.log(fruits); // ['apple', 'banana', 'orange'] 
+
+   **(v) flat() :**
+        The **`flat()`** method in JavaScript creates a new array with sub-array elements combined up to a specified depth, helping to flatten multi-dimensional arrays.
+
+**eg:**
+
+            const arr = [1, [2, [3, [4]]]];
+            const flatArr = arr.flat(2);
+            console.log(flatArr); // Output: [1, 2, 3, [4]]
 
 
 **21. What is delete in javascript?**
