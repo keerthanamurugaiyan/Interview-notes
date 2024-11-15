@@ -288,4 +288,48 @@ Testing at the End: Testing is done only after the entire development process is
 
    **Example:** React. (You can decide completely how you want to use React.)
 
+
+**18. HTTP Error Codes Explanation and Solutions:**
+
+   **i) 400 - Bad Request:**
+
+   **Why it Occurs:** This happens when the client sends invalid data to the server. For example, if a required field is missing or the input format is incorrect.
+
+   **Solution:** Validate user input before sending it to the server to avoid sending incorrect data.
+
+   **ii) 401 - Unauthorized:**
+
+   **Why it Occurs:** This error occurs when a request is made to a secure endpoint without proper authentication, such as a missing or invalid token.
+
+   **Solution:** Check if the user is logged in and that the token is valid. If not, redirect the user to the login page.
+
+   **iii) 403 - Forbidden:**
+
+   **Why it Occurs:** This error indicates that the user does not have permission to access the resource, even if they are authenticated.
+
+   **Solution:** Verify the user’s permissions and show a message like “You don’t have permission to access this resource” if they lack access rights.
+
+   **iv) 404 - Not Found:**
+
+   **Why it Occurs:** This error is returned when the requested resource is missing or the endpoint URL is incorrect.
+
+   **Solution:** Ensure that the endpoint URL is correct. If the resource is unavailable, display a “Data not found” message to the user.
+
+   **v) 405 - Method Not Allowed:**
+
+   **Why it Occurs:** This error happens when an unsupported HTTP method (GET, POST, PUT, etc.) is used for a specific endpoint.
+
+   **Solution:** Check that the correct HTTP method is used, such as POST for sending data or GET for retrieving it.
+
+   **vi) 408 - Request Timeout:**
+
+   **Why it Occurs:** If the server takes too long to respond, this error appears. It’s usually due to network issues or server load.
+   
+   **Solution:** Increase the timeout limit or try sending the request again after a short delay.
+
+   **vii) 500 - Internal Server Error:**
+
+   **Why it Occurs:** This is a server-side error indicating that something went wrong on the server, such as a crash or bug.
+
+   **Solution:** Show a message like “Something went wrong, please try again later” and try again after a short delay.
    
