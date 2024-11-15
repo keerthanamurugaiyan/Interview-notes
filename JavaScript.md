@@ -32,7 +32,7 @@
 
 **Ans:**            The word “debugger” is used in JavaScript to refer to a tool that can be used to step through JavaScript code line by line. This can be helpful for debugging JavaScript code, which is the process of finding and fixing errors in JavaScript code. To use the debugger, you need to open the JavaScript console in your browser. Then, you can use debugger commands to comb through your code line by line.
 
-It's essential to know debugging techniques as well as the more general ideas behind code optimization and speed improvement. In addition to operating smoothly, efficient code significantly enhances the user experience.
+ It's essential to know debugging techniques as well as the more general ideas behind code optimization and speed improvement. In addition to operating smoothly, efficient code significantly enhances the user experience.
 
 
 6. **Spread Operator**
@@ -379,7 +379,8 @@ Async and await are used to handle asynchronous operations more easily than Prom
   **(i) push() :**
      The **push()** method adds one or more elements to the end of an array and returns the new length of the array.
     
-      **eg:**
+   **eg:**
+                           
                             let fruits = ['apple', 'banana'];
                             fruits.push('orange');
                             console.log(fruits); // ['apple', 'banana', 'orange']
@@ -388,6 +389,7 @@ Async and await are used to handle asynchronous operations more easily than Prom
       The **pop()** method removes the last element from an array and returns that element.
 
    **eg:** 
+                          
                             let fruits = ['apple', 'banana', 'orange'];
                             let lastFruit = fruits.pop();
                             console.log(lastFruit); // 'orange'
@@ -397,6 +399,7 @@ Async and await are used to handle asynchronous operations more easily than Prom
      The **shift()** method removes the first element from an array and returns that element.
 
    **eg:**
+                         
                             let fruits = ['apple', 'banana', 'orange'];
                             let firstFruit = fruits.shift();
                             console.log(firstFruit); // 'apple'
@@ -407,6 +410,7 @@ Async and await are used to handle asynchronous operations more easily than Prom
       The **unshift()** method adds one or more elements to the beginning of an array and returns the new length of the array.
    
    **eg:**   
+                          
                             let fruits = ['banana', 'orange'];
                             fruits.unshift('apple');
                             console.log(fruits); // ['apple', 'banana', 'orange'] 
@@ -415,6 +419,7 @@ Async and await are used to handle asynchronous operations more easily than Prom
         The **`flat()`** method in JavaScript creates a new array with sub-array elements combined up to a specified depth, helping to flatten multi-dimensional arrays.
 
 **eg:**
+                          
                             const arr = [1, [2, [3, [4]]]];
                             const flatArr = arr.flat(2);
                             console.log(flatArr); // Output: [1, 2, 3, [4]]
