@@ -276,3 +276,16 @@ Testing at the End: Testing is done only after the entire development process is
                         }
 
                         
+**17. What is the difference between a framework and a library?**
+
+   **i,Framework:**
+                A framework is like a full setup. It gives you rules on how to code, and you have to follow those rules. In a framework, most of the control is with the framework itself, so your freedom is somewhat limited.
+
+   **Example :** Angular. (It has predefined rules for how to connect pages, handle data, and so on.)
+
+   **ii,Library:**
+                A library is more like a tool. You can use it for whatever purpose you want, giving you a lot of freedom. Here, the control is entirely with you, and the library just acts as support. There are no strict rules, and you decide how to use it.
+
+   **Example:** React. (You can decide completely how you want to use React.)
+
+   
