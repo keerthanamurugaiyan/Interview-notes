@@ -478,5 +478,11 @@ Pseudo-elements target specific parts of an element (e.g., the first letter, con
 
    **-When you use visibility: hidden;,** the element is invisible (you can’t see it), but it still takes up space on the page. Other elements won’t move into the space where it is.
 
-   **Example:** If you have a <div> with **visibility: hidden;,** it won’t be visible, but it will still take up the same space it normally would.            
+   **Example:** If you have a <div> with **visibility: hidden;,** it won’t be visible, but it will still take up the same space it normally would. 
+
+
+**33. what is canvas tag in html?**
+
+   The **<canvas>** tag in HTML is used to draw graphics using JavaScript. It provides a drawable region on the web page where you can render 2D or 3D graphics dynamically. This tag is commonly used for creating animations, games, graphs, or other visual content.
+   
 
