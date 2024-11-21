@@ -92,17 +92,17 @@ Utilities simplify CSS coding, making development faster and more efficient.
             Bootstrap utility classes are predefined CSS classes provided by the Bootstrap framework that enable developers to quickly apply specific styles to elements without writing custom CSS. These classes cover a wide range of styling needs and help in speeding up the development process by providing common, reusable styling options.  
 
 
-**10.  What is a Bootstrap modal and how do you use it?**
+**11.  What is a Bootstrap modal and how do you use it?**
 
             A modal is a popup window that is displayed on top of the current page. You can create a modal using the modal class and trigger it with a button or link using data-toggle="modal" and data-target="#modalId" attributes  
 
 
-**11. What is a navbar in Bootstrap?**
+**12. What is a navbar in Bootstrap?**
 
         A navbar (navigation bar) in Bootstrap is a component that helps create a responsive navigation menu for a website. It typically contains links to different sections of the website, making it easy for users to navigate through the content.            
 
 
-**12. What is a breadcrumb in Bootstrap?**
+**13. What is a breadcrumb in Bootstrap?**
 
 A **breadcrumb** in Bootstrap is a navigation tool that shows the path of pages the user has visited to reach the current page. It helps users understand where they are within a website.
 
