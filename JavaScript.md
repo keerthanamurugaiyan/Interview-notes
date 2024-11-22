@@ -2199,6 +2199,7 @@ It works like this:
  **i, First `!` (NOT):** It flips the truthiness of the value.
    - Truthy → Falsy
    - Falsy → Truthy
+ 
  **ii, Second `!` (NOT):** It flips it back to the original truthiness but converts it to `true` or `false`.
 
 ---
@@ -2244,4 +2245,4 @@ When checking something is true or false **directly**, like:
             }
 ```
 
-`!!` helps ensure you're working with **clean Boolean values** instead of truthy/falsy confusion. 🙂
+`!!` helps ensure you're working with **clean Boolean values** instead of truthy/falsy confusion. 
