@@ -2186,3 +2186,62 @@ string containing the text entered by the user, or null.
 - **`clearInterval(id)`**: Stops the repeated execution started by `setInterval`.
 
 Timers work on a **single thread**, meaning events might queue up and wait to be executed.
+
+
+**113. What is the purpose of Double Exclamation in js?**  
+
+### Double Exclamation (`!!`) Purpose:
+
+**Double exclamation (`!!`)** is used in JavaScript to **convert any value into a true or false value** (Boolean).
+
+It works like this:
+
+ **i, First `!` (NOT):** It flips the truthiness of the value.
+   - Truthy → Falsy
+   - Falsy → Truthy
+ **ii, Second `!` (NOT):** It flips it back to the original truthiness but converts it to `true` or `false`.
+
+---
+
+### Why Use `!!`?
+
+In JS, some values are automatically treated as "truthy" or "falsy." But `!!` helps to **make sure the value is converted into a clean Boolean**.
+
+---
+
+### Example Without `!!`:
+```
+                console.log(0);                   // Outputs: 0 (falsy)
+                console.log("Hello");             // Outputs: "Hello" (truthy)
+                console.log(null);                // Outputs: null (falsy)
+```
+
+- `0`, `null` → Falsy values (JS considers these as "false-like").  
+- `"Hello"` → Truthy (JS treats it as "true-like").
+
+---
+
+### Example With `!!`:
+```
+            console.log(!!0);                 // Outputs: false
+            console.log(!!"Hello");           // Outputs: true
+            console.log(!!null);              // Outputs: false
+```
+
+- `!!0`: Converts `0` to `false`.
+- `!!"Hello"`: Converts `"Hello"` to `true`.
+- `!!null`: Converts `null` to `false`.
+
+---
+
+### Common Use Case:
+When checking something is true or false **directly**, like:
+```
+            if (!!userInput) {
+              console.log("User has entered a value");
+            } else {
+              console.log("Input is empty or invalid");
+            }
+```
+
+`!!` helps ensure you're working with **clean Boolean values** instead of truthy/falsy confusion. 🙂
