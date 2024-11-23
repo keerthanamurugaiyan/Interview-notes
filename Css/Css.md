@@ -486,3 +486,8 @@ Pseudo-elements target specific parts of an element (e.g., the first letter, con
    The **<canvas>** tag in HTML is used to draw graphics using JavaScript. It provides a drawable region on the web page where you can render 2D or 3D graphics dynamically. This tag is commonly used for creating animations, games, graphs, or other visual content.
    
 
+**34. CSS column-count Property**
+
+        The column-count property specifies the number of columns an element should be divided into.
+
+   **eg:**   column-count: 3;
