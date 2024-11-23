@@ -491,3 +491,34 @@ Pseudo-elements target specific parts of an element (e.g., the first letter, con
         The column-count property specifies the number of columns an element should be divided into.
 
    **eg:**   column-count: 3;
+
+
+**35. What is Polygon in CSS?**
+
+        Polygon shapes are created in CSS using the clip-path property. The clip-path property defines a clipping region, and anything outside this region is hidden.
+
+**syntax:**
+
+**clip-path:** polygon(x1 y1, x2 y2, x3 y3, ...);
+
+**- x, y:** Coordinates for the shape's points.
+
+**example:** <div class="triangle"></div>
+
+.triangle {
+  width: 200px;
+  height: 200px;
+  background: blue;
+  clip-path: polygon(50% 0%, 0% 100%, 100% 100%);
+}
+
+**Why Use Polygon in CSS?**
+
+**- Creative Designs:** Allows you to create unique shapes (triangles, stars, hexagons, etc.) for web elements.
+
+**- Custom Clip Shapes:** Helps to clip images or content into non-rectangular shapes.
+
+**- Interactive UI:** Enhances buttons, cards, and navigation with creative designs.
+
+**- Performance:** It's lightweight compared to using images for shapes.
+
