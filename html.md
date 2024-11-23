@@ -262,3 +262,12 @@
       - Denoting exponents, like `x²` (where "2" is superscripted).
       - Indicating units and constants, such as `m²` for square meters or `E = mc²`.
    - **Example:** `x<sup>2</sup>` <!-- displays "x²" -->
+
+
+**16. How many `<h1>` tags can be used in a webpage?**  
+  
+- **Best practice** is to use **only one `<h1>` tag** per webpage.  
+- This is because `<h1>` represents the **main heading** of the page, helping search engines and users identify the page's primary topic.  
+- Using multiple `<h1>` tags can confuse search engines and affect SEO.  
+
+ 
