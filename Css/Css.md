@@ -512,7 +512,7 @@ Pseudo-elements target specific parts of an element (e.g., the first letter, con
   clip-path: polygon(50% 0%, 0% 100%, 100% 100%);
 }
 
-**Why Use Polygon in CSS?**
+**=> Why Use Polygon in CSS?**
 
 **- Creative Designs:** Allows you to create unique shapes (triangles, stars, hexagons, etc.) for web elements.
 
