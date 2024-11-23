@@ -556,3 +556,15 @@ for (let [coin, count] of Object.entries(combination)) {
                 function circumference(radius){
                 return 2  Math.PI  radius;
                 }
+
+
+**27. Write a function to convert minutes to seconds. It should take the number of minutes as a parameter and return the equivalent number of seconds.**
+
+        function minutesToseconds (minutes){
+          
+          return minutes * 60;
+        }
+        console.log(minutesToseconds(5));
+
+   **//Output: 300**
+
