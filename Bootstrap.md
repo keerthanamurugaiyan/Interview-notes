@@ -129,7 +129,7 @@ Here, "Home" and "Library" are links, while "Data" is the current page.
 
 **14. Display Headings :**
 
-        Display headings are used to stand out more than normal headings (larger font-size and lighter font-weight), and there are six classes to choose from: .display-1 to .display-6:
+   Display headings are used to stand out more than normal headings (larger font-size and lighter font-weight), and there are six classes to choose from: **.display-1 to .display-6:**
 
 **Example :**
                
