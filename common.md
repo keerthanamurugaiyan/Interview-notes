@@ -337,11 +337,13 @@ Testing at the End: Testing is done only after the entire development process is
 **19. What is the difference between the defer and async attributes in script tags?**
 
 **i, defer attribute:**   
-   • defer ensures the script is executed after the 
+   
+        • defer ensures the script is executed after the 
 HTML is fully parsed, in order
 
 **ii, async attribute:** 
-   • async executes the script as soon as it is 
+   
+        • async executes the script as soon as it is 
 downloaded, without waiting for the HTML to 
 be fully parsed, out of order
 
