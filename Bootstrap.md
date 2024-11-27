@@ -125,3 +125,21 @@ For example, if a user is on a blog post page, the breadcrumb might look like:
 ```
 
 Here, "Home" and "Library" are links, while "Data" is the current page.
+
+
+**14. Display Headings :**
+
+        Display headings are used to stand out more than normal headings (larger font-size and lighter font-weight), and there are six classes to choose from: .display-1 to .display-6:
+
+**Example :**
+               
+                <div class="container mt-3">
+                  <h1>Display Headings</h1>
+                
+                  <h1 class="display-1">Display 1</h1>
+                  <h1 class="display-2">Display 2</h1>
+                  <h1 class="display-3">Display 3</h1>
+                  <h1 class="display-4">Display 4</h1>
+                  <h1 class="display-5">Display 5</h1>
+                  <h1 class="display-6">Display 6</h1>
+                </div>
