@@ -333,3 +333,19 @@ Testing at the End: Testing is done only after the entire development process is
 
    **Solution:** Show a message like “Something went wrong, please try again later” and try again after a short delay.
    
+
+**19. What is the difference between the defer and async attributes in script tags?**
+
+**i, defer attribute:**   
+   • defer ensures the script is executed after the 
+HTML is fully parsed, in order
+
+**ii, async attribute:** 
+   • async executes the script as soon as it is 
+downloaded, without waiting for the HTML to 
+be fully parsed, out of order
+
+**Example of usage.**
+                
+                <script src="script.js"defer></script>
+                <script src="script.js"async></script>
