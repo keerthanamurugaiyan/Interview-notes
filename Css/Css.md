@@ -522,3 +522,30 @@ Pseudo-elements target specific parts of an element (e.g., the first letter, con
 
 **- Performance:** It's lightweight compared to using images for shapes.
 
+
+**36. what is z-index in css?**
+
+        Z-index in CSS is a property used to control the stacking order of elements on a web page along the z-axis (which represents depth). It determines which elements appear in front of or behind others when they overlap.
+
+   **eg:** 
+
+                ```html
+                <!DOCTYPE html>
+                <html lang="en">
+                <head>
+                    <style>
+                        .box1 { position: absolute; width: 100px; height: 100px; background: red; z-index: 1; }
+                        .box2 { position: absolute; width: 100px; height: 100px; background: blue; left: 50px; top: 50px; z-index: 2; }
+                    </style>
+                </head>
+                <body>
+                    <div class="box1"></div>
+                    <div class="box2"></div>
+                </body>
+                </html>
+                ```
+
+   ### **Explanation**:
+        - The red box (`z-index: 1`) is behind.
+        - The blue box (`z-index: 2`) appears in front because it has a higher `z-index`.
+
