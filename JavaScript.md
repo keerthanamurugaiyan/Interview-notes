@@ -2281,3 +2281,14 @@ In JavaScript, negative infinity is represented by the special value -Infinity. 
            - Modifying or retrieving query information from the URL without reloading the page.
            - Managing application states (e.g., pagination, filtering).
             
+
+### **Simple Example**
+
+    URL Search Params allow you to access or modify query parameters in the URL.
+
+**Example**:
+
+            // Get search parameters from the URL
+            const params = new URLSearchParams(window.location.search);
+            const category = params.get('category');  // 'electronics'
+            console.log(category);
