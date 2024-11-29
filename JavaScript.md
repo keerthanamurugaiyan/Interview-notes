@@ -2246,3 +2246,23 @@ When checking something is true or false **directly**, like:
 ```
 
 `!!` helps ensure you're working with **clean Boolean values** instead of truthy/falsy confusion. 
+
+
+**114. Explanation of Negative Infinity**
+
+In JavaScript, negative infinity is represented by the special value -Infinity. It is a predefined constant that represents a value less than any other number, effectively the lowest possible value in JavaScript.
+
+   **For eg.**
+           
+            function findMax(arr) {
+              let max = -Infinity;
+              for (let num of arr) {
+                if (num > max) {
+                  max = num;
+                }
+              }
+              return max;
+            }
+
+        console.log(findMax([1, 50, 3, -10])); // 50
+        console.log(findMax([-100, -200, -Infinity])); // -100
