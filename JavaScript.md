@@ -2266,3 +2266,18 @@ In JavaScript, negative infinity is represented by the special value -Infinity. 
 
         console.log(findMax([1, 50, 3, -10])); // 50
         console.log(findMax([-100, -200, -Infinity])); // -100
+
+
+**115. URL Search Params**
+
+   **Definition:**
+
+            URL Search Parameters are the key-value pairs that appear in the URL after the ? symbol. They are used to send data in the URL, commonly for passing query parameters or state information between pages.
+
+   **Why Use It:**
+        **URL Search Parameters are useful for:**
+
+           - Passing dynamic data (e.g., user preferences, search filters).
+           - Modifying or retrieving query information from the URL without reloading the page.
+           - Managing application states (e.g., pagination, filtering).
+            
