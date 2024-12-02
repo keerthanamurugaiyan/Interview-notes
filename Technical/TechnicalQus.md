@@ -568,3 +568,19 @@ for (let [coin, count] of Object.entries(combination)) {
 
    **//Output: 300**
 
+
+**28. Write a function to check if a given number is even or odd. The function should take a number as a parameter and return 
+a string indicating whether the number is even or odd.**
+
+            function check (number){
+              if (number% 2===0){
+                return "even";
+              }
+              else {
+                return "odd";
+              }
+            }
+            let number = 10;
+            
+            console.log(check(number));
+            
