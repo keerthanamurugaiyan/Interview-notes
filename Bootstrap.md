@@ -96,6 +96,17 @@ Utilities simplify CSS coding, making development faster and more efficient.
 
             A modal is a popup window that is displayed on top of the current page. You can create a modal using the modal class and trigger it with a button or link using data-toggle="modal" and data-target="#modalId" attributes  
 
+**How it works:**
+
+**1. id="exampleModal":** A unique identifier for the modal.
+
+**2. data-toggle="modal":** Triggers the modal to open.
+
+**3. data-target="#exampleModal":** Specifies which modal to open.
+
+**Result:**
+When the button is pressed, the modal opens. Inside the modal, content is organized into sections like modal-header, modal-body, and modal-footer.
+
 
 **12. What is a navbar in Bootstrap?**
 
@@ -143,3 +154,23 @@ Here, "Home" and "Library" are links, while "Data" is the current page.
                   <h1 class="display-5">Display 5</h1>
                   <h1 class="display-6">Display 6</h1>
                 </div>
+
+
+**15. Difference between .btn-primary and .btn-outline-primary?**
+
+**i, .btn-primary:**
+
+   **Appearance:** Solid background in the primary color **(default: blue in Bootstrap)**.
+
+   **Text Color:** White text.
+
+   **Use Case:** Use this for primary or emphasized actions like "Submit" or "Save."
+
+**ii, .btn-outline-primary:**
+
+   **Appearance:**  Transparent background with a primary-colored border (blue by default).
+
+   **Text Color:** Primary color **(blue by default)**.
+
+   **Use Case:** Use this for secondary or less emphasized actions, providing a cleaner, less intense look.
+   
