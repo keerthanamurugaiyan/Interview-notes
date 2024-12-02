@@ -549,3 +549,24 @@ Pseudo-elements target specific parts of an element (e.g., the first letter, con
         - The red box (`z-index: 1`) is behind.
         - The blue box (`z-index: 2`) appears in front because it has a higher `z-index`.
 
+
+**37. CSS Box Model**
+
+- In CSS, the term "box model" is used when talking about design and layout.
+
+- The CSS box model is essentially a box that wraps around every HTML element. It consists of: content, padding, borders and margins.
+
+
+**Explanation of the different parts:**
+
+   **Content -** The content of the box, where text and images appear
+   
+   **Padding -** Clears an area around the content. The padding is transparent
+   
+   **Border -** A border that goes around the padding and content
+   
+   **Margin -** Clears an area outside the border. The margin is transparent
+
+   The box model allows us to add a border around elements, and to define space between elements. 
+
+   
