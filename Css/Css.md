@@ -570,3 +570,18 @@ Pseudo-elements target specific parts of an element (e.g., the first letter, con
    The box model allows us to add a border around elements, and to define space between elements. 
 
    
+**38. Difference between  visibility: hidden and opacity:0?**
+
+  The properties **visibility: hidden** and **opacity: 0** are used to hide elements in CSS, but they behave differently. Here's the difference:
+
+   **i, visibility: hidden**
+                The element is hidden but still takes up space in the layout.
+                The element is invisible but remains clickable if there's an event bound to it.
+                Does not remove the element from the DOM.
+
+   **ii, opacity: 0**
+                
+                The element is transparent (completely invisible) but still visible to interactions like clicks.
+                It does not remove the element from the layout or DOM.
+                The element doesn’t reserve any visual presence, but it’s still rendered.
+                
