@@ -173,4 +173,14 @@ Here, "Home" and "Library" are links, while "Data" is the current page.
    **Text Color:** Primary color **(blue by default)**.
 
    **Use Case:** Use this for secondary or less emphasized actions, providing a cleaner, less intense look.
+
+
+**16. what is card deck in bootstrap?**
+
+   **Card Deck in Bootstrap:**
+            
+            card-deck is a class in Bootstrap 4 used to arrange a group of cards in a horizontal layout with equal spacing between them. It ensures that the cards are of equal height, making them visually consistent and aligned.   
+
+   **Notes:**       
+   The card-deck class was introduced in Bootstrap 4 to arrange cards in a horizontal layout with equal spacing and height. However, it is deprecated and no longer available in Bootstrap 5. Instead, Bootstrap 5 encourages the use of grid utilities and flexbox classes for similar layouts.
    
