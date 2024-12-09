@@ -270,4 +270,58 @@
 - This is because `<h1>` represents the **main heading** of the page, helping search engines and users identify the page's primary topic.  
 - Using multiple `<h1>` tags can confuse search engines and affect SEO.  
 
- 
+
+**17. HTML Tags: `<dl>`, `<dt>`, `<dd>`**
+
+These tags are used to create **Definition Lists** in HTML. Definition lists are ideal for displaying terms and their descriptions, such as dictionaries or FAQs.
+
+---
+
+### i, **`<dl>` (Definition List)**
+- This is the container for the entire list.
+- It groups all terms (`<dt>`) and their descriptions (`<dd>`) together.
+
+---
+
+### ii, **`<dt>` (Definition Term)**
+- Defines the **term** or **word** being explained.
+- It acts like the "title" of a definition.
+
+---
+
+### iii, **`<dd>` (Definition Description)**
+- Provides the **description** or **explanation** for the term defined by `<dt>`.
+
+---
+
+### **Example:**
+```html
+<dl>
+  <dt>HTML</dt>
+  <dd>HyperText Markup Language, used to create web pages.</dd>
+
+  <dt>CSS</dt>
+  <dd>Cascading Style Sheets, used to style web pages.</dd>
+
+  <dt>JavaScript</dt>
+  <dd>A programming language for adding interactivity to websites.</dd>
+</dl>
+```
+
+**Output:**  
+**HTML**  
+HyperText Markup Language, used to create web pages.  
+
+**CSS**  
+Cascading Style Sheets, used to style web pages.  
+
+**JavaScript**  
+A programming language for adding interactivity to websites.  
+
+---
+
+### **Explanation:**
+- **`<dl>`**: A container tag used to group terms and their descriptions into a list.  
+- **`<dt>`**: Defines the term being described (e.g., HTML, CSS).  
+- **`<dd>`**: Provides the explanation or description for the term.  
+
