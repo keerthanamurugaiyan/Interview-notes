@@ -183,4 +183,9 @@ Here, "Home" and "Library" are links, while "Data" is the current page.
 
    **Notes:**       
 The **card-deck** class was introduced in **Bootstrap 4 to arrange cards in a horizontal layout with equal spacing and height**. However, it is deprecated and no longer available in Bootstrap 5. **Instead, Bootstrap 5 encourages the use of grid utilities and flexbox classes for similar layouts**.
+
+
+**17. what is input group in bootstrap?**
+    
+        In Bootstrap, an Input Group is a component that allows you to easily add elements like text, buttons, or dropdowns before, after, or within an input field. It's commonly used to enhance input fields with additional context or actions.
    
