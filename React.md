@@ -677,3 +677,40 @@ my-app/
             render() {
               return <span className="menu navigation-menu">{'Menu'}</span>
             } 
+
+
+**39. What is the difference between call and fork in Redux-Saga?**
+
+### Difference between `call` and `fork` in Redux-Saga:
+
+i. **`call` (Blocking):**  
+   - Waits for the function to complete before proceeding.  
+   - Used for critical tasks where the result is needed immediately.  
+   - **Example:**
+     ```javascript
+     const result = yield call(api.fetchData, payload);
+     console.log('Data fetched:', result); // Executes after fetchData completes.
+     ```
+
+ii. **`fork` (Non-Blocking):**  
+   - Starts the function asynchronously and continues to the next line.  
+   - Used for tasks that can run in parallel and don’t need to finish immediately.  
+   - **Example:**
+     ```javascript
+     yield fork(api.fetchData, payload);
+     console.log('This executes immediately.'); // Executes without waiting for fetchData.
+     ```
+
+### **Summary Table:**
+
+| Feature                | `call` (Blocking)      | `fork` (Non-Blocking)  |
+|------------------------|------------------------|------------------------|
+| **Execution**          | Waits for completion  | Runs in background     |
+| **Return Value**       | Function result       | Task object            |
+| **Error Propagation**  | Propagates to parent  | Does not affect parent |
+| **Parent Dependency**  | Depends on completion | Independent            |
+| **Cancellation**       | Auto-canceled with parent | Must be manually canceled |
+
+- **Use `call`**: When you need the result and want to pause execution until the function/saga finishes.  
+- **Use `fork`**: When you want to start a task and let it run independently without blocking the main saga.
+  
