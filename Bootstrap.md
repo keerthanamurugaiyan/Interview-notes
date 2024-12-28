@@ -189,3 +189,7 @@ The **card-deck** class was introduced in **Bootstrap 4 to arrange cards in a ho
     
         In Bootstrap, an Input Group is a component that allows you to easily add elements like text, buttons, or dropdowns before, after, or within an input field. It's commonly used to enhance input fields with additional context or actions.
    
+
+**18. What are breakpoints in Bootstrap?**
+
+    Breakpoints are screen width thresholds where Bootstrap's layout changes based on the size of the screen. Common breakpoints include **xs (extra small)**, **sm (small)**, **md (medium)**, **lg (large)**, and **xl (extra large)**.
