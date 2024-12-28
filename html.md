@@ -325,3 +325,30 @@ A programming language for adding interactivity to websites.
 - **`<dt>`**: Defines the term being described (e.g., HTML, CSS).  
 - **`<dd>`**: Provides the explanation or description for the term.  
 
+
+**18,List of input types in HTML ?**
+
+   **Ex : <input type="text">**
+
+1. text - Single-line text input (default type).
+2. password - Hidden/masked text (e.g., password).
+3. number - Numeric input (can use min, max, step).
+4. email - Email address input with validation.
+5. url - URL input with proper formatting.
+6. tel - Telephone number input (no validation).
+7. search - Text input styled for search queries.
+8. date - Date picker input.
+9. datetime-local - Date & time picker (without timezone).
+10. time - Time picker.
+11. month - Month & year picker.
+12. week - Week picker.
+13. color - Color picker input.
+14. range - Slider input for numeric ranges.
+15. checkbox - Box for true/false (checked/unchecked).
+16. radio - Single selection from multiple options.
+17. file - File upload field.
+18. hidden - Invisible field for storing data.
+19. image - Submit button with an image.
+20. button - Regular clickable button.
+21. submit - Button to submit the form.
+22. reset - Button to reset the form fields.
